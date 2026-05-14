@@ -5,6 +5,7 @@
         <members>A0</members>
         <members>A10V</members>
         <members>A12</members>
+        <members>A1CustomerManager</members>
         <members>A1V</members>
         <members>AAAProcessor</members>
         <members>AR1Controller</members>
@@ -12,6 +13,15 @@
         <members>AVTest</members>
         <members>AccObj</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AnswersHome</members>
+        <members>AutoRABIT_Evaluation_Questionnaire5</members>
+        <members>AutoRABIT_Evaluation_Questionnaire7</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <name>ApexPage</name>
     </types>
     <types>
         <members>AP102_glbloauth</members>
