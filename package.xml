@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>66.0</version>
+    <types>
+        <members>A0</members>
+        <members>A10V</members>
+        <members>A12</members>
+        <members>A1V</members>
+        <members>AAAProcessor</members>
+        <members>AR1Controller</members>
+        <members>ARTrainingHelper</members>
+        <members>AVTest</members>
+        <members>AccObj</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AP102_glbloauth</members>
+        <members>ARGuard_glbloauth</members>
+        <name>ExtlClntAppGlobalOauthSettings</name>
+    </types>
+</Package>
