@@ -8,6 +8,12 @@
         <members>A1CustomerManager</members>
         <members>A1V</members>
         <members>AAAProcessor</members>
+        <members>AccountCodescan1</members>
+        <members>AccountContactHandler</members>
+        <members>AccountContactHelperTest</members>
+        <members>AccountContactManager</members>
+        <members>AccountController</members>
+        <members>AccountControllerTest</members>
         <name>ApexClass</name>
     </types>
 </Package>
