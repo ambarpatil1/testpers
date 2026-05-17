@@ -5,4 +5,17 @@
         <members>A0</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>AnswersHome</members>
+        <members>AutoRABIT_Evaluation_Questionnaire5</members>
+        <members>AutoRABIT_Evaluation_Questionnaire7</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
+        <name>ApexPage</name>
+    </types>
 </Package>
