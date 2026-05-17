@@ -1,5 +1,4 @@
 public Class A000
-//HelloAR
 {
 public Account createAccount(String name)  //method to create account
 {
