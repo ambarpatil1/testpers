@@ -127,6 +127,8 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AnswersHome</members>
+        <members>BandwidthExceeded</members>
         <members>page12</members>
         <name>ApexPage</name>
     </types>
