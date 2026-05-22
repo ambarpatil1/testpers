@@ -1,4 +1,4 @@
-public class A{
+public class AnewMadhu{
 
 Account a1 = new Account();
 Account a111 = new Account();
@@ -9,6 +9,6 @@ Contact FFF111 = new Contact();
 Contact FFF112 = new Contact();
 Contact FFF11modi = new Contact();
 //checkinshamjjjjjjjuly22
-//d68781 jkjkjkjk
+//d68781
 
 }
