@@ -2,10 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>66.0</version>
     <types>
-        <members>Test_ALGT</members>
-        <name>ActionLinkGroupTemplate</name>
-    </types>
-    <types>
         <members>A</members>
         <members>A000</members>
         <members>A00000</members>
