@@ -2,8 +2,18 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>66.0</version>
     <types>
+        <members>Test_ALGT</members>
+        <name>ActionLinkGroupTemplate</name>
+    </types>
+    <types>
         <members>A</members>
         <members>A0</members>
+        <members>A000</members>
+        <members>A00000</members>
+        <members>A00000AFBXiHuNujdu</members>
+        <members>A00000AFbPUxBKQp</members>
+        <members>A00000AHZyzx</members>
+        <members>A00000AJVASkfY</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -14,6 +24,10 @@
         <members>ChangePassword</members>
         <members>CommunitiesLanding</members>
         <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
+        <members>page12</members>
         <name>ApexPage</name>
     </types>
 </Package>
