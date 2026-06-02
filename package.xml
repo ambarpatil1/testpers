@@ -137,4 +137,8 @@
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
+    <types>
+        <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
+        <name>Layout</name>
+    </types>
 </Package>
