@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>65.0</version>
+    <version>66.0</version>
     <types>
         <members>A000</members>
         <members>A00000</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AnswersHome</members>
+        <members>Apexpage1</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>MicrobatchSelfReg</members>
+        <members>MyProfilePage</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <members>page14</members>
+        <members>page88</members>
+        <name>ApexPage</name>
     </types>
 </Package>
