@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Basic, Api, Full, Chatter, RefreshToken, CustomPermissions</commaSeparatedOauthScopes>
+    <externalClientApplication>ARMECA</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>ARMECA_oauth</label>
+    <oauthLink>00DQy00000Z2gBu:888Qy000001QiG9</oauthLink>
+</ExtlClntAppOauthSettings>
