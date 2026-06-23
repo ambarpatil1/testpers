@@ -3,6 +3,6 @@
     <apiVersion>55.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <description>Default experiences self registration confirmation page</description>
-    <label>CommunitiesSelfRegConfirm</label>
+    <description>Default Salesforce Sites Login page</description>
+    <label>SiteLogin</label>
 </ApexPage>
