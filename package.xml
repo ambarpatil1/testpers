@@ -10,4 +10,8 @@
         <members>A00000</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>page12</members>
+        <name>ApexPage</name>
+    </types>
 </Package>
