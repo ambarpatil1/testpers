@@ -1,23 +1,21 @@
 public Class A0
-{
-
-public Account createAccount(String name)
-{
-Account a01= new Account();
-a01.Name = name;
-//comment by nikhil o n line 9
-return a01;
-//Testing for Commit Val 
-//This is for training
-
-//Test line 11 for merge from dev 1
-}
-//24.1 UAT Testv2
-public static void anotherMethod() 
-{
-//testing ar 31176
-//Developer 2 JIRA User Story
-System.debug('Another method called!');
-// Add more code for the new method if needed
+{//conflict test
+//testetsg
+//Added test comment
+public Account createAccount(String name)  //method to create account
+{//comment source line4 srcmodififyla
+Account QDTest= new Account();
+Account a01231111112331= new Account();
+Account a0123111111233= new Account();
+Account a0123111111= new Account(); //commentsource line2 modify1
+a0123111111.Name = name; //line3
+return a0123111111; //fffff src modifylast1julky22saifdfsffsdmfbdsjhbdjgfbgjfdbgkjfdgsdgfdgd
+//gfdgfdgfgmds gbfhjdbgfhjdbghjfdbghfbdhjgbdfhjg
+//  wqewfreeret
+//HARSHIT
+//HJSBHJDVJH
+//SJBJHD
+//bjjkd
+//JHBDJD
 }
 }
