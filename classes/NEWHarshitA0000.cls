@@ -1,4 +1,4 @@
-public class A0000{
+public class NEWHarshitA0000{
 
 Account aa = new Account();
 Contact a = new Contact();
