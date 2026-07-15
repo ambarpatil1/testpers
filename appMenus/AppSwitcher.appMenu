@@ -105,11 +105,19 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Shield</name>
+        <name>TestAutorabit</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>DEVHUB_h1ehaj34tbpzx8i6lecn</name>
+        <name>AutoRabit_Harshit</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Harshit</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_8znqjxwsg6anuwzby379</name>
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
@@ -145,7 +153,23 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>ARMECA</name>
+        <name>standard__Shield</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>GitHub_Actions</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AR_Conn__ecaViaMetadata</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>HARSHIT_ECA</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CHRISAPP</name>
         <type>ExternalClientApplication</type>
     </appMenuItems>
 </AppMenu>

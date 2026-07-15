@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>(TODAY()  - Date_of_Birth__c) / 365.25</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_of_Birth__c</fullName>
+        <description>This field is for Birth Date</description>
+        <inlineHelpText>Birth date</inlineHelpText>
+        <label>Date of Birth</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Emp_Id__c</fullName>
+        <description>Field for employess ID</description>
+        <displayFormat>Emp-{00000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>Employees id</inlineHelpText>
+        <label>Emp Id</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Specialization__c</fullName>
+        <label>Specialization</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CSE</fullName>
+                    <default>false</default>
+                    <label>CSE</label>
+                </value>
+                <value>
+                    <fullName>ECE</fullName>
+                    <default>false</default>
+                    <label>ECE</label>
+                </value>
+                <value>
+                    <fullName>Civil</fullName>
+                    <default>false</default>
+                    <label>Civil</label>
+                </value>
+                <value>
+                    <fullName>Mech</fullName>
+                    <default>false</default>
+                    <label>Mech</label>
+                </value>
+                <value>
+                    <fullName>Agri</fullName>
+                    <default>false</default>
+                    <label>Agri</label>
+                </value>
+                <value>
+                    <fullName>Petrolium</fullName>
+                    <default>false</default>
+                    <label>Petrolium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
