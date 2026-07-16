@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
+        <application>AutoRabit_Harshit</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Harshit</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>TestAutorabit</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>true</default>
         <visible>false</visible>
@@ -388,10 +403,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ANEWW</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AOCMI</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -432,15 +443,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>Anew02</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>Anew1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AnewMadhu</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -600,27 +603,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>PurgeOnDelete</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>QAtets</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>T1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>T2</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>T3</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>T4</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>T5</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -656,10 +643,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>testagian</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>y3</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -670,11 +653,6 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Abc__c.test__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -682,6 +660,16 @@
         <editable>false</editable>
         <field>Account.AccountSource</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Exists__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Region__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -852,6 +840,11 @@
         <editable>false</editable>
         <field>Account.YearStarted</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.account_area__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2445,6 +2438,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Employee__c.Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Employee__c.Emp_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee__c.Specialization__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Entitlement.AssetId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2581,6 +2589,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>FulfillmentOrder.TotalProductAmount</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Harshit1CUstommetadat__mdt.CHECHKBOX__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3125,16 +3138,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Lynq__c.Amount__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lynq__c.Tag__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>MessagingEndUser.AccountId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3671,16 +3674,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>PromotionTarget.IsMinItemCountRequired</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Pylin__c.Level__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Pylin__c.Note__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4345,16 +4338,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Vex__c.Code__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Vex__c.Score__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Waitlist.Link</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4853,39 +4836,6 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Zor__c.Flag__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Zor__c.Rate__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>business__c.model__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>business__c.telephone__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>windows__c.Old__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>windows__c.Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>Abc__c-Abc Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>AccountTeamMember-Account Team Member Layout</layout>
     </layoutAssignments>
@@ -4914,6 +4864,12 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AutoRabitt__c-AutoRabit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Autorabit__c-Autorabit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CaseMilestone-Case Milestone Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4935,6 +4891,17 @@
         <layout>EmailMessage-Email Message Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Employee__c-Employee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Employee__c-Non Testing Page Layout</layout>
+        <recordType>Employee__c.Non_testing_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Employee__c-Testing Page Layout</layout>
+        <recordType>Employee__c.Testing</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Entitlement-Entitlement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4942,6 +4909,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Harshit1CUstommetadat__mdt-Harshit1CUstommetadat Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HarshitData__c-HarshitData Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Location-Location Layout</layout>
@@ -4954,12 +4927,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>LoginAnomalyEventStore-Login Anomaly Event Store Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lynq__c-Lynq Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Pylin__c-Pylin Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReportAnomalyEventStore-Report Anomaly Event Store Layout</layout>
@@ -4986,6 +4953,12 @@
         <layout>StandardShippingRate-Standard Shipping Rate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test__c-Employee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Testt__c-Testt Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4999,9 +4972,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Vex__c-Vex Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
@@ -5024,24 +4994,56 @@
     <layoutAssignments>
         <layout>WorkStepTemplate-Work Step Template Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Zor__c-Zor Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>business__c-business Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>windows__c-windows Layout</layout>
-    </layoutAssignments>
     <pageAccesses>
         <apexPage>page12</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Account.HH_Account</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Organization</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Employee__c.Non_testing_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Employee__c.Testing</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.NPSP_Default</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Employee__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>HarshitData__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Testt__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>Hidden</visibility>
@@ -5179,6 +5181,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Dashboard</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-DataMaskCustomValueLibrary</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -5196,6 +5202,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DigitalWallet</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Document</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5456,6 +5466,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-WorkTypeGroup</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-report</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce Integration</userLicense>

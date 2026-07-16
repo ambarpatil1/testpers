@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>66.0</version>
+    <version>67.0</version>
     <types>
         <members>A</members>
         <members>A0</members>
@@ -142,6 +142,16 @@
         <name>ApexEmailNotifications</name>
     </types>
     <types>
+        <members>AnswersHome</members>
+        <members>AutoRABIT_Evaluation_Questionnaire5</members>
+        <members>AutoRABIT_Evaluation_Questionnaire7</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
         <members>page12</members>
         <name>ApexPage</name>
     </types>
@@ -152,7 +162,7 @@
     </types>
     <types>
         <members>default_appointment_scheduling_policy</members>
-        <name>AppointmentAssignmentPolicy</name>
+        <name>AppointmentSchedulingPolicy</name>
     </types>
     <types>
         <members>Case.Standard</members>
@@ -4029,6 +4039,9 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
+        <members>API User</members>
+        <members>ARPROFILEHARSHIT</members>
+        <members>ARProfile1</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -4070,6 +4083,7 @@
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
+        <members>TestProfile</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
     </types>
