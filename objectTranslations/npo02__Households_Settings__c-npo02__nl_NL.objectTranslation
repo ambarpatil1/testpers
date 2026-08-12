@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Instelling voor huishouden</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Instellingen voor huishouden</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Automatische naamgeving voor Huishouden</label>
+        <name>npo02__Advanced_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Altijd totaliseren n. Prim. contpers.rol</label>
+        <name>npo02__Always_Rollup_to_Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Asynchrone naamgeving voor Huishouden</label>
+        <name>npo02__Async_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgrootte voor totalisering</label>
+        <name>npo02__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_HHAfter_trigger</label>
+        <name>npo02__DISABLE_HouseholdAfter_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_HHBefore_trigger</label>
+        <name>npo02__DISABLE_HouseholdBefore_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_Household_Opp_trigger</label>
+        <name>npo02__DISABLE_Household_Opportunity_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_Households_trigger</label>
+        <name>npo02__DISABLE_Households_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_OppRollup_trigger</label>
+        <name>npo02__DISABLE_OpportunityRollup_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Enable_Opp_Rollup_Triggers</label>
+        <name>npo02__Enable_Opp_Rollup_Triggers__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totalisering &quot;soft credits&quot; inschakelen</label>
+        <name>npo02__Enable_Soft_Credit_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Updatecontrole inschakelen</label>
+        <name>npo02__Enable_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geen RecTypes v. opp. bij accounttot.</label>
+        <name>npo02__Excluded_Account_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geen opp.-typen bij accounttot.</label>
+        <name>npo02__Excluded_Account_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geen RecTypes v. opp. bij cont.-tot.</label>
+        <name>npo02__Excluded_Contact_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geen opp.-typen bij cont.-tot.</label>
+        <name>npo02__Excluded_Contact_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fiscaal jaar afdwingen</label>
+        <name>npo02__Force_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Heeft pakketupdate</label>
+        <name>npo02__Has_Package_Update__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contactpersoonsrollen huishouden Aan</label>
+        <name>npo02__Household_Contact_Roles_On__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geen RecTypes bij maken van huishouden</label>
+        <name>npo02__Household_Creation_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rapport Verzendlijst huishouden</label>
+        <name>npo02__Household_Mailing_List_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contactpersoonsrol lid van huishouden</label>
+        <name>npo02__Household_Member_Contact_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geen OCR-recordtypen voor huishouden</label>
+        <name>npo02__Household_OCR_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Regels voor object Huishouden</label>
+        <name>npo02__Household_Rules__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Laatste updatecontrole</label>
+        <name>npo02__Last_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Max. pakketversie</label>
+        <name>npo02__Max_Package_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bewaarperiode voor lidmaatschap</label>
+        <name>npo02__Membership_Grace_Period__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Recordtypenamen voor lidmaatschap</label>
+        <name>npo02__Membership_Record_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID gepl. taak totalisering Opportunity</label>
+        <name>npo02__Opp_Rollup_Scheduled_Job_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-URL van pakketupdate</label>
+        <name>npo02__Package_Update_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Waarde totalisering dag n</label>
+        <name>npo02__Rollup_N_Day_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Limiet voor geplande taken</label>
+        <name>npo02__Schedule_Job_Limit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rollen voor &quot;soft credit&quot;</label>
+        <name>npo02__Soft_Credit_Roles__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Interval voor updatecontroles</label>
+        <name>npo02__Update_Check_Interval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fisc. jaar gebruiken voor totaliseringen</label>
+        <name>npo02__Use_Fiscal_Year_for_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Matched_Donor_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Seasonal_Addresses_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Use_Dated_Conversion_Rates__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

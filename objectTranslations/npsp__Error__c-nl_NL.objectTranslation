@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fout</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fouten</value>
+    </caseValues>
+    <fields>
+        <help>Context die de fout gegenereerde, indien bekend.</help>
+        <label></label>
+        <name>npsp__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help>Datum en tijd wanneer de fout is opgetreden</help>
+        <label></label>
+        <name>npsp__Datetime__c</name>
+    </fields>
+    <fields>
+        <help>Geeft aan of een e-mailnotificatie met betrekking tot deze fout is verzonden.</help>
+        <label></label>
+        <name>npsp__Email_Sent__c</name>
+    </fields>
+    <fields>
+        <help>Type fout die is opgetreden</help>
+        <label></label>
+        <name>npsp__Error_Type__c</name>
+    </fields>
+    <fields>
+        <help>Volledige tekst van het foutbericht</help>
+        <label></label>
+        <name>npsp__Full_Message__c</name>
+    </fields>
+    <fields>
+        <help>Type object waarop de fout is opgetreden, indien bekend.</help>
+        <label></label>
+        <name>npsp__Object_Type__c</name>
+    </fields>
+    <fields>
+        <help>Geeft aan of de fout is gepost in Chatter.</help>
+        <label></label>
+        <name>npsp__Posted_in_Chatter__c</name>
+    </fields>
+    <fields>
+        <help>Een koppeling naar de record die de fout veroorzaakte, indien beschikbaar.</help>
+        <label></label>
+        <name>npsp__Record_URL__c</name>
+    </fields>
+    <fields>
+        <help>De Salesforce-ID van de record die is gekoppeld aan deze fout.</help>
+        <label></label>
+        <name>npsp__Related_Record_ID__c</name>
+    </fields>
+    <fields>
+        <help>Indien gesel., geeft dit aan dat de opgegeven record in ID van gerelateerde record weer wordt verwerkt in het volg. geplande proces. Als dit lukt, wordt het veld gedeselecteerd. Geldt ook voor specifieke fouten die plaatsvinden tijdens geplande processen.</help>
+        <label></label>
+        <name>npsp__Retry_Pending__c</name>
+    </fields>
+    <fields>
+        <help>Stack-tracering voor de geworpen fout, indien beschikbaar bij run-time.</help>
+        <label></label>
+        <name>npsp__Stack_Trace__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Foutnummer</nameFieldLabel>
+</CustomObjectTranslation>

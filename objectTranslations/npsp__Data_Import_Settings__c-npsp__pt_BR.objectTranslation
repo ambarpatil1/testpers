@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuração de importação de dados</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configurações de importação de dados</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>ID exclusivo personalizado da conta</label>
+        <name>npsp__Account_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Regra de correspondência de contas</label>
+        <name>npsp__Account_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamanho do processo em lote</label>
+        <name>npsp__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Resultado da implantação da API de CMT</label>
+        <name>npsp__CMT_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de implantação CMT</label>
+        <name>npsp__CMT_Deployment_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID exclusivo personalizado do contato</label>
+        <name>npsp__Contact_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Regra de correspondência de contato</label>
+        <name>npsp__Contact_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Conj. map. de campo imp. de dados padrão</label>
+        <name>npsp__Default_Data_Import_Field_Mapping_Set__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>N.º de dias a contar da data da doação</label>
+        <name>npsp__Donation_Date_Range__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Comportamento de corresp. de doações</label>
+        <name>npsp__Donation_Matching_Behavior__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe de implem. de corresp. de doações</label>
+        <name>npsp__Donation_Matching_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Regra de correspondência de doações</label>
+        <name>npsp__Donation_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Método de mapeamento de campo</label>
+        <name>npsp__Field_Mapping_Method__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe de implementação pós-processo</label>
+        <name>npsp__Post_Process_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Calcular totalizações de doação com lote</label>
+        <name>npsp__Run_Opportunity_Rollups_while_Processing__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

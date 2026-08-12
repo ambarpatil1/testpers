@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__Ch4PsgrKmLongHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 per Passenger KM Long Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4PsgrKmMediumHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 per Passenger KM Medium Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4PsgrKmShortHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 per Passenger KM Short Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4PsgrMileLongHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 per Passenger Mile Long Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4PsgrMileMediumHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 per Passenger Mile Medium Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4PsgrMileShortHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 per Passenger Mile Short Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2PsgrKmLongHaulInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 per Passenger KM Long Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2PsgrKmMediumHaulInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 per Passenger KM Medium Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2PsgrKmShortHaulInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 per Passenger KM Short Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2PsgrMileLongHaulInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 per Passenger Mile Long Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2PsgrMileMediumHaulInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 per Passenger Mile Medium Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2PsgrMileShortHaulInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 per Passenger Mile Short Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DistanceUnitId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Distance Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmissionFactorDataSourceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emission Factor Source</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmissionFactorUpdateYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emission Factor Update Year</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Air Travel Emission Factor Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LongHaulMinimumDistanceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Long Haul Minimum Distance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MediumHaulMaximumDistanceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Medium Haul Maximum Distance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oPsgrKmLongHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O per Passenger KM Long Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oPsgrKmMediumHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O per Passenger KM Medium Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oPsgrKmShortHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O per Passenger KM Short Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oPsgrMileLongHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O per Passenger Mile Long Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oPsgrMileMediumHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O per Passenger Mile Medium Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oPsgrMileShortHaulCo2eInKg__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O per Passenger Mile Short Haul</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Air Travel Emission Factor name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceDataLoadLogId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Data Load Log</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShortHaulMaximumDistance__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Short Haul Maximum Distance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShouldLockDtastUpdtForRec__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Should Lock Record From Dataset Update</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747382169418_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AirTravelEmissionsFactor_DistanceUni_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>AirTravelEmissionsFactor_DistanceUni_rel</relationshipLabel>
+        <relationshipName>rel_1747382169418_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747382177028_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AirTravelEmissionsFactor_ReferenceDa_rel</label>
+        <referenceTo>ssot__ReferenceDataLoadLog__dlm</referenceTo>
+        <relationshipLabel>AirTravelEmissionsFactor_ReferenceDa_rel</relationshipLabel>
+        <relationshipName>rel_1747382177028_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CalorificValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Calorific Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CalorificValueUnitNameName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Calorific Value Unit</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4EmissionFactorNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 Emissions Factor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4EmissionFactorUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 Emissions Factor Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2EmissionFactorNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 Emissions Factor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2EmissionFactorUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 Emissions Factor Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FuelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fuel Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Other Emissions Factor Set Item Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oEmissionFactorNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O Emissions Factor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oEmissionFactorUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O Emissions Factor Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentEmissionFactorId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Emissions Factor</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShouldLockDtastUpdtForRec__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Lock Dataset Update For Record</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SuppliedEmissionsFactorNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supplied CO2e Emissions Factor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SuppliedEmissionsFactorUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supplied CO2e Emissions Factor Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383589384_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>OtherEmissionFactorSetItem_ParentEmi_rel</label>
+        <referenceTo>ssot__OtherEmissionsFactorSet__dlm</referenceTo>
+        <relationshipLabel>OtherEmissionFactorSetItem_ParentEmi_rel</relationshipLabel>
+        <relationshipName>rel_1747383589384_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

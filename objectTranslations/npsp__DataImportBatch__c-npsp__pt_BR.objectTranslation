@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lote de importação de dados do NPSP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lotes de importações de dados do NPSP</value>
+    </caseValues>
+    <fieldSets>
+        <label>Colunas da guia da Entrada de doações em lote</label>
+        <name>npsp__BatchGiftEntryTabColumns</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label>ID exclusivo personalizado da conta</label>
+        <name>npsp__Account_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label>Campos ativos</label>
+        <name>npsp__Active_Fields__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Permitir doações recorrentes</label>
+        <name>npsp__Allow_Recurring_Donations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Padrões do lote</label>
+        <name>npsp__Batch_Defaults__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Descrição do lote</label>
+        <name>npsp__Batch_Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Versão da Entrada de doações em lote</label>
+        <name>npsp__Batch_Gift_Entry_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número de lote</label>
+        <name>npsp__Batch_Number__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamanho do processo em lote</label>
+        <name>npsp__Batch_Process_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Status do lote</label>
+        <name>npsp__Batch_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed - Needs Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Colunas de tabela de lote</label>
+        <name>npsp__Batch_Table_Columns__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID exclusivo personalizado do contato</label>
+        <name>npsp__Contact_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Regra de correspondência de contato</label>
+        <name>npsp__Contact_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>N.º de dias a contar da data da doação</label>
+        <name>npsp__Donation_Date_Range__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Comportamento de corresp. de doações</label>
+        <name>npsp__Donation_Matching_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Best Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Match or Create</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Match or Create</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe de implem. de corresp. de doações</label>
+        <name>npsp__Donation_Matching_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Regra de correspondência de doações</label>
+        <name>npsp__Donation_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contagem de doações estimada</label>
+        <name>npsp__Expected_Count_of_Gifts__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valor total do lote estimado</label>
+        <name>npsp__Expected_Total_Batch_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Modelo de formulário</label>
+        <name>npsp__Form_Template__c</name>
+        <relationshipLabel>Lotes de importação de dados do NPSP</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Lote de doações</label>
+        <name>npsp__GiftBatch__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Último processamento em</label>
+        <name>npsp__Last_Processed_On__c</name>
+    </fields>
+    <fields>
+        <label>ID do trabalho do Apex mais recente</label>
+        <name>npsp__Latest_Apex_Job_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe de implementação pós-processo</label>
+        <name>npsp__Post_Process_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Processar usando trabalho agendado</label>
+        <name>npsp__Process_Using_Scheduled_Job__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Registros com falha</label>
+        <name>npsp__Records_Failed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Registros processados com sucesso</label>
+        <name>npsp__Records_Successfully_Processed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Exigir corresp. de totais esperados</label>
+        <name>npsp__RequireTotalMatch__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Calcular totalizações de doação com lote</label>
+        <name>npsp__Run_Opportunity_Rollups_while_Processing__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do lote</nameFieldLabel>
+    <webLinks>
+        <label>Processar lote</label>
+        <name>npsp__Process_Batch</name>
+    </webLinks>
+</CustomObjectTranslation>

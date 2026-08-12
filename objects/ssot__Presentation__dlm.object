@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActivationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activation Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CanSendByEmail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Send By Email</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeactivationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Deactivation Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Presentation Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsCustom__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Custom</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDoubleTapZoomEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Double Tap Zoom Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPinchZoomEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Pinch Zoom Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPresentationLocked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Presentation Locked</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTargeted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Targeted</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PlayerGestureSectionSideType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Player Gesture Section Side Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PresentationStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Presentaion Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PublicDisclaimerContentName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Public Disclaimer Content Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PublicDisclaimerContentUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Public Disclaimer Content URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReactionSectionSideType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reaction Section Side Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

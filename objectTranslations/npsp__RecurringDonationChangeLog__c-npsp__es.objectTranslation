@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registro de cambios de donación recurrente</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registros de cambios de donaciones recurrentes</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Tipo de cambio</label>
+        <name>npsp__ChangeType__c</name>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha efectiva</label>
+        <name>npsp__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo importe</label>
+        <name>npsp__NewAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo valor anual</label>
+        <name>npsp__NewAnnualValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nueva campaña</label>
+        <name>npsp__NewCampaign__c</name>
+        <relationshipLabel>Registro de cambios de donación recurrente (Nueva campaña)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo valor total esperado</label>
+        <name>npsp__NewExpectedTotalValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nueva frecuencia de cuotas</label>
+        <name>npsp__NewInstallmentFrequency__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo período de cuotas</label>
+        <name>npsp__NewInstallmentPeriod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo método de pago</label>
+        <name>npsp__NewPaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo número de cuotas planificadas</label>
+        <name>npsp__NewPlannedInstallments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo tipo recurrente</label>
+        <name>npsp__NewRecurringType__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo motivo de estado</label>
+        <name>npsp__NewStatusReason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nuevo estado</label>
+        <name>npsp__NewStatus__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Importe anterior</label>
+        <name>npsp__PreviousAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valor anual anterior</label>
+        <name>npsp__PreviousAnnualValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Campaña anterior</label>
+        <name>npsp__PreviousCampaign__c</name>
+        <relationshipLabel>Registro de cambios de donación recurrente (Campaña anterior)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valor total esperado anterior</label>
+        <name>npsp__PreviousExpectedTotalValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Frecuencia de cuotas anterior</label>
+        <name>npsp__PreviousInstallmentFrequency__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Periodo de cuotas anterior</label>
+        <name>npsp__PreviousInstallmentPeriod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Método de pago anterior</label>
+        <name>npsp__PreviousPaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número anterior de cuotas planificadas</label>
+        <name>npsp__PreviousPlannedInstallments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipo recurrente anterior</label>
+        <name>npsp__PreviousRecurringType__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Motivo de estado anterior</label>
+        <name>npsp__PreviousStatusReason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Estado anterior</label>
+        <name>npsp__PreviousStatus__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Donación recurrente</label>
+        <name>npsp__RecurringDonation__c</name>
+        <relationshipLabel>Registro de cambios de donación recurrente</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número de registro de cambios de donació</nameFieldLabel>
+</CustomObjectTranslation>

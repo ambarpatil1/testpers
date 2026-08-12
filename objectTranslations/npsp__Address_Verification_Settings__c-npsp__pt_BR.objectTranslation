@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuração de verificação de endereço – OBSOLETA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configurações de verificação de endereço – OBSOLETAS</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Pto. de extr. verif. endereço-OBSOLETO</label>
+        <name>npsp__Address_Verification_Endpoint__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de autenticação-OBSOLETO</label>
+        <name>npsp__Auth_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Token de autenticação-OBSOLETO</label>
+        <name>npsp__Auth_Token__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>End. de atualização automática-OBSOLETO</label>
+        <name>npsp__Auto_Update_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe-OBSOLETO</label>
+        <name>npsp__Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Limpar endereços inválidos-OBSOLETO</label>
+        <name>npsp__Clear_Invalid_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ativar verificação automática-OBSOLETO</label>
+        <name>npsp__Enable_Automatic_Verification__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rejeitar endereços ambíguos-OBSOLETO</label>
+        <name>npsp__Reject_Ambiguous_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tempo limite-OBSOLETO</label>
+        <name>npsp__Timeout__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Usando SmartyStreets-OBSOLETO</label>
+        <name>npsp__Using_SmartyStreets__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Pto. de extr. verif. CEP-OBSOLETO</label>
+        <name>npsp__Zipcode_Verification_Endpoint__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

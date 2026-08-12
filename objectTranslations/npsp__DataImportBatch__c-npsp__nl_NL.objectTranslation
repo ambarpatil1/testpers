@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NPSP-Gegevensimportbatch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NPSP-Gegevensimportbatches</value>
+    </caseValues>
+    <fieldSets>
+        <label>Kolommen voor tabblad voor batchinvoer van giften</label>
+        <name>npsp__BatchGiftEntryTabColumns</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label>Aangepast Uniek ID voor Account</label>
+        <name>npsp__Account_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label>Actieve Velden</label>
+        <name>npsp__Active_Fields__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Terugkerende donaties toestaan</label>
+        <name>npsp__Allow_Recurring_Donations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Standaardwaarden voor Batch</label>
+        <name>npsp__Batch_Defaults__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchomschrijving</label>
+        <name>npsp__Batch_Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Versie van Batchinvoer van giften</label>
+        <name>npsp__Batch_Gift_Entry_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchnummer</label>
+        <name>npsp__Batch_Number__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Verwerkingsgrootte van Batch</label>
+        <name>npsp__Batch_Process_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchstatus</label>
+        <name>npsp__Batch_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed - Needs Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchtabelkolommen</label>
+        <name>npsp__Batch_Table_Columns__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aangepast Uniek ID voor Contactpersoon</label>
+        <name>npsp__Contact_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contactpersoonovereenkomstregel</label>
+        <name>npsp__Contact_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aantal Dagen vanaf Donatiedatum</label>
+        <name>npsp__Donation_Date_Range__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Overeenkomstenpatroon voor donatie</label>
+        <name>npsp__Donation_Matching_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Best Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Match or Create</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Match or Create</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Implementatieklasse Overeenkomst Donatie</label>
+        <name>npsp__Donation_Matching_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Donatieovereenkomstregel</label>
+        <name>npsp__Donation_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Verwachte aantal giften</label>
+        <name>npsp__Expected_Count_of_Gifts__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Verwachte totale bedrag van batch</label>
+        <name>npsp__Expected_Total_Batch_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Formuliersjabloon</label>
+        <name>npsp__Form_Template__c</name>
+        <relationshipLabel>Batches van NPSP-gegevensimport</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Giftbatch</label>
+        <name>npsp__GiftBatch__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Laatst Verwerkt Op</label>
+        <name>npsp__Last_Processed_On__c</name>
+    </fields>
+    <fields>
+        <label>Meest recente Apex-taak-ID</label>
+        <name>npsp__Latest_Apex_Job_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Implementatieklasse Na Verwerking</label>
+        <name>npsp__Post_Process_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Verwerken met Geplande Opdracht</label>
+        <name>npsp__Process_Using_Scheduled_Job__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Records Mislukt</label>
+        <name>npsp__Records_Failed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Records Succesvol Verwerkt</label>
+        <name>npsp__Records_Successfully_Processed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Overeenkomst Verwachte Totalen vereisen</label>
+        <name>npsp__RequireTotalMatch__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Donatietotalisering met Batch berekenen</label>
+        <name>npsp__Run_Opportunity_Rollups_while_Processing__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Batchnaam</nameFieldLabel>
+    <webLinks>
+        <label>Batch verwerken</label>
+        <name>npsp__Process_Batch</name>
+    </webLinks>
+</CustomObjectTranslation>

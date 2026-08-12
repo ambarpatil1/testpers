@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityAttainmentPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Attainment Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityPlanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Plan</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActlNonProdtActvtyCapValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Non Prodt Level Actvty Capped Val</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualActivityCappedValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Activity Capped Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualNonProdtActvtyValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Non Product Level Activity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualProdtActvtyCapValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Prodt Level Activity Capped Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualProductActivityValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Product Level Activity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActvtyAttainmentCappedPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Attainment Capped Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssigneeChangeReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assignee Change Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Activity Plan Goal Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NonProdtActvtyProratedValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Non Prodt Level Activity Prorated Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NonProdtAttainmentCapPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Non Prodt Actvty Attainment Capped Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NonProductAttainmentPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Non Prodt Level Activity Attainment Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NonProductGoalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Non Product Level Goal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OverallGoalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Overall Goal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProdtActvtyAttainmentPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Level Activity Attainment Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductActivityAtmtCapPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Level Actvty Attainment Cap Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductActvtyProratedValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Level Activity Prorated Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductLevelGoalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Level Goal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProratedOverallGoalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Prorated Overall Goal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReviewerChangeReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reviewer Change Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SchdNonProdtActvtyCapValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Schd Non Prodt Level Actvty Capped Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SchdProdtActvtyCappedValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scheduled Prodt Level Actvty Cap Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScheduledActvtyCappedValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scheduled Activity Capped Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScheduledNonProdtActvtyValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scheduled Non Prodt Level Activity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalActlActvtyWeightedValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Actual Activity Weighted Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalActualActivityValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Actual Activity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalProjectedActivityValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Projected Activity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSchdActvtyWeightedValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Scheduled Activity Weighted Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSchdProdtActvtyValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Schd Prodt Level Activity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalScheduledActivityValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Scheduled Activity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1752800776145_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProviderActivityGoal_AccountId_map_A_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>ProviderActivityGoal_AccountId_map_A_rel</relationshipLabel>
+        <relationshipName>rel_1752800776145_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1752800789777_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProviderActivityGoal_ActivityPlanId__rel</label>
+        <referenceTo>ssot__ActivityPlan__dlm</referenceTo>
+        <relationshipLabel>ProviderActivityGoal_ActivityPlanId__rel</relationshipLabel>
+        <relationshipName>rel_1752800789777_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

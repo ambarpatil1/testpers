@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>npo02__Manage_Household_Custom</name>
+    </fieldSets>
+    <fields>
+        <label>נמען</label>
+        <name>npo02__Addressee__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>אנונימי תמיד</label>
+        <name>npo02__Always_Anonymous__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תרומה ממוצעת</label>
+        <name>npo02__AverageAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ בשנת התרומות הטובה ביותר</label>
+        <name>npo02__Best_Gift_Year_Total__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>שנת התרומות הטובה ביותר</label>
+        <name>npo02__Best_Gift_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תאריך תרומה ראשונה</label>
+        <name>npo02__FirstCloseDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ברכה רשמית</label>
+        <name>npo02__Formal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>כתובת למשלוח דואר</label>
+        <name>npo02__Formula_MailingAddress__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>דואר אלקטרוני של משק בית</label>
+        <name>npo02__HouseholdEmail__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>טלפון של משק הבית</label>
+        <name>npo02__HouseholdPhone__c</name>
+    </fields>
+    <fields>
+        <label>מזהה משק בית</label>
+        <name>npo02__Household_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ברכה לא רשמית</label>
+        <name>npo02__Informal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>התרומה הגדולה ביותר</label>
+        <name>npo02__LargestAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תאריך תרומה אחרונה</label>
+        <name>npo02__LastCloseDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סכום חברות אחרונה</label>
+        <name>npo02__LastMembershipAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תאריך חברות אחרונה</label>
+        <name>npo02__LastMembershipDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>רמת חברות אחרונה</label>
+        <name>npo02__LastMembershipLevel__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מקור חברות אחרונה</label>
+        <name>npo02__LastMembershipOrigin__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סכום תרומה אחרונה</label>
+        <name>npo02__LastOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>עיר למשלוח דואר</label>
+        <name>npo02__MailingCity__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ארץ למשלוח דואר</label>
+        <name>npo02__MailingCountry__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מיקוד למשלוח דואר</label>
+        <name>npo02__MailingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מדינה/מחוז למשלוח דואר</label>
+        <name>npo02__MailingState__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>רחוב למשלוח דואר</label>
+        <name>npo02__MailingStreet__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תאריך סיום חברות</label>
+        <name>npo02__MembershipEndDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תאריך התחלת חברות</label>
+        <name>npo02__MembershipJoinDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>היקף חברות</label>
+        <name>npo02__Membership_Span__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מצב חברות</label>
+        <name>npo02__Membership_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר תרומות כולל</label>
+        <name>npo02__NumberOfClosedOpps__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר חברויות</label>
+        <name>npo02__NumberOfMembershipOpps__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ תרומות לפני שנתיים</label>
+        <name>npo02__OppAmount2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ תרומות ב-N הימים האחרונים</label>
+        <name>npo02__OppAmountLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ תרומות בשנה שעברה</label>
+        <name>npo02__OppAmountLastYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ תרומות בשנה הנוכחית</label>
+        <name>npo02__OppAmountThisYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר תרומות לפני שנתיים</label>
+        <name>npo02__OppsClosed2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר תרומות ב-N הימים האחרונים</label>
+        <name>npo02__OppsClosedLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר תרומות בשנה שעברה</label>
+        <name>npo02__OppsClosedLastYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר תרומות בשנה הנוכחית</label>
+        <name>npo02__OppsClosedThisYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npo02__SYSTEM_CUSTOM_NAMING__c</name>
+        <picklistValues>
+            <masterLabel>Formal_Greeting__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informal_Greeting__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>התרומה הקטנה ביותר</label>
+        <name>npo02__SmallestAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ סכום חברות</label>
+        <name>npo02__TotalMembershipOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ תרומות</label>
+        <name>npo02__TotalOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Number_of_Household_Members__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>העתק כתובת משק בית לאנשי קשר</label>
+        <name>npo02__Copy_Household_Address_to_Contacts</name>
+    </webLinks>
+</CustomObjectTranslation>

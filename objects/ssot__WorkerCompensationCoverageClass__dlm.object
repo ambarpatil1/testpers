@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Worker Comp Coverage Class Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyCoverageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Coverage</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PremiumAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Premium Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalExposureAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Exposure Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WorkerCompensationClass__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Worker Compensation Class</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WorkerCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Worker Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WorkerLocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Worker Location</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1739512780092_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>WorkerCompensationCoverageClass_Insu_rel</label>
+        <referenceTo>ssot__InsurancePolicyCoverage__dlm</referenceTo>
+        <relationshipLabel>WorkerCompensationCoverageClass_Insu_rel</relationshipLabel>
+        <relationshipName>rel_1739512780092_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1739512783345_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>WorkerCompensationCoverageClass_Insu_rel</label>
+        <referenceTo>ssot__InsurancePolicy__dlm</referenceTo>
+        <relationshipLabel>WorkerCompensationCoverageClass_Insu_rel</relationshipLabel>
+        <relationshipName>rel_1739512783345_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

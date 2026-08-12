@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Erreur de cumul d’opportunité - DÉPRÉCIÉ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Erreurs de cumul d’opportunité - DÉPRÉCIÉ</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Date et heure de l’erreur</label>
+        <name>npo02__Error_Datetime__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Message d’erreur</label>
+        <name>npo02__Error_Message__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type d’objet d’erreur</label>
+        <name>npo02__Error_Object_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Lien d’enregistrement d’erreur</label>
+        <name>npo02__Error_Record_Link__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type d’erreur</label>
+        <name>npo02__Error_Type__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

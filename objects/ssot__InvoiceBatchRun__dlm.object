@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CompletionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Completion Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreditApplicationStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Credit Application Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocGenCompletionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>DocGen Completion Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocGenStartDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>DocGen Start Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocGenStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Doc Gen Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Batch Run Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceBatchRunRecoveryStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Recovery Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceBatchRunStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceDocsGenFailedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Docs Gen Failed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceDocsGeneratedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Docs Generated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Start Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotBillSchdUpdtDurDrftToPostNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tot Bill Schd Updt Dur Drft To Post</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalBillSchedRecoveredNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Bill Sched Recovered</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalBillSchedSuccessProcessedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Bill Sched Successfully Processed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalBillSchedUnrecoveredNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Bill Sched Unrecovered</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalBillingSchedulesFailedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Billing Schedules Failed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalDraftInvoiceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Draft Invoice Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalDraftInvoicesNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Draft Invoices</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalFilteredBillingSchedulesNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Filtered Billing Schedules</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalInvSuccessfullyProcessedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Inv Successfully Processed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalInvoicedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Invoiced Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalInvoicesCanceledNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Invoices Canceled</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalInvoicesFailedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Invoices Failed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalInvoicesGeneratedNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Invoices Generated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPostedInvoicesNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Posted Invoices</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+</CustomObject>

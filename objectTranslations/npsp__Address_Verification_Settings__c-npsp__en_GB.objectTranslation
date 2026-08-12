@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Address Verification Settings-DEPRECATED</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Address Verification Settings-DEPRECATED</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Address Verification Endpoint-DEPRECATED</label>
+        <name>npsp__Address_Verification_Endpoint__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Auth ID-DEPRECATED</label>
+        <name>npsp__Auth_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Auth Token-DEPRECATED</label>
+        <name>npsp__Auth_Token__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Auto-Update Addresses-DEPRECATED</label>
+        <name>npsp__Auto_Update_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Class-DEPRECATED</label>
+        <name>npsp__Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Clear Invalid Addresses-DEPRECATED</label>
+        <name>npsp__Clear_Invalid_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Enable Automatic Verification-DEPRECATED</label>
+        <name>npsp__Enable_Automatic_Verification__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Reject Ambiguous Addresses-DEPRECATED</label>
+        <name>npsp__Reject_Ambiguous_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Timeout-DEPRECATED</label>
+        <name>npsp__Timeout__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Using SmartyStreets-DEPRECATED</label>
+        <name>npsp__Using_SmartyStreets__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zipcode Verification Endpoint-DEPRECATED</label>
+        <name>npsp__Zipcode_Verification_Endpoint__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Modèle de formulaire</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Modèles de formulaire</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Description</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Version du format</label>
+        <name>npsp__Format_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>JSON du modèle</label>
+        <name>npsp__Template_JSON__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du modèle de formulaire</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

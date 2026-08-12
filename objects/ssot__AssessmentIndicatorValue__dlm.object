@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AssessmentIndicatorDefinedValueId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assessment Indicator Defined Value</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Assessment Indicator Value Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceContextId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source Context</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceContextObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source Context Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1739512778192_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssessmentIndicatorValue_AssessmentI_rel</label>
+        <referenceTo>ssot__AssessmentIndicatorDefinedValue__dlm</referenceTo>
+        <relationshipLabel>AssessmentIndicatorValue_AssessmentI_rel</relationshipLabel>
+        <relationshipName>rel_1739512778192_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1739512779417_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssessmentIndicatorValue_SourceConte_rel</label>
+        <referenceTo>ssot__RetailVisitKPI__dlm</referenceTo>
+        <relationshipLabel>AssessmentIndicatorValue_SourceConte_rel</relationshipLabel>
+        <relationshipName>rel_1739512779417_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1739512787220_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssessmentIndicatorValue_SourceConte_rel</label>
+        <referenceTo>ssot__InspectionAssessmentIndicator__dlm</referenceTo>
+        <relationshipLabel>AssessmentIndicatorValue_SourceConte_rel</relationshipLabel>
+        <relationshipName>rel_1739512787220_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

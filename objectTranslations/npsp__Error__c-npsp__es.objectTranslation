@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Error</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Errores</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Tipo de contexto</label>
+        <name>npsp__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha y hora</label>
+        <name>npsp__Datetime__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Correo electrónico enviado</label>
+        <name>npsp__Email_Sent__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipo de error</label>
+        <name>npsp__Error_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Mensaje completo</label>
+        <name>npsp__Full_Message__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipo de objeto</label>
+        <name>npsp__Object_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Publicado en Chatter</label>
+        <name>npsp__Posted_in_Chatter__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>URL del registro</label>
+        <name>npsp__Record_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Id. de Registro relacionado</label>
+        <name>npsp__Related_Record_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>¿Reintentar pendientes?</label>
+        <name>npsp__Retry_Pending__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Seguimiento de pila</label>
+        <name>npsp__Stack_Trace__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número de error</nameFieldLabel>
+</CustomObjectTranslation>

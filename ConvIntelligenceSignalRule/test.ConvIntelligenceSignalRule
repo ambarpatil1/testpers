@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConvIntelligenceSignalRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionType>AlertSupervisor</actionType>
+    <active>true</active>
+    <channelAddressIdentifier>a024aa0a-7301-4e37-b31b-2d7c80fe56f9</channelAddressIdentifier>
+    <channelType>EmbeddedMessaging</channelType>
+    <criteria>1</criteria>
+    <developerName>test</developerName>
+    <participantRole>AgentOrCustomer</participantRole>
+    <ruleName>test</ruleName>
+    <service>KeywordMatch</service>
+    <subrule>
+        <operandValue>channel</operandValue>
+        <operator>Equals</operator>
+        <order>0</order>
+        <type>Keyword</type>
+    </subrule>
+</ConvIntelligenceSignalRule>

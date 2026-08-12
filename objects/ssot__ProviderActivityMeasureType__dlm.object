@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActivityAccountFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Account Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Object</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityParentObjRelaFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Parent Obj Relationship Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityParentObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Parent Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityProductFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Product Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTerritoryFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Territory Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTypSchdStatusListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type Scheduled Status List</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTypeDtTmFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type Date Time Field</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTypeExclusionFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type Exclusion Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTypeFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type Field</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTypeFieldValueText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type Field Value</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTypeStatusFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type Status Field</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityTypeStatusListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type Status List</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AggregatedActivityActualFldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Aggregated Activity Actual Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AggregatedActivitySchdFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Aggregated Activity Scheduled Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AggregatedGoalFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Aggregated Goal Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DisplayOrderNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Display Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Activity Measure Type Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsActive__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Active</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Level1RelatedAccountObjectText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Level 1 Related Account Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Level2RelatedAccountObjectText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Level 2 Related Account Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Lvl1RelatedAccountObjFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Level 1 Related Account Object Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Lvl2RelatedAccountObjFieldText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Level 2 Related Account Object Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

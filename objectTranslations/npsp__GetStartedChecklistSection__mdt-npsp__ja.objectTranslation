@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NPSP 使用開始チェックリストセクション</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>説明表示ラベル名</label>
+        <name>npsp__Description_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ページ種別</label>
+        <name>npsp__Page_Type__c</name>
+        <picklistValues>
+            <masterLabel>Admin</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>位置</label>
+        <name>npsp__Position__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>タイトル表示ラベル名</label>
+        <name>npsp__Title_Label__c</name>
+    </fields>
+</CustomObjectTranslation>

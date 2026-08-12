@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Erro de acumulação de oportunidades – OBSOLETO</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Erros de acumulação de oportunidades – OBSOLETOS</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Data e hora do erro</label>
+        <name>npo02__Error_Datetime__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Mensagem de erro</label>
+        <name>npo02__Error_Message__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipo de objeto com erro</label>
+        <name>npo02__Error_Object_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Link para o registro com erro</label>
+        <name>npo02__Error_Record_Link__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipo de erro</label>
+        <name>npo02__Error_Type__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StreamingAppDataConnector xmlns="http://soap.sforce.com/2006/04/metadata">
+    <appIdentifier>61826b62-6b90-49ff-8259-1234567890ab</appIdentifier>
+    <dataConnectorType>StreamingApp</dataConnectorType>
+    <masterLabel>Test Web App</masterLabel>
+    <streamingAppDataConnectorType>WebApp</streamingAppDataConnectorType>
+</StreamingAppDataConnector>

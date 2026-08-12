@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Data Import Field Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Data Import Field Mappings</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Data_Import_Field_Mapping_Set__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Source_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Target_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Target_Object_Mapping__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

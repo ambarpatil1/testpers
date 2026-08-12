@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AllocScope1And2EmssnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Allocated Scope 1 And 2 Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AllocScope1EmssnOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Allocated Scope 1 Emissions Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AllocScope2EmssnOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Allocated Scope 2 Emissions Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AllocScope3EmssnOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Allocated Scope 3 Emissions Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CmclBuildingScope1EmssnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 1 Emssn from Commercial Building</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnergyUsageCmclBldOverridePercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Energy Usage in Cmcl Bld Override (Kwh)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnergyUsageCommercialBldNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Energy Usage in Cmcl Bld</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnergyUsageDataCentersNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Energy Usage in Data Centers (Kwh)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnergyUsageDataCtrOverridePercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Energy Usage in Data Ctr Override (Kwh)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinalEmssnInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Final Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinalScope1EmssnInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Final Scope 1 Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinalScope2EmssnInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Final Scope 2 Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinalScope3EmssnInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Final Scope 3 Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FnlScp1And2EmssnInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Final Scope 1 And 2 Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Annual Emissions Inventory Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RnwblEnrgyPctCmclBldOvridePercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rnwbl Energy Usg in Cmcl Bld Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RnwblEnrgyPctDataCtrOvridePercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rnwbl Energy Usg Pct in Data Ctr Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RnwblEnrgyUsgPctDataCtrPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rnwble Energy Usage Pct in Data Centers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RnwbleEnrgyUsgPctCmclBldPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Rnwble Energy Usage Pct in Cmcl Bld</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope1EmissionsDataCenterNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 1 Emissions from Data Centers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope1EmissionsFleetVehicleNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 1 Emissions from Fleet Vehicles</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope1EmissionsPrivateJetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 1 Emissions from Private Jets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope1EmssnCmclBldOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 1 Emssn from Cmcl Bld Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope1EmssnDataCentersOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 1 Emssn from Data Centers Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope1EmssnPrivateJetsOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 1 Emssn from Private Jets Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope2EmissionsFleetVehiclesNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 2 Emissions from Fleet Vehicles</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope2EmissionsPrivateJetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 2 Emissions from Private Jets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope2EmissionsType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 2 Emissions Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope2LocBasedEmssnCmclBldNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Loc-Based Emssn from Cmcl Bld</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope2LocBasedEmssnDataCtrNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Loc-Based Emssn from Data Centers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope2MarketBasedEmssnCmclBldNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Mkt-Based Emssn from Cmcl Bld</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope2MarketBasedEmssnDataCtrNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Mkt-Based Emssn from Data Centers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmissionsPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emissions Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnBusTravelPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn Business Travel Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnBusinessTravelNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Business Travel</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnCapitalGoodNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Capital Goods</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnCapitalGoodsOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Capital Goods Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnCapitalGoodsPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn Capital Goods</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnCmclBldOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Cmcl Bld Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnCommercialBuildingNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Cmcl Bld</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnDataCenterNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Data Centers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnDataCentersOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Data Centers Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnDnstrmTrnspDstrPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn Dnstrm Trnsp Dstr Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnEmpCommutingOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Emp Commuting Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnEmpCommutingPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn Emp Commuting Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnEmployeeCommutingNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn from Employee Commuting</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnFleetVehicleNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Fleet Vehicles</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnFranchiseNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Franchises</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnFranchisesOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Franchises Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnFranchisesPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn Franchises Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnInvestmentNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Investments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnInvestmentsOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn from Investments Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnInvestmentsPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn Investments Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnPrivateJetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Private Jets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnUseOfSoldPrdctPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp3 EmssnU se OfS old Prdct Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnUseOfSoldProductNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Use of Sold Products</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnWasteGenInOperNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn from Waste Gen in Operation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3UncategorizedEmissionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Uncategorized Emssn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp1EmssnFleetVehiclesOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 1 Emssn from Fleet Vehicles Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp1EmssnWstGenInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 1 Emissions from Waste Generated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp1EmssnWstGenOvrideInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 1 Emssn Wst Gen Ovride In Tco2e</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp2EmssnFleetVehiclesOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Emssn from Fleet Vehicles Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp2EmssnPrivateJetsOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Emssn from Private Jets Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp2LocBsdEmssnCmclBldOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Loc-Based Emssn Cmcl Bld Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp2LocBsdEmssnDataCtrOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Loc-Based Emssn Data Ctr Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp2MktBsdEmssnCmclBldOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Mkt-Based Emssn Cmcl Bld Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp2MktBsdEmssnDataCtrOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 2 Mkt-Based Emssn Data Ctr Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnBusinessTravelOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn from Business Travel Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnDnstrmLeasedAssetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Dnstrm Leased Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnDnstrmLeasedAssetPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp3 Emssn Dnstrm Leased Asset Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnDnstrmLeasedAstOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Dnstrm Leased Ast Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnDnstrmTrnspDstrOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Dnstrm Trnsp Dstr Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnDownstreamTrnspDstrNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp3 Emssn from Dnstrm Trnsp Dstr</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnEolSoldPrdctOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn EOL Sold Prdct Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnEolTreatOfSoldPrdctNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Dnstrm EOL Sold Product</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnEolTreatSoldPrdctPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp3 Emssn EOL Treat Sold Prdct Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnFleetVehiclesOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn from Fleet Vehicles Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnFuelEnergyActivityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Fuel and Energy Activity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnFuelEnrgyActivityPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Fuel Enrgy Activity Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnFuelEnrgyActvtyOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Fuel Enrgy Actvty Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnPrivateJetsOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Private Jets Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnProcSoldPrdctOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp3 Emssn Proc Sold Prdct Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnProcSoldProductNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn from Proc of Sold Products</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnProcSoldProductsPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp3 Emssn Proc Sold Products Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnPurchGoodsAndServiceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Purch Goods and Services</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnPurchGoodsAndSrvcsPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Purch Goods And Srvcs Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnPurchGoodsSrvcsOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Purch Goods Srvcs Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnUpstreamLeasedAssetsNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn from Upstrm Leased Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnUpstreamTrnspDstrNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn from Upstrm Trnsp and Distr</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnUpstrmLeasedAsstPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emssn Upstream Leased Assets Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnUpstrmLeasedAstOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Upstrm Leased Ast Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnUpstrmTrnspDstrOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Upstrm Trnsp Dstr Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnUpstrmTrnspDstrPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Upstrm Trnsp Dstr Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnUseOfSoldPrdctOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Use Of Sold Prdct Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnWasteGenInOperOvrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Waste Gen In Oper Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3EmssnWasteGenInOperPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Emssn Waste Gen In Oper Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3UncatEmssnOverridePercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scp 3 Uncat Emssn Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scp3UncatgEmssnPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Uncategorized Emissions Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SuplScope3EmssnPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supl Scope 3 Emssn Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAllocEmissionsInTco2eNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Allocated Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalEmissionsPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalScope1And2EmissionsNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Scope 1 and 2 Emissions (tCO2e)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalScope1EmissionsOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Scope 1 Emissions Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalScope2EmissionsOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Scope 2 Emissions Override (tCO2e)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalScope3EmssnOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Scope 3 Emssn Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSuplScope3EmssnOverrideNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Supl Scope 3 Emssn Ovride</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSuplScp3EmssnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Supl Scope 3 Emssn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Year__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Year</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747382304266_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AnnualEmissionsInventory_AccountId_m_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>AnnualEmissionsInventory_AccountId_m_rel</relationshipLabel>
+        <relationshipName>rel_1747382304266_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

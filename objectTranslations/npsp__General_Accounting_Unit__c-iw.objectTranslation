@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>יחידות חשבונאיות כלליות זמינות לבחירה בהקצאות. לא ניתן לשייך הקצאות חדשות ליחידות חשבונאיות לא פעילות.</help>
+        <label></label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help>ממוצע כל ההקצאות בכל הזמנים ליחידה חשבונאית כללית זו.</help>
+        <label></label>
+        <name>npsp__Average_Allocation__c</name>
+    </fields>
+    <fields>
+        <help>מידע נוסף על יחידה חשבונאית כללית זו.</help>
+        <label></label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help>תאריך סגירת ההזדמנות הראשון של הקצאה המשויכת ליחידה חשבונאית כללית זו.</help>
+        <label></label>
+        <name>npsp__First_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help>ההקצאה הגדולה ביותר בכל הזמנים ליחידה חשבונאית כללית זו.</help>
+        <label></label>
+        <name>npsp__Largest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help>תאריך סגירת ההזדמנות האחרון של הקצאה המשויכת ליחידה חשבונאית כללית זו.</help>
+        <label></label>
+        <name>npsp__Last_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help>המספר הכולל של הקצאות של הזדמנויות בשלב סגירה וזכייה ב-N הימים האחרונים. ניתן לשנות את הערך של N בהגדרות.</help>
+        <label></label>
+        <name>npsp__Number_of_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help>המספר הכולל של הקצאות של הזדמנויות בשלב סגירה וזכייה בשנה שעברה.</help>
+        <label></label>
+        <name>npsp__Number_of_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help>המספר הכולל של הקצאות של הזדמנויות בשלב סגירה וזכייה בשנה הנוכחית.</help>
+        <label></label>
+        <name>npsp__Number_of_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help>המספר הכולל של הקצאות של הזדמנויות בשלב סגירה וזכייה לפני שנתיים.</help>
+        <label></label>
+        <name>npsp__Number_of_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help>ההקצאה הקטנה ביותר בכל הזמנים ליחידה חשבונאית כללית זו.</help>
+        <label></label>
+        <name>npsp__Smallest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help>סך כל ההקצאות של הזדמנויות בשלב סגירה וזכייה ב-N הימים האחרונים. ניתן לשנות את הערך של N בהגדרות.</help>
+        <label></label>
+        <name>npsp__Total_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help>סך כל ההקצאות של הזדמנויות בשלב של סגירה וזכייה בשנה שעברה.</help>
+        <label></label>
+        <name>npsp__Total_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help>סך כל ההקצאות של הזדמנויות בשלב של סגירה וזכייה בשנה הנוכחית.</help>
+        <label></label>
+        <name>npsp__Total_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help>סך כל ההקצאות של הזדמנויות בשלב של סגירה וזכייה לפני שנתיים.</help>
+        <label></label>
+        <name>npsp__Total_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help>סך כל ההקצאות של הזדמנויות בשלב של סגירה וזכייה.</help>
+        <label></label>
+        <name>npsp__Total_Allocations__c</name>
+    </fields>
+    <fields>
+        <help>המספר הכולל של הקצאות של הזדמנויות בשלב סגירה וזכייה.</help>
+        <label></label>
+        <name>npsp__Total_Number_of_Allocations__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
+</CustomObjectTranslation>

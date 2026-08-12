@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre de cumul personnalisable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres de cumul personnalisable</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Non asym. crédit direct compte incrém.</label>
+        <name>npsp__AccountHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Résultat de déploiement de l’API CMT</label>
+        <name>npsp__CMT_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV : Taille bloc crédit direct compte</label>
+        <name>npsp__ChunkSize_Account_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV : Taille bloc crédit direct contact</label>
+        <name>npsp__ChunkSize_Contact_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV : Taille bloc crédit indir. contact</label>
+        <name>npsp__ChunkSize_Contact_SoftCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Non-asym. crédit direct contact incrém.</label>
+        <name>npsp__ContactHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activer les cumuls personnalisables</label>
+        <name>npsp__Customizable_Rollups_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Désactiver le filtre d’enreg. associés</label>
+        <name>npsp__Disable_Related_Records_Filter__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Limiter les dons récurrents recalculés</label>
+        <name>npsp__LimitRecalculatedRecurringDonations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DR modifiés au cours des X derniers jrs</label>
+        <name>npsp__RecurringDonationLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot du crédit direct du compte</label>
+        <name>npsp__Rollups_Account_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot mode asymétrie du compte</label>
+        <name>npsp__Rollups_Account_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot crédit indirect du compte</label>
+        <name>npsp__Rollups_Account_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille lot créd. indirect compte contact</label>
+        <name>npsp__Rollups_AcctContactSoftCredit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot crédit direct du contact</label>
+        <name>npsp__Rollups_Contact_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot mode asymétrie du contact</label>
+        <name>npsp__Rollups_Contact_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot crédit indirect du contact</label>
+        <name>npsp__Rollups_Contact_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot UCG</label>
+        <name>npsp__Rollups_GAU_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incrém. : Rempl. champ N derniers jours</label>
+        <name>npsp__Rollups_IncrementalLastNDays_FldOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incrém. : Rempl. valeur N derniers jours</label>
+        <name>npsp__Rollups_IncrementalLastNDays_ValOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Seuil mode asymétrie</label>
+        <name>npsp__Rollups_Limit_on_Attached_Opps_for_Skew__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Taille du lot répartiteur mode asymétrie</label>
+        <name>npsp__Rollups_Skew_Dispatcher_Batch_Size__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

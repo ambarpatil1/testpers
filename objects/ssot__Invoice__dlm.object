@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillToContactId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Bill to contact</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CollectionStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Collection Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CollectionUserId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Collection User Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CorpCrcyCnvTotWithTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Corp Crcy Cnv Tot Amt With Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CorporateCurrencyCvsnDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Corporate Currency Cvsn Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CorporateCurrencyCvsnRate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Corporate Currency Cvsn Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CorporateCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Corporate Currency</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created By</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreationMode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Creation Mode</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency Code</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DaysInvoiceOpenNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Days Invoice Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DaysInvoiceOverdueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Days Invoice Overdue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DueDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Due Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FullSettlementDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Full Settlement Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GroupingKeyText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Grouping Key</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceAppType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice App Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceBatchRunId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Batch Run</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceReferenceText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceSettlementLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Settlement Level</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsBillingScheduleGroupSkipped__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Billing Schedule Group Skipped</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified By</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetCreditsAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Credits Applied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetPaymentsAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Payments Applied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentExclusionReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Exclusion Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentTermId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Term</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PostedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Posted Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceEntityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Entity Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceEntity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Entity</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SettlementStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Settlement Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShouldExcludePaymentText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Should Exclude Payment</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxLocaleType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Locale Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotAppliedCrMemoLineAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tot Applied Credit Memo Line Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotPymtLineInvLineAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tot Pymt Line Inv Line Applied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotPymtLineInvLineUnappAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tot Pymt Line Inv Line Unapp</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotUnappliedCrMemoLineAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tot Unapplied Credit Memo Line Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAdjustmentTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Adjustment Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAdjustmentWithTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Adjustment Amount With Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalChargeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Charge Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalChargeTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Charge Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalChargeWithTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Charge Amount With Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalConvertedNegAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Converted Neg Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalCreditMemoInvAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Credit Memo Inv Applied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalCreditMemoInvUnappliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Credit Memo Inv Unapplied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPaymentLineInvAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Payment Line Inv Applied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPaymentLineInvUnappliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Payment Line Inv Unapplied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalWithTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Amount with tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BillDayOfMonth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Bill Day Of Month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillToAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Bill To Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BilledAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billed Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BilledThroughPeriodDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>BilledThroughPeriod</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Method</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingMilestonePlanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Milestone Plan</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingPeriodAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Period Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingScheduleBillingType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingScheduleCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Category</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingScheduleEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Schedule end date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingScheduleGroupId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Schedule Group</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingScheduleStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Schedule start date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingScheduleStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Schedule Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingScheduleType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Schedule Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingTermNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingTermUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Term Unit</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BillingTreatmentItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Treatment Item</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CancellationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrencyIsoCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency Iso Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomInvoiceGroupKey__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Custom Invoice Group Key</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalReferenceItemText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Reference Item</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalReferenceText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GroupingKeyText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Grouping Key</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Billing Schedule Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvoiceGroupTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invoice Group Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LineAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Line Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextBillingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Billing Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextChargeFromDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Charge From Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginalBillingScheduleId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Original Billing Schedule</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PendingAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Pending Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceItemObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Item Object Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceItemObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Item Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Object Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferenceObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reference Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxTreatmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Treatment</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitOfMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit Of Measure</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitPriceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+</CustomObject>

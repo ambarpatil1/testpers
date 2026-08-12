@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<EmployeeUserSettings xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <emailEncoding xsi:nil="true"/>
-    <profile xsi:nil="true"/>
+<EmployeeUserSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <emailEncoding>UTF-8</emailEncoding>
+    <enableEmployeeAutoCreateUser>false</enableEmployeeAutoCreateUser>
+    <enableEmployeeIsSourceOfTruth>false</enableEmployeeIsSourceOfTruth>
+    <profile>MarketingProfile</profile>
+    <usernameSuffix>example.com</usernameSuffix>
 </EmployeeUserSettings>

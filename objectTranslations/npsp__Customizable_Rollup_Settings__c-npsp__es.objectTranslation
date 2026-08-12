@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración de implantación personalizable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones de implantaciones personalizables</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Crédito duro cuenta increm. sin desfase</label>
+        <name>npsp__AccountHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Resultado implementación de API de CMT</label>
+        <name>npsp__CMT_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Tamaño sección crédito duro cuenta</label>
+        <name>npsp__ChunkSize_Account_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV:Tamaño sección crédito duro contacto</label>
+        <name>npsp__ChunkSize_Contact_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Tam sección crédito blando contacto</label>
+        <name>npsp__ChunkSize_Contact_SoftCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Crédito duro contacto incre. sin desfase</label>
+        <name>npsp__ContactHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activar totalizaciones personalizables</label>
+        <name>npsp__Customizable_Rollups_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Desactivar filtro registros relacionados</label>
+        <name>npsp__Disable_Related_Records_Filter__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Limitar donaciones recurr. recalculadas</label>
+        <name>npsp__LimitRecalculatedRecurringDonations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DR modificadas en último número de días</label>
+        <name>npsp__RecurringDonationLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño de lote de crédito duro de cuenta</label>
+        <name>npsp__Rollups_Account_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño de lote en modo desfase de cuenta</label>
+        <name>npsp__Rollups_Account_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño de lote crédito blando de cuenta</label>
+        <name>npsp__Rollups_Account_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. lote créd. blando contacto a cuenta</label>
+        <name>npsp__Rollups_AcctContactSoftCredit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño lote de crédito duro de contacto</label>
+        <name>npsp__Rollups_Contact_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño lote en modo desfase de contacto</label>
+        <name>npsp__Rollups_Contact_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño lote de crédito blando contacto</label>
+        <name>npsp__Rollups_Contact_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño de lote de CCG</label>
+        <name>npsp__Rollups_GAU_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incremental: Sust. campo Últimos N días</label>
+        <name>npsp__Rollups_IncrementalLastNDays_FldOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incremental: Sust. valor Últimos N días</label>
+        <name>npsp__Rollups_IncrementalLastNDays_ValOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Umbral de modo Desfase</label>
+        <name>npsp__Rollups_Limit_on_Attached_Opps_for_Skew__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño de lote despachador modo Desfase</label>
+        <name>npsp__Rollups_Skew_Dispatcher_Batch_Size__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

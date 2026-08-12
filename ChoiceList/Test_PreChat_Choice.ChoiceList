@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChoiceList xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choiceListValue>
+        <isDefaultValue>true</isDefaultValue>
+        <order>1</order>
+        <valueName>Option1</valueName>
+    </choiceListValue>
+    <masterLabel>Test PreChat Choice</masterLabel>
+</ChoiceList>

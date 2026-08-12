@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CarbonFootprintReportDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Carbon Footprint Report Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CostCenterName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cost Center</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HotelCityName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hotel City</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HotelCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hotel Country</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HotelName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hotel Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HotelStayEmssnFctrId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hotel Stay Emissions Factor</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hotel Stay Energy Use Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RoomCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Room Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RoomType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Room Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3CrbnFtprntId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Carbon Footprint</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnSrcId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emissions Source</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StayNightsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Number of Nights</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SuplScope3EmissionsNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supl Scope 3 Emissions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SupplierId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supplier</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TravelerName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Traveler Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383586466_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HotelStayEnergyUse_Scope3EmssnSrcId__rel</label>
+        <referenceTo>ssot__Scope3EmissionsSource__dlm</referenceTo>
+        <relationshipLabel>HotelStayEnergyUse_Scope3EmssnSrcId__rel</relationshipLabel>
+        <relationshipName>rel_1747383586466_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383592440_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HotelStayEnergyUse_Scope3CrbnFtprntI_rel</label>
+        <referenceTo>ssot__Scope3CarbonFootprint__dlm</referenceTo>
+        <relationshipLabel>HotelStayEnergyUse_Scope3CrbnFtprntI_rel</relationshipLabel>
+        <relationshipName>rel_1747383592440_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383597079_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HotelStayEnergyUse_AccountId_map_Acc_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>HotelStayEnergyUse_AccountId_map_Acc_rel</relationshipLabel>
+        <relationshipName>rel_1747383597079_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383597896_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HotelStayEnergyUse_HotelStayEmssnFct_rel</label>
+        <referenceTo>ssot__HotelStayEmissionFactor__dlm</referenceTo>
+        <relationshipLabel>HotelStayEnergyUse_HotelStayEmssnFct_rel</relationshipLabel>
+        <relationshipName>rel_1747383597896_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

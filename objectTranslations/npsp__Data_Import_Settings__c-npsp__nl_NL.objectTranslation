@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gegevensimportinstellingen</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Gegevensimportinstellingen</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Aangepast Uniek ID voor Account</label>
+        <name>npsp__Account_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Account Matching Regel</label>
+        <name>npsp__Account_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Verwerkingsgrootte van Batch</label>
+        <name>npsp__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Resultaat van CMT API-implementatie</label>
+        <name>npsp__CMT_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID van CMT-implementatie</label>
+        <name>npsp__CMT_Deployment_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aangepast Uniek ID voor Contactpersoon</label>
+        <name>npsp__Contact_Custom_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contactpersoonovereenkomstregel</label>
+        <name>npsp__Contact_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Std. veldtoew.set voor gegev.import</label>
+        <name>npsp__Default_Data_Import_Field_Mapping_Set__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aantal Dagen vanaf Donatiedatum</label>
+        <name>npsp__Donation_Date_Range__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Overeenkomstenpatroon voor donatie</label>
+        <name>npsp__Donation_Matching_Behavior__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Implementatieklasse Overeenkomst Donatie</label>
+        <name>npsp__Donation_Matching_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Donatieovereenkomstregel</label>
+        <name>npsp__Donation_Matching_Rule__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Veldtoewijzingsmethode</label>
+        <name>npsp__Field_Mapping_Method__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Implementatieklasse Na Verwerking</label>
+        <name>npsp__Post_Process_Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Donatietotalisering met Batch berekenen</label>
+        <name>npsp__Run_Opportunity_Rollups_while_Processing__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

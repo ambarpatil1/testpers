@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Teilweiser Soft Credit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Teilweise Soft Credits</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Teilweisen Soft Credit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Teilweisen Soft Credits</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Teilweisen Soft Credits</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Teilweisen Soft Credits</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Teilweisen Soft Credit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Teilweisen Soft Credits</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Betrag</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kontaktname</label>
+        <name>npsp__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kontaktrollenkennung</label>
+        <name>npsp__Contact_Role_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kontakt</label>
+        <name>npsp__Contact__c</name>
+        <relationshipLabel>Teilweise Soft Credits</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opportunity</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Teilweise Soft Credits</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rollenname</label>
+        <name>npsp__Role_Name__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name des teilweisen Soft Credits</nameFieldLabel>
+    <webLinks>
+        <label>Soft Credits verwalten</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+</CustomObjectTranslation>

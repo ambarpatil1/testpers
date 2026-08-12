@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChatterExtension xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <compositionComponent xsi:nil="true"/>
+    <description>desrrr</description>
+    <extensionName>xw1</extensionName>
+    <headerText>h1</headerText>
+    <hoverText>h2</hoverText>
+    <icon>eac7b932a1559f71c5b8f7e3afaf6a21</icon>
+    <isProtected>false</isProtected>
+    <masterLabel>primary</masterLabel>
+    <renderComponent xsi:nil="true"/>
+    <type>Lightning</type>
+</ChatterExtension>

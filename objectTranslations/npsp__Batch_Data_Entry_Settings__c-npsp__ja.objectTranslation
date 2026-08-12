@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>バッチデータエントリ設定</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>空白の商談名を許可</label>
+        <name>npsp__Allow_Blank_Opportunity_Names__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>商談の命名</label>
+        <name>npsp__Opportunity_Naming__c</name>
+    </fields>
+    <fields>
+        <label>参照された廃止に関する警告</label>
+        <name>npsp__Viewed_Retirement_Alert__c</name>
+    </fields>
+</CustomObjectTranslation>

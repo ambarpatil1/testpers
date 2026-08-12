@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gedeeltelijke soft credit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Gedeeltelijke soft credits</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Bedrag</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam van Contactpersoon</label>
+        <name>npsp__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contactpersoonrol-ID</label>
+        <name>npsp__Contact_Role_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contactpersoon</label>
+        <name>npsp__Contact__c</name>
+        <relationshipLabel>Gedeeltelijke Soft Credits</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opportunity</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Gedeeltelijke Soft Credits</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rolnaam</label>
+        <name>npsp__Role_Name__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam van Gedeeltelijke Soft Credits</nameFieldLabel>
+    <webLinks>
+        <label>Soft Credits beheren</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+</CustomObjectTranslation>

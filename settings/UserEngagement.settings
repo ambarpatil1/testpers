@@ -2,7 +2,7 @@
 <UserEngagementSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canUseAdoptionApps>false</canUseAdoptionApps>
     <doesScheduledSwitcherRunDaily>false</doesScheduledSwitcherRunDaily>
-    <enableCustomHelpGlobalSection>false</enableCustomHelpGlobalSection>
+    <enableCustomHelpGlobalSection>true</enableCustomHelpGlobalSection>
     <enableHelpMenuShowFeedback>true</enableHelpMenuShowFeedback>
     <enableHelpMenuShowHelp>true</enableHelpMenuShowHelp>
     <enableHelpMenuShowNewUser>true</enableHelpMenuShowNewUser>

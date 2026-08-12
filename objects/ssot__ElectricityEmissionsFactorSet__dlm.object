@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__Ch4EmissionRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Ch4EmissionRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2e Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CityName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>City</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2EmissionRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2EmissionRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CH4 Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2eEmissionRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2e Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Co2eEmissionRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>CO2 Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Country</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmissionFactorDataSourceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emissions Factor Data Source</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmissionFactorUpdateYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emissions Factor Update Year</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmissionsFactorType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emissions Factor Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenlConversionFctrRevisionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emissions Factor Revision Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GridSubregionName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Grid Subregion</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Electricity Emissions Factor Set Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocBasedGeothermalMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Geothermal Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocBasedHydroelectrMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Loc-Based Hydroelectricity Mix Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocBasedOtherFossilFuelMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Loc Based Other Fossil Fuel Mix</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedBiomassMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Biomass Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedCoalMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Coal Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedGasMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Gas Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedNuclearMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Nuclear Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedOilMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Oil Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedOtherFuelMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Other Fuel Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedSolarMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Solar Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationBasedWindMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location-Based Wind Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedBiomassMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Biomass Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedCoalMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Coal Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedGasMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Gas Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedNuclearMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Nuclear Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedOilMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Oil Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedOtherFuelMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Other Fuel Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedSolarMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Solar Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketBasedWindMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Wind Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBasedGeothermalMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Geothermal Mix Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBasedHydroelectrMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Hydroelectric Mix Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBasedOtherFossilFuelMixPercentage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Other Fossil Fuel Mix Pct</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdCh4EmssnRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based CH4 Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdCh4EmssnRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based CH4 Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdCo2EmssnRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based CO2 Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdCo2EmssnRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based CO2 Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdCo2eEmissionRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based CO2e Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdCo2eEmissionRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based CO2e Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdDataSrcType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Data Source Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdElectrSupplierId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based Electricity Supplier</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdN2oEmssnRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based N2O Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MktBsdN2oEmssnRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market-Based N2O Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oEmissionRateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O Emissions Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__N2oEmissionRateUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>N2O Emissions Rate Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OtherEmssnFctrId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Other Emissions Factors</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PostalCodeSetList__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Postal Code Set</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShouldLockDtastUpdtForRec__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Lock Dataset Update For Record</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StateId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>State</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747382307657_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ElectricityEmissionsFactorSet_StateI_rel</label>
+        <referenceTo>ssot__StateProvince__dlm</referenceTo>
+        <relationshipLabel>ElectricityEmissionsFactorSet_StateI_rel</relationshipLabel>
+        <relationshipName>rel_1747382307657_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747382311688_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ElectricityEmissionsFactorSet_OtherE_rel</label>
+        <referenceTo>ssot__OtherEmissionsFactorSet__dlm</referenceTo>
+        <relationshipLabel>ElectricityEmissionsFactorSet_OtherE_rel</relationshipLabel>
+        <relationshipName>rel_1747382311688_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

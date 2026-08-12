@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AllowedDistributionMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Allowed Distribution Method</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BoxInnerQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Box Quantity Inner</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BoxOuterQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Box Quantity Outer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DefaultDistributionQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Default Distribution Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Life Science Marketable Product Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAvailableForSamplingAllocation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Available For Sampling Allocation</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsCompetitorProduct__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Competitor Product</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsMessageRequiredforProviderVisit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Message Required for Provider Visit</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSampleLotNumbersRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Sample Lot Numbers Required</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LaunchDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Launch Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ManufacturerName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Manufacturer Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaxSampleOrderQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Max Sample Order Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinSampleOrderQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Min Sample Order Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NationalDrugCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>National Drug Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentBrandProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Brand Product</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentIndicationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Indication</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Product</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentTherapeuticAreaId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Therapeutic Area</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductMetadataText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Metadata</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductShortCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Short Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductionCostAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Production Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SignatureRequirementLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Signature Requirement Level</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SortOrderNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sort Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StateDistributorLicenseCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>State Distributor License Category</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TherapeuticArea__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Therapeutic Area</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TherapeuticClass__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Therapeutic Class</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Type</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561249464_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceMarketableProduct_ParentT_rel</label>
+        <referenceTo>ssot__LifeScienceMarketableProduct__dlm</referenceTo>
+        <relationshipLabel>LifeScienceMarketableProduct_ParentT_rel</relationshipLabel>
+        <relationshipName>rel_1745561249464_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561251245_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceMarketableProduct_ParentI_rel</label>
+        <referenceTo>ssot__LifeScienceMarketableProduct__dlm</referenceTo>
+        <relationshipLabel>LifeScienceMarketableProduct_ParentI_rel</relationshipLabel>
+        <relationshipName>rel_1745561251245_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561256144_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceMarketableProduct_Product_rel</label>
+        <referenceTo>ssot__Product__dlm</referenceTo>
+        <relationshipLabel>LifeScienceMarketableProduct_Product_rel</relationshipLabel>
+        <relationshipName>rel_1745561256144_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561263521_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceMarketableProduct_ParentB_rel</label>
+        <referenceTo>ssot__LifeScienceMarketableProduct__dlm</referenceTo>
+        <relationshipLabel>LifeScienceMarketableProduct_ParentB_rel</relationshipLabel>
+        <relationshipName>rel_1745561263521_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561265227_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceMarketableProduct_ParentP_rel</label>
+        <referenceTo>ssot__LifeScienceMarketableProduct__dlm</referenceTo>
+        <relationshipLabel>LifeScienceMarketableProduct_ParentP_rel</relationshipLabel>
+        <relationshipName>rel_1745561265227_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

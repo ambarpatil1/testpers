@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユーザ積み上げ集計項目の設定</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>集計種別</label>
+        <name>npo02__Field_Action__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>オブジェクト名</label>
+        <name>npo02__Object_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>集計元項目名</label>
+        <name>npo02__Source_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>集計先項目名</label>
+        <name>npo02__Target_Field__c</name>
+    </fields>
+</CustomObjectTranslation>

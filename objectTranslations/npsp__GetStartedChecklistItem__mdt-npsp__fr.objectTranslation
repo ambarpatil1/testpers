@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Élément de la liste de contrôle Premiers pas NPSP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Éléments de la liste de contrôle Premiers pas NPSP</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Nom de l&apos;étiquette de la description</label>
+        <name>npsp__Description_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom étiquette information supplémentaire</label>
+        <name>npsp__Extra_Info_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Section de la liste de contrôle PP</label>
+        <name>npsp__GS_Checklist_Section__c</name>
+        <relationshipLabel>Élément de la liste de contrôle Premiers pas</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contient un lien</label>
+        <name>npsp__Has_Link__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Image</label>
+        <name>npsp__Image__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom de l&apos;étiquette du lien</label>
+        <name>npsp__Link_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>URL du lien</label>
+        <name>npsp__Link_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Position</label>
+        <name>npsp__Position__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom de l&apos;étiquette du bouton principal</label>
+        <name>npsp__Primary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type du bouton principal</label>
+        <name>npsp__Primary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valeur du bouton principal</label>
+        <name>npsp__Primary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom de l&apos;étiquette du bouton secondaire</label>
+        <name>npsp__Secondary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type du bouton secondaire</label>
+        <name>npsp__Secondary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valeur du bouton secondaire</label>
+        <name>npsp__Secondary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom de l&apos;étiquette du titre</label>
+        <name>npsp__Title_Label__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aanpasbare roll-upinstellingen</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aanpasbare roll-upinstellingen</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Increm. Account Hard Credit niet-Versch.</label>
+        <name>npsp__AccountHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Resultaat CMT API-uitrol</label>
+        <name>npsp__CMT_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Chunkgrootte Account Hard Credits</label>
+        <name>npsp__ChunkSize_Account_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Chunkgrootte Contactp. Hard Credits</label>
+        <name>npsp__ChunkSize_Contact_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Chunkgrootte Contactp. Soft Credits</label>
+        <name>npsp__ChunkSize_Contact_SoftCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Increm. Contactp. Hard Cred. niet-Versch</label>
+        <name>npsp__ContactHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aanpasbare Totaliseringen inschakelen</label>
+        <name>npsp__Customizable_Rollups_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Filter Gerelateerde Records uitschakelen</label>
+        <name>npsp__Disable_Related_Records_Filter__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opnieuw berekende terugk. donaties bep.</label>
+        <name>npsp__LimitRecalculatedRecurringDonations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>TD gewijzigd in de laatste aantal dagen</label>
+        <name>npsp__RecurringDonationLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgrootte Hard Credits van Account</label>
+        <name>npsp__Rollups_Account_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgrootte Account Verschuivingsmodus</label>
+        <name>npsp__Rollups_Account_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgrootte Soft Credits van Account</label>
+        <name>npsp__Rollups_Account_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgr. Contactp. Soft Credits naar Acc</label>
+        <name>npsp__Rollups_AcctContactSoftCredit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgrootte Contactp. Hard Credits</label>
+        <name>npsp__Rollups_Contact_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgr. Contactp. Verschuivingsmodus</label>
+        <name>npsp__Rollups_Contact_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgr. Contactpersoon Soft Credits</label>
+        <name>npsp__Rollups_Contact_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgrootte GAU</label>
+        <name>npsp__Rollups_GAU_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Increm.: Overschr. Veld Laatste N Dagen</label>
+        <name>npsp__Rollups_IncrementalLastNDays_FldOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Increm.: Overschr Waarde Laatste N Dagen</label>
+        <name>npsp__Rollups_IncrementalLastNDays_ValOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Drempelwaarde Verschuivingsmodus</label>
+        <name>npsp__Rollups_Limit_on_Attached_Opps_for_Skew__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Batchgr. Dispatcher Verschuivingsmodus</label>
+        <name>npsp__Rollups_Skew_Dispatcher_Batch_Size__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>פעיל</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>הקצאה ממוצעת</label>
+        <name>npsp__Average_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תיאור</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תאריך הקצאה ראשונה</label>
+        <name>npsp__First_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ההקצאה הגדולה ביותר</label>
+        <name>npsp__Largest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>תאריך הקצאה אחרונה</label>
+        <name>npsp__Last_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר הקצאות ב-N הימים האחרונים</label>
+        <name>npsp__Number_of_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר הקצאות בשנה שעברה</label>
+        <name>npsp__Number_of_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר הקצאות בשנה הנוכחית</label>
+        <name>npsp__Number_of_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר הקצאות לפני שנתיים</label>
+        <name>npsp__Number_of_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ההקצאה הקטנה ביותר</label>
+        <name>npsp__Smallest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ הקצאות ב-N הימים האחרונים</label>
+        <name>npsp__Total_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ הקצאות בשנה שעברה</label>
+        <name>npsp__Total_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ הקצאות בשנה הנוכחית</label>
+        <name>npsp__Total_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ הקצאות לפני שנתיים</label>
+        <name>npsp__Total_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>סה&quot;כ הקצאות</label>
+        <name>npsp__Total_Allocations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מספר הקצאות כולל</label>
+        <name>npsp__Total_Number_of_Allocations__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>חשב מחדש סיכומים</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
+</CustomObjectTranslation>

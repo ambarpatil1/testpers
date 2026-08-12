@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AdditionalInformationText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Additional Information</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BookingStatusReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Booking Status Reason</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BookingStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Booking Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Channel Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ComplianceStatementText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Compliance Statements</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ComplianceStmtAgreeStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Compliance Statement Agreement Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasAttachments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Has Attachments</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Visit Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvitationEmailAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invitation Email Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvitationEmailBouncedReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invitation Email Bounced Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvitationEmailStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Invitation Email Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAdhocProviderVisit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Adhoc Provider Visit</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsBackdatedSbmtVldSkipped__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Backdated Submit Validation Skipped</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsBackdatedSgnVldSkipped__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Backdated Signature Validation Skipped</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsConfirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Confirmed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsOfflineModeSignature__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Offline Mode Signature</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsOfflineModeSubmit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Offline Mode Submit</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsRecordOwner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Record Owner</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSignedAwayFrmAllowDstn__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Signed Away From Allowed Distance</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSubmitAwayFrmAllowDstn__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Submit Away From Allowed Distance</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextProviderVisitObjectiveText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Provider Visit Objective</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextPrvdVisitObjectiveType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Provider Visit Objective Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OnSubmitGeolocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>On Submit Geolocation</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PhysicalFormIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Physical Form Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PreProviderVisitNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Pre-Provider Visit Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProvVisitDlvrSampleCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Visit Delivered Sample Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProvVisitMktItemCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Visit Marketing Item Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProvVisitProdDtlCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Visit Product Detailing Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProvVisitReqSampleCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Visit Requested Sample Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProviderVisit_VisitId_map_Visit_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProviderVisit_VisitId_map_Visit_Id_N_1</label>
+        <referenceTo>ssot__Visit__dlm</referenceTo>
+        <relationshipLabel>ProviderVisit_VisitId_map_Visit_Id_N_1</relationshipLabel>
+        <relationshipName>ProviderVisit_VisitId_map_Visit_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RemoteAttendanceStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Remote Attendance Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShippingAddressId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shipping Address</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SubmitDelayReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Submit Delay Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SubmitDelayReasonType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Submit Delay Reason Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SubmitGeolcMissingReasonType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Submit Geolocation Missing Reason</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SubmitGeolocationTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Submit Geolocation Timestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VisitId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Visit</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561367202_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProviderVisit_OnSubmitGeolocationId__rel</label>
+        <referenceTo>ssot__Location__dlm</referenceTo>
+        <relationshipLabel>ProviderVisit_OnSubmitGeolocationId__rel</relationshipLabel>
+        <relationshipName>rel_1745561367202_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561370303_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProviderVisit_ShippingAddressId_map__rel</label>
+        <referenceTo>ssot__ContactPointAddress__dlm</referenceTo>
+        <relationshipLabel>ProviderVisit_ShippingAddressId_map__rel</relationshipLabel>
+        <relationshipName>rel_1745561370303_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

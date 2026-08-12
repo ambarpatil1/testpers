@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>廃止-商談積み上げ集計エラー</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>エラー日時</label>
+        <name>npo02__Error_Datetime__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>エラーメッセージ</label>
+        <name>npo02__Error_Message__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>エラーオブジェクト種別</label>
+        <name>npo02__Error_Object_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>エラーレコードリンク</label>
+        <name>npo02__Error_Record_Link__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>エラーの種類</label>
+        <name>npo02__Error_Type__c</name>
+    </fields>
+</CustomObjectTranslation>

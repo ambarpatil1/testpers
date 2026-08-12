@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Engagement Plan Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Engagement Plan Templates</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>npsp__ManageEPTemplateFS</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Automatically_Update_Child_Task_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Default_Assignee__c</name>
+        <picklistValues>
+            <masterLabel>Owner of Object for Engagement Plan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Creating Engagement Plan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Reschedule_To__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Skip_Weekends__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Total_Engagement_Plans__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Total_Tasks__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label></label>
+        <name>npsp__Manage_Template</name>
+    </webLinks>
+</CustomObjectTranslation>

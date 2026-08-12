@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Unidade contábil geral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Unidades contábeis gerais</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Ativo</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Alocação média</label>
+        <name>npsp__Average_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Descrição</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Data da primeira alocação</label>
+        <name>npsp__First_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Maior alocação</label>
+        <name>npsp__Largest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Data da última alocação</label>
+        <name>npsp__Last_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número de alocações nos últimos N dias</label>
+        <name>npsp__Number_of_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número de alocações no ano passado</label>
+        <name>npsp__Number_of_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número de alocações este ano</label>
+        <name>npsp__Number_of_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número de alocações há dois anos</label>
+        <name>npsp__Number_of_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Menor alocação</label>
+        <name>npsp__Smallest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total de alocações nos últimos N dias</label>
+        <name>npsp__Total_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total de alocações no ano passado</label>
+        <name>npsp__Total_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total de alocações este ano</label>
+        <name>npsp__Total_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total de alocações há dois anos</label>
+        <name>npsp__Total_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total de alocações</label>
+        <name>npsp__Total_Allocations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número total de alocações</label>
+        <name>npsp__Total_Number_of_Allocations__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da Unidade contábil geral</nameFieldLabel>
+    <webLinks>
+        <label>Recalcular totalizações</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
+</CustomObjectTranslation>

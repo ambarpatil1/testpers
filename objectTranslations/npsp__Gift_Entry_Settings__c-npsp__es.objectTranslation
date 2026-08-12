@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración de Entrada de regalos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones de Entrada de regalos</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Plantilla Entrada regalos predeterminada</label>
+        <name>npsp__Default_Gift_Entry_Template__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activar asignación de pasarela</label>
+        <name>npsp__Enable_Gateway_Assignment__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activar Entrada de regalos</label>
+        <name>npsp__Enable_Gift_Entry__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activar donaciones recur Entrada regalos</label>
+        <name>npsp__Enable_Recurring_Donations_in_Gift_Entry__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

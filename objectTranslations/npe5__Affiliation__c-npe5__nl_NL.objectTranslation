@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Connectie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Connecties</value>
+    </caseValues>
+    <fields>
+        <label>Contactpersoon</label>
+        <name>npe5__Contact__c</name>
+        <relationshipLabel>Connecties van organisatie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Beschrijving</label>
+        <name>npe5__Description__c</name>
+    </fields>
+    <fields>
+        <label>Einddatum</label>
+        <name>npe5__EndDate__c</name>
+    </fields>
+    <fields>
+        <label>Organisatie</label>
+        <name>npe5__Organization__c</name>
+        <relationshipLabel>Gelieerde contactpersonen</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Primair</label>
+        <name>npe5__Primary__c</name>
+    </fields>
+    <fields>
+        <label>Rol</label>
+        <name>npe5__Role__c</name>
+    </fields>
+    <fields>
+        <label>Begindatum</label>
+        <name>npe5__StartDate__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>npe5__Status__c</name>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Related_Opportunity_Contact_Role__c</name>
+        <picklistValues>
+            <masterLabel>Soft Credit</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam van connectie</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Soft credit van account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Soft credits van account</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Account</label>
+        <name>npsp__Account__c</name>
+        <relationshipLabel>Soft Credits van Account</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bedrag</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opportunity</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Soft Credits van Account</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rol</label>
+        <name>npsp__Role__c</name>
+        <picklistValues>
+            <masterLabel>Donation Source</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam van Soft Credit van Account</nameFieldLabel>
+</CustomObjectTranslation>

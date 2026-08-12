@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración de Hogares</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones de Hogares</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Nomenclatura de hogar automática</label>
+        <name>npo02__Advanced_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totalizar siempre en función contacto pr</label>
+        <name>npo02__Always_Rollup_to_Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nomenclatura asíncrona de hogares</label>
+        <name>npo02__Async_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamaño del lote de totalizaciones</label>
+        <name>npo02__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Disable_HHAfter_trigger</label>
+        <name>npo02__DISABLE_HouseholdAfter_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Disable_HHBefore_trigger</label>
+        <name>npo02__DISABLE_HouseholdBefore_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Disable_Household_Opp_trigger</label>
+        <name>npo02__DISABLE_Household_Opportunity_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Disable_Households_trigger</label>
+        <name>npo02__DISABLE_Households_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Disable_OppRollup_trigger</label>
+        <name>npo02__DISABLE_OpportunityRollup_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Enable_Opp_Rollup_Triggers</label>
+        <name>npo02__Enable_Opp_Rollup_Triggers__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activar totalizaciones créditos blandos</label>
+        <name>npo02__Enable_Soft_Credit_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Activar comprob. actualización</label>
+        <name>npo02__Enable_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipos reg op excluidos para totalización</label>
+        <name>npo02__Excluded_Account_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipos de op excluidos para totalización</label>
+        <name>npo02__Excluded_Account_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipos reg excluidos totalizac contactos</label>
+        <name>npo02__Excluded_Contact_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipos op excluidos totalizac contactos</label>
+        <name>npo02__Excluded_Contact_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Forzar año fiscal</label>
+        <name>npo02__Force_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Tiene actualización de paquete</label>
+        <name>npo02__Has_Package_Update__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Funciones del contacto en hogar activada</label>
+        <name>npo02__Household_Contact_Roles_On__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipos registros excluidos creación hogar</label>
+        <name>npo02__Household_Creation_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Informe de lista de envío de hogar</label>
+        <name>npo02__Household_Mailing_List_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Función del contacto de miembro de hogar</label>
+        <name>npo02__Household_Member_Contact_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipos de registro excluido OCR de hogar</label>
+        <name>npo02__Household_OCR_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Reglas de objeto Hogar</label>
+        <name>npo02__Household_Rules__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Última comprob. actualización</label>
+        <name>npo02__Last_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Versión de paquete máxima</label>
+        <name>npo02__Max_Package_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Período de gracia de la afiliación</label>
+        <name>npo02__Membership_Grace_Period__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombres de tipos registros de afiliación</label>
+        <name>npo02__Membership_Record_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Id trabajo programado totalización op.</label>
+        <name>npo02__Opp_Rollup_Scheduled_Job_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-URL de actualización de paquete</label>
+        <name>npo02__Package_Update_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valor de Totalizar N días</label>
+        <name>npo02__Rollup_N_Day_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Límite de trabajos programados</label>
+        <name>npo02__Schedule_Job_Limit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Funciones de créditos blandos</label>
+        <name>npo02__Soft_Credit_Roles__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DESUSADO-Actualizar intervalo comprobac.</label>
+        <name>npo02__Update_Check_Interval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Usar año fiscal para totalizaciones</label>
+        <name>npo02__Use_Fiscal_Year_for_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Matched_Donor_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Seasonal_Addresses_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Use_Dated_Conversion_Rates__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

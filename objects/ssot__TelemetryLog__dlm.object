@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Telemetry Log Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LogBody__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Log Body</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LogDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Log Date Time</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OperationName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Operation Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SeverityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Severity Number</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SeverityText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Severity Text</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TelemetryLogAttributeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Telemetry Log Attribute</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TelemetryTraceSpanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Telemetry Trace Span Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TelemetryTrace__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Telemetry Trace</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

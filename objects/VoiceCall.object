@@ -92,10 +92,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CallAcceptDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>CallConnectDateTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -116,20 +112,7 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CallQueuedDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>CallResolution</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
         <fullName>CallStartDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>CallSubtype</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -142,24 +125,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CustomerHoldDuration</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>DisconnectReason</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>EndUserId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>FromPhoneNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsDiarizationOptIn</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -167,35 +137,9 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>LongestHoldDuration</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>NextCallId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>NumberOfHolds</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PreviousCallId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>QualityScore</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>QueueName</fullName>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>RecipientId</fullName>
@@ -212,6 +156,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>TranscribedLanguage</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>UserId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -221,9 +169,25 @@
         <trackHistory>false</trackHistory>
     </fields>
     <listViews>
-        <fullName>My_VoiceCalls</fullName>
-        <filterScope>Mine</filterScope>
-        <label>MyVoiceCalls</label>
+        <fullName>ECIAllVoice_26iKue34</fullName>
+        <columns>Name</columns>
+        <columns>CreatedBy</columns>
+        <columns>CallStartDateTime</columns>
+        <columns>FromPhoneNumber</columns>
+        <columns>CallDurationInSeconds</columns>
+        <columns>RelatedRecord</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CreatedDate</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:14</value>
+        </filters>
+        <filters>
+            <field>IsRecorded</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>ECI Voice Calls</label>
     </listViews>
     <searchLayouts>
         <lookupDialogsAdditionalFields>CallStartDateTime</lookupDialogsAdditionalFields>
@@ -232,24 +196,19 @@
         <lookupDialogsAdditionalFields>ToPhoneNumber</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CallDisposition</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CallDurationInSeconds</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>QualityScore</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CallStartDateTime</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CallType</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>FromPhoneNumber</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ToPhoneNumber</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CallDisposition</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CallDurationInSeconds</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>QualityScore</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>FromPhoneNumber</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ToPhoneNumber</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>CallType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>FromPhoneNumber</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CallResolution</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CallStartDateTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EndUser</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CallOrigin</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>QualityScore</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

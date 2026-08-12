@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuração de acumulação personalizável</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configurações de acumulação personalizável</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Créd. dir. conta increm. não distorcido</label>
+        <name>npsp__AccountHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Resultado da implantação da API de CMT</label>
+        <name>npsp__CMT_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: parte do crédito direto da conta</label>
+        <name>npsp__ChunkSize_Account_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: parte do crédito direto do contato</label>
+        <name>npsp__ChunkSize_Contact_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: parte do crédito ind. do contato</label>
+        <name>npsp__ChunkSize_Contact_SoftCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Créd. dir. do Cont. incr. não distorcido</label>
+        <name>npsp__ContactHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ativar totalizações personalizáveis</label>
+        <name>npsp__Customizable_Rollups_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Desativar filtro de reg. relacionados</label>
+        <name>npsp__Disable_Related_Records_Filter__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Limitar doações recorrentes recalculadas</label>
+        <name>npsp__LimitRecalculatedRecurringDonations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DR modif. no período retroativo de dias</label>
+        <name>npsp__RecurringDonationLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote de crédito direto da conta</label>
+        <name>npsp__Rollups_Account_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote do modo dist. da conta</label>
+        <name>npsp__Rollups_Account_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote de créd. indireto da conta</label>
+        <name>npsp__Rollups_Account_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote Créd. ind. cont. para conta</label>
+        <name>npsp__Rollups_AcctContactSoftCredit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote de crédito dir. do contato</label>
+        <name>npsp__Rollups_Contact_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote do modo dist. do cont.</label>
+        <name>npsp__Rollups_Contact_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote de crédito ind. do contato</label>
+        <name>npsp__Rollups_Contact_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tamanho do lote de GAU</label>
+        <name>npsp__Rollups_GAU_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incremental: subst. cpo. Últimos N dias</label>
+        <name>npsp__Rollups_IncrementalLastNDays_FldOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incremental: subst. val. Últimos N dias</label>
+        <name>npsp__Rollups_IncrementalLastNDays_ValOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Limite do Modo distorcido</label>
+        <name>npsp__Rollups_Limit_on_Attached_Opps_for_Skew__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tam. do lote de exped. modo distorcido</label>
+        <name>npsp__Rollups_Skew_Dispatcher_Batch_Size__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

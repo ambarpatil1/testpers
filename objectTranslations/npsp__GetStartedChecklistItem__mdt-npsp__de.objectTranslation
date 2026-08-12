@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Element der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Elemente der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Element der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Elemente der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Elements der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Elemente der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Element der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Elementen der NPSP-Erste Schritte-Checkliste</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Name der Beschreibungsbezeichnung</label>
+        <name>npsp__Description_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Name f. Bezeichnung m. Zus-Informationen</label>
+        <name>npsp__Extra_Info_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>GS-Checklistenabschnitt</label>
+        <name>npsp__GS_Checklist_Section__c</name>
+        <relationshipLabel>GS-Checklistenelemente</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Hat Link</label>
+        <name>npsp__Has_Link__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bild</label>
+        <name>npsp__Image__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Name der Linkbezeichnung</label>
+        <name>npsp__Link_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Link-URL</label>
+        <name>npsp__Link_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Position</label>
+        <name>npsp__Position__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bezeichnungsname der Hauptschaltfläche</label>
+        <name>npsp__Primary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Typ der Hauptschaltfläche</label>
+        <name>npsp__Primary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Wert für Hauptschaltfläche</label>
+        <name>npsp__Primary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bezeichnungsname sekundäre Schaltfläche</label>
+        <name>npsp__Secondary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Typ der sekundären Schaltfläche</label>
+        <name>npsp__Secondary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Wert der sekundären Schaltfläche</label>
+        <name>npsp__Secondary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Name der Titelbezeichnung</label>
+        <name>npsp__Title_Label__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Address</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Address</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Address</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Address</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Lead_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page_Three_Column</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+    </actionOverrides>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
@@ -8,6 +62,22 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Sales Console</label>
     <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Address</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Address</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Address</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Address</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
@@ -16,14 +86,253 @@
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-Event</tabs>
+    <tabs>standard-ContentNote</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Explosive_Precursor_File__c</tabs>
+    <tabs>parent1__c</tabs>
+    <tabs>parent2__c</tabs>
+    <tabs>parent3__c</tabs>
+    <tabs>parent4__c</tabs>
+    <tabs>child1__c</tabs>
+    <tabs>child2__c</tabs>
+    <tabs>child3__c</tabs>
+    <tabs>child4__c</tabs>
+    <tabs>child5__c</tabs>
+    <tabs>parent5__c</tabs>
+    <tabs>parent6__c</tabs>
+    <tabs>junctionObj__c</tabs>
+    <tabs>vaultp1__c</tabs>
+    <tabs>vaultc1__c</tabs>
+    <tabs>vaultc2__c</tabs>
+    <tabs>vaultc3__c</tabs>
+    <tabs>ExternalObject__x</tabs>
+    <tabs>Notification__c</tabs>
+    <tabs>User_Notification__c</tabs>
+    <tabs>CustomObejct1__c</tabs>
+    <tabs>CustomObject2__c</tabs>
+    <tabs>CustomObject3__c</tabs>
+    <tabs>CustObj__c</tabs>
+    <tabs>CustObj2__c</tabs>
+    <tabs>CustObj3__c</tabs>
+    <tabs>testorg__c</tabs>
+    <tabs>dlConfig__c</tabs>
+    <tabs>CustomAA__c</tabs>
+    <tabs>CustomBB__c</tabs>
+    <tabs>AshokCustomobj__c</tabs>
+    <tabs>AshokLiveTest__c</tabs>
+    <tabs>Just_for_testing__c</tabs>
+    <tabs>synth__c</tabs>
+    <tabs>Testing_for_backup_CI_job__c</tabs>
+    <tabs>Thiru_object__c</tabs>
+    <tabs>childd1__c</tabs>
+    <tabs>manPar1__c</tabs>
+    <tabs>manPar10__c</tabs>
+    <tabs>manPar11__c</tabs>
+    <tabs>manPar12__c</tabs>
+    <tabs>vaultA__c</tabs>
+    <tabs>vaultB__c</tabs>
+    <tabs>vaultC__c</tabs>
+    <tabs>vaultD__c</tabs>
+    <tabs>vaultE__c</tabs>
+    <tabs>vaultF__c</tabs>
+    <tabs>vaultG__c</tabs>
+    <tabs>vaultH__c</tabs>
+    <tabs>vaultJ__c</tabs>
+    <tabs>vaultK__c</tabs>
+    <tabs>vaultL__c</tabs>
+    <tabs>vaultM__c</tabs>
+    <tabs>vaultN__c</tabs>
+    <tabs>vaultO__c</tabs>
+    <tabs>vaultP__c</tabs>
+    <tabs>SBQQ_Discount_Schedule__c</tabs>
+    <tabs>manageid1__c</tabs>
+    <tabs>manageidP__c</tabs>
+    <tabs>Sowjanya__c</tabs>
+    <tabs>Email_validation__c</tabs>
+    <tabs>masking__c</tabs>
+    <tabs>Sowjanya1__c</tabs>
+    <tabs>Sowjanya2__c</tabs>
+    <tabs>Sowjanya3__c</tabs>
+    <tabs>Sowjanya4__c</tabs>
+    <tabs>masktest__c</tabs>
+    <tabs>parent__c</tabs>
+    <tabs>child__c</tabs>
+    <tabs>arjProject__c</tabs>
+    <tabs>Cmp_res__c</tabs>
+    <tabs>testCustomObjZub__c</tabs>
+    <tabs>ArCO1__c</tabs>
+    <tabs>ArCo2__c</tabs>
+    <tabs>Intern__c</tabs>
+    <tabs>Object21__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>ArCO1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ArCo2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>AshokCustomobj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>AshokLiveTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Cmp_res__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustObj2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustObj3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustomAA__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustomBB__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustomObejct1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustomObject2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustomObject3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Email_validation__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Explosive_Precursor_File__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ExternalObject__x</tab>
+        </mappings>
+        <mappings>
+            <tab>Intern__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Just_for_testing__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Notification__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Object21__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SBQQ_Discount_Schedule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sowjanya1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sowjanya2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sowjanya3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sowjanya4__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sowjanya__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Testing_for_backup_CI_job__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Thiru_object__c</tab>
+        </mappings>
+        <mappings>
+            <tab>User_Notification__c</tab>
+        </mappings>
+        <mappings>
+            <tab>arjProject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>child1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>child2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>child3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>child4__c</tab>
+        </mappings>
+        <mappings>
+            <tab>child5__c</tab>
+        </mappings>
+        <mappings>
+            <tab>child__c</tab>
+        </mappings>
+        <mappings>
+            <tab>childd1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>dlConfig__c</tab>
+        </mappings>
+        <mappings>
+            <tab>junctionObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manPar10__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manPar11__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manPar12__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manPar1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manageid1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manageidP__c</tab>
+        </mappings>
+        <mappings>
+            <tab>masking__c</tab>
+        </mappings>
+        <mappings>
+            <tab>masktest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent4__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent5__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent6__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -35,6 +344,9 @@
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ContentNote</tab>
         </mappings>
         <mappings>
             <tab>standard-Dashboard</tab>
@@ -62,6 +374,72 @@
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>synth__c</tab>
+        </mappings>
+        <mappings>
+            <tab>testCustomObjZub__c</tab>
+        </mappings>
+        <mappings>
+            <tab>testorg__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultA__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultB__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultC__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultD__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultE__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultF__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultG__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultH__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultJ__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultK__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultL__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultM__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultN__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultO__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultP__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultc1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultc2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultc3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vaultp1__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

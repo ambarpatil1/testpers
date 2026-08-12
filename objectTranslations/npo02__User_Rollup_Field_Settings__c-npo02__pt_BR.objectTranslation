@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuração do campo de acumulação de usuário</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configurações do campo de acumulação de usuário</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Ação de campo</label>
+        <name>npo02__Field_Action__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nome do objeto</label>
+        <name>npo02__Object_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Campo de origem</label>
+        <name>npo02__Source_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Campo de destino</label>
+        <name>npo02__Target_Field__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

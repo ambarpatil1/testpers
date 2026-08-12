@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Instellingen voor adresverificatie-VEROUDERD</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Instellingen voor adresverificatie-VEROUDERD</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Eindpunt voor Adresverificatie-VEROUDERD</label>
+        <name>npsp__Address_Verification_Endpoint__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Auth.-ID-VEROUDERD</label>
+        <name>npsp__Auth_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Auth.-token-VEROUDERD</label>
+        <name>npsp__Auth_Token__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Adressen Automatisch Bijwerken-VEROUDERD</label>
+        <name>npsp__Auto_Update_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Klasse-VEROUDERD</label>
+        <name>npsp__Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ongeldige Adressen Wissen-VEROUDERD</label>
+        <name>npsp__Clear_Invalid_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Autom. Verificatie inschakelen-VEROUDERD</label>
+        <name>npsp__Enable_Automatic_Verification__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ambigue Adressen weigeren-VEROUDERD</label>
+        <name>npsp__Reject_Ambiguous_Addresses__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Time-out-VEROUDERD</label>
+        <name>npsp__Timeout__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>SmartyStreets gebruiken-VEROUDERD</label>
+        <name>npsp__Using_SmartyStreets__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Eindpunt Postcodeverificatie-VEROUDERD</label>
+        <name>npsp__Zipcode_Verification_Endpoint__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -166,9 +166,17 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>CorporateCurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CreditMemoId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -192,6 +200,10 @@
     </fields>
     <fields>
         <fullName>FunctionalCurrencyCvsnRate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FunctionalCurrencyIsoCode</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

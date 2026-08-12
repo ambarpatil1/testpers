@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Änderungsprotokoll für wiederkehrende Spenden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Änderungsprotokolle für wiederkehrende Spenden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Änderungsprotokoll für wiederkehrende Spenden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Änderungsprotokolle für wiederkehrende Spenden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Änderungsprotokolls für wiederkehrende Spenden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Änderungsprotokolle für wiederkehrende Spenden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Änderungsprotokoll für wiederkehrende Spenden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Änderungsprotokollen für wiederkehrende Spenden</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Änderungstyp</label>
+        <name>npsp__ChangeType__c</name>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Inkrafttreten</label>
+        <name>npsp__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neuer Betrag</label>
+        <name>npsp__NewAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neuer Jahreswert</label>
+        <name>npsp__NewAnnualValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neue Kampagne</label>
+        <name>npsp__NewCampaign__c</name>
+        <relationshipLabel>Änderungsprotokoll für wiederkehrende Spende (neue Kampagne)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neuer erwarteter Gesamtwert</label>
+        <name>npsp__NewExpectedTotalValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neue Häufigkeit der Ratenzahlung</label>
+        <name>npsp__NewInstallmentFrequency__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neue Ratenlaufzeit</label>
+        <name>npsp__NewInstallmentPeriod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neue Zahlungsmethode</label>
+        <name>npsp__NewPaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neue Anzahl der geplanten Raten</label>
+        <name>npsp__NewPlannedInstallments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neuer Wiederholungstyp</label>
+        <name>npsp__NewRecurringType__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Grund für neuen Status</label>
+        <name>npsp__NewStatusReason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neuer Status</label>
+        <name>npsp__NewStatus__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorheriger Betrag</label>
+        <name>npsp__PreviousAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorheriger Jahreswert</label>
+        <name>npsp__PreviousAnnualValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorherige Kampagne</label>
+        <name>npsp__PreviousCampaign__c</name>
+        <relationshipLabel>Änderungsprotokoll für wiederkehrende Spende (vorherige Kampagne)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorheriger erwarteter Gesamtwert</label>
+        <name>npsp__PreviousExpectedTotalValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorherige Häufigkeit der Ratenzahlung</label>
+        <name>npsp__PreviousInstallmentFrequency__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorherige Ratenlaufzeit</label>
+        <name>npsp__PreviousInstallmentPeriod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorherige Zahlungsmethode</label>
+        <name>npsp__PreviousPaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorherige Anzahl der geplanten Raten</label>
+        <name>npsp__PreviousPlannedInstallments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorheriger Wiederholungstyp</label>
+        <name>npsp__PreviousRecurringType__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Grund für vorherigen Status</label>
+        <name>npsp__PreviousStatusReason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Vorheriger Status</label>
+        <name>npsp__PreviousStatus__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Wiederkehrende Spende</label>
+        <name>npsp__RecurringDonation__c</name>
+        <relationshipLabel>Änderungsprotokoll für wiederkehrende Spende</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nummer im Änderungsprotokoll für wiederk</nameFieldLabel>
+</CustomObjectTranslation>

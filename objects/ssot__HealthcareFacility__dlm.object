@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account ID</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AreResearchStudiesConducted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Research Studies Conducted</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvailabilityExceptionsText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Availability Exceptions</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AverageActualPtcpEnrlDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Actual Participant Enrollment Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AverageClinicalTrialAgreementDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Clinical Trial Agree Turnaround Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AverageOpdPatientCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Average OPD Patient Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgActualParticipantEnrollmentRate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Actual Participant Enrollment Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgActualPtcpEnrlCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Actual Ptcp Enrollment Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgInvtglProductReleaseDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Investigational Prodt Release Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgProjectedPtcpEnrlCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Projected Ptcp Enrollment Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgProjectedPtcpEnrlDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Projected Ptcp Enrollment Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgQualVstToInitVstDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Qual Visit to Initiation Visit Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgRegltyDocTrnarndDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Regulatory Document Turnaround Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgRsrchEthicalReviewDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Research Ethical Rvw Approval Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgSiteActvToFstPtcpDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Site Activation to First Ptcp Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AvgSiteActvToLastPtcpDrtnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Avg Site Activation To Last Ptcp Drtn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClinicalTrialAgreementType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Clinical Trial Agreement Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HealthcareFacilityCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Healthcare Facility Category</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HealthcareFacilityClassification__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Healthcare Facility Classification</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HealthcareFacilityStatusName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Healthcare Facility Status</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HealthcareFacilityTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Healthcare Facility Type</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HealthcareProviderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Healthcare Provider</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Healthcare Facility Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvestigationalProdtDisposalCpbl__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Investigational Prodt Disposal Cpbl</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvestigationalProdtPreparationCpbl__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Investigational Prodt Preparation Cpbl</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvestigationalProdtStorageCapability__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Investigational Prodt Storage Capability</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvestigationalProductType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Investigational Product Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAfflWithSiteMgmtOrg__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Affiliated with Site Management Org</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAlwaysOpen__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Always Open</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDedicatedResearchStudyRoomAvailable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Dedicated Research Study Room Available</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDedicatedRsrchStdyMonitorRoomAvailable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Dedicated Rsrch Stdy Monitoring Room Avl</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsGoodClnclPracTrnPrvd__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Good Clinical Practice Training Provided</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsHandicapAccessible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Handicap Accessible</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPharmacogenomicSpecimenCollectionAvl__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Pharmacogenomic Specimen Collection Avl</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPkpdSpecimenCollectionStorageAvailable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>PKPD Specimen Collection and Storage Avl</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPrimaryLocation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Primary Location</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsRearsrchStudyMaterialStoreAvailable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Research Study Material Store Available</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsReasearchEthicalReviewSbmsSupp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Research Ethical Review Sbms Supported</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsSatelliteSite__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Satellite Site</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTrainingProvided__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Training Provided</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsUrgentCare__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Urgent Care</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsWalkInAllowed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Walk In Allowed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LicensedBedCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Licensed Bed Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location Id</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OperationalStatusName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Operational Status</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentHealthcareFacilityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Healthcare Facility</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PatientAgeRange__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Patient Age Range</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RegulatoryViolationCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Regulatory Violation Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResearchEthicalReviewCommitteeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Research Ethical Review Committee Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResearchStudyMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Research Study Method</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResearchStudyStartYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Research Study Start Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceTypeName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SupportedResearchStudyPhase__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supported Research Study Phase</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SupportedResearchStudyType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supported Research Study Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitOfMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit Of Measure</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127407328_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HealthcareFacility_AccountId_map_Acc_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>HealthcareFacility_AccountId_map_Acc_rel</relationshipLabel>
+        <relationshipName>rel_1723127407328_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127423762_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HealthcareFacility_HealthcareFacilit_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>HealthcareFacility_HealthcareFacilit_rel</relationshipLabel>
+        <relationshipName>rel_1723127423762_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127457836_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HealthcareFacility_LocationId_map_Lo_rel</label>
+        <referenceTo>ssot__Location__dlm</referenceTo>
+        <relationshipLabel>HealthcareFacility_LocationId_map_Lo_rel</relationshipLabel>
+        <relationshipName>rel_1723127457836_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127837912_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HealthcareFacility_ParentHealthcareF_rel</label>
+        <referenceTo>ssot__HealthcareFacility__dlm</referenceTo>
+        <relationshipLabel>HealthcareFacility_ParentHealthcareF_rel</relationshipLabel>
+        <relationshipName>rel_1723127837912_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1732247637928_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HealthcareFacility_HealthcareProvide_rel</label>
+        <referenceTo>ssot__HealthcareProvider__dlm</referenceTo>
+        <relationshipLabel>HealthcareFacility_HealthcareProvide_rel</relationshipLabel>
+        <relationshipName>rel_1732247637928_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1732247646875_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>HealthcareFacility_UnitOfMeasureId_m_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>HealthcareFacility_UnitOfMeasureId_m_rel</relationshipLabel>
+        <relationshipName>rel_1732247646875_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

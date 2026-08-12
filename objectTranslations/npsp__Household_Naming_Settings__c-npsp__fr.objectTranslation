@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre de nommage de foyer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres de nommage de foyer</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Compte de dépassement de contact</label>
+        <name>npsp__Contact_Overrun_Count__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Format de salutation formelle</label>
+        <name>npsp__Formal_Greeting_Format__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Format de nom du foyer</label>
+        <name>npsp__Household_Name_Format__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe d’implémentation</label>
+        <name>npsp__Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Format de salutation informelle</label>
+        <name>npsp__Informal_Greeting_Format__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Connecteur de nom</label>
+        <name>npsp__Name_Connector__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Dépassement de nom</label>
+        <name>npsp__Name_Overrun__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

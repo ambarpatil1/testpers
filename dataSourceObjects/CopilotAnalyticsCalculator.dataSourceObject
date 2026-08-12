@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <creationType>Custom</creationType>
+    <dataSource>CopilotAnalyticsCalculator</dataSource>
+    <dataSourceFields>
+        <fullName>BotId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>BotId</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_BotId</keyQualifierName>
+        <masterLabel>Bot ID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Date</fullName>
+        <datatype>F</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>Date</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Date</keyQualifierName>
+        <masterLabel>Date</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Feature</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>Feature</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Feature</keyQualifierName>
+        <masterLabel>Feature</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>GroupByField1</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>GroupByField1</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_GroupByField1</keyQualifierName>
+        <masterLabel>Group By Field 1</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>GroupByField2</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>GroupByField2</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_GroupByField2</keyQualifierName>
+        <masterLabel>Group By Field 2</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>GroupByField3</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>GroupByField3</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_GroupByField3</keyQualifierName>
+        <masterLabel>Group By Field 3</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>GroupByValue1</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>GroupByValue1</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_GroupByValue1</keyQualifierName>
+        <masterLabel>Group By Value 1</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>GroupByValue2</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>GroupByValue2</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_GroupByValue2</keyQualifierName>
+        <masterLabel>Group By Value 2</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>GroupByValue3</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>GroupByValue3</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_GroupByValue3</keyQualifierName>
+        <masterLabel>Group By Value 3</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>MetricId</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>MetricId</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_MetricId</keyQualifierName>
+        <masterLabel>Metric ID</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>MetricKey</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>MetricKey</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_MetricKey</keyQualifierName>
+        <masterLabel>Metric Key</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>MetricValue</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Standard</definitionCreationType>
+        <externalName>MetricValue</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_MetricValue</keyQualifierName>
+        <masterLabel>Metric Value</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <masterLabel>Copilot Analytics Calculator</masterLabel>
+    <objectCategory>Related</objectCategory>
+    <objectType>Object</objectType>
+    <sourceObject>CopilotAnalyticsCalculator__dll</sourceObject>
+    <storageType>LOCAL</storageType>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>

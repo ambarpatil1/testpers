@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActualElapsedTimeInDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Elapsed Time In Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualElapsedTimeInHours__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Elapsed Time In Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualElapsedTimeInMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Elapsed Time In Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Case</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CaseMilestoneTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Case Milestone Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CaseMilestone_CaseId_map_Case_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CaseMilestone_CaseId_map_Case_Id_N_1</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>CaseMilestone_CaseId_map_Case_Id_N_1</relationshipLabel>
+        <relationshipName>CaseMilestone_CaseId_map_Case_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CompletionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Completion Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created By</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ElapsedTimeInDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Elapsed Time In Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ElapsedTimeInHours__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Elapsed Time In Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ElapsedTimeInMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Elapsed Time In Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Case Milestone Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsCompleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Completed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDeleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Deleted</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsViolated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Violated</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified By</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OperatingHoursId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Operating Hours</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Start Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StoppedTimeInDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stopped Time In Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StoppedTimeInHours__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stopped Time In Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StoppedTimeInMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stopped Time In Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SystemModstamp__c</fullName>
+        <deprecated>false</deprecated>
+        <label>System Modified Stamp</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TargetDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Target Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TargetResponseInDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Target Response In Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TargetResponseInHours__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Target Response In Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TargetResponseInMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Target Response In Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeRemainingInDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Time Remaining In Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeRemainingInHoursText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Time Remaining In Hour</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeRemainingInHours__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Time Remaining In Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeRemainingInMinutesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Time Remaining In Minutes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeRemainingInMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Time Remaining In Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeRmnInHoursText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Time Remaining In Hours</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeSinceTargetInDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Time Since Target In Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeSinceTargetInHoursText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Time Since Target In Hours</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeSinceTargetInHours__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Time Since Target In Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeSinceTargetInMinutesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Time Since Target In Minutes</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TimeSinceTargetInMinutes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Time Since Target In Minutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1725593376762_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CaseMilestone_CaseMilestoneTypeId_ma_rel</label>
+        <referenceTo>ssot__CaseMilestoneType__dlm</referenceTo>
+        <relationshipLabel>CaseMilestone_CaseMilestoneTypeId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1725593376762_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1725593389209_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CaseMilestone_OperatingHoursId_map_O_rel</label>
+        <referenceTo>ssot__OperatingHours__dlm</referenceTo>
+        <relationshipLabel>CaseMilestone_OperatingHoursId_map_O_rel</relationshipLabel>
+        <relationshipName>rel_1725593389209_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1725593402276_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CaseMilestone_CreatedById_map_User_I_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>CaseMilestone_CreatedById_map_User_I_rel</relationshipLabel>
+        <relationshipName>rel_1725593402276_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1734838411079_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CaseMilestone_LastModifiedById_map_U_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>CaseMilestone_LastModifiedById_map_U_rel</relationshipLabel>
+        <relationshipName>rel_1734838411079_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customisable Rollup Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customizable Rollup Settings</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Incremental Account Hard Credit Non-Skew</label>
+        <name>npsp__AccountHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>CMT API Deployment Result</label>
+        <name>npsp__CMT_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Account Hard Credit Chunk Size</label>
+        <name>npsp__ChunkSize_Account_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Contact Hard Credit Chunk Size</label>
+        <name>npsp__ChunkSize_Contact_HardCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>LDV: Contact Soft Credit Chunk Size</label>
+        <name>npsp__ChunkSize_Contact_SoftCredit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incremental Contact Hard Credit Non-Skew</label>
+        <name>npsp__ContactHardCreditNonSkew_Incremental__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Enable Customisable Rollups</label>
+        <name>npsp__Customizable_Rollups_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Disable Related Records Filter</label>
+        <name>npsp__Disable_Related_Records_Filter__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Limit Recalculated Recurring Donations</label>
+        <name>npsp__LimitRecalculatedRecurringDonations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>RD Modified in Last Number of Days</label>
+        <name>npsp__RecurringDonationLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Account Hard Credit Batch Size</label>
+        <name>npsp__Rollups_Account_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Account Skew Mode Batch Size</label>
+        <name>npsp__Rollups_Account_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Account Soft Credit Batch Size</label>
+        <name>npsp__Rollups_Account_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contact Soft Credit to Acct Batch Size</label>
+        <name>npsp__Rollups_AcctContactSoftCredit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contact Hard Credit Batch Size</label>
+        <name>npsp__Rollups_Contact_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contact Skew Mode Batch Size</label>
+        <name>npsp__Rollups_Contact_SkewMode_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contact Soft Credit Batch Size</label>
+        <name>npsp__Rollups_Contact_Soft_Credit_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>GAU Batch Size</label>
+        <name>npsp__Rollups_GAU_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incremental: Last N Days Field Override</label>
+        <name>npsp__Rollups_IncrementalLastNDays_FldOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Incremental: Last N Days Value Override</label>
+        <name>npsp__Rollups_IncrementalLastNDays_ValOverride__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Skew Mode Threshold</label>
+        <name>npsp__Rollups_Limit_on_Attached_Opps_for_Skew__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Skew Mode Dispatcher Batch Size</label>
+        <name>npsp__Rollups_Skew_Dispatcher_Batch_Size__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

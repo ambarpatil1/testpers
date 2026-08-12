@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>団体ソフトクレジット</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>取引先</label>
+        <name>npsp__Account__c</name>
+        <relationshipLabel>取引先ソフトクレジット</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>金額</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>商談</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>取引先ソフトクレジット</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>役割</label>
+        <name>npsp__Role__c</name>
+        <picklistValues>
+            <masterLabel>Donation Source</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>取引先ソフトクレジット名</nameFieldLabel>
+</CustomObjectTranslation>

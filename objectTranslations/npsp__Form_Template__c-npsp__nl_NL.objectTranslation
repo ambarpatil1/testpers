@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Formuliersjabloon</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Formuliersjablonen</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Beschrijving</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Versienotatie</label>
+        <name>npsp__Format_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Sjabloon-JSON</label>
+        <name>npsp__Template_JSON__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam van formuliersjabloon</nameFieldLabel>
+</CustomObjectTranslation>

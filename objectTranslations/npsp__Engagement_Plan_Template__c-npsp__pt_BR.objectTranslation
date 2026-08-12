@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Modelo do plano de engajamento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Modelos do plano de engajamento</value>
+    </caseValues>
+    <fieldSets>
+        <label>Gerenciar FS do modelo de PI</label>
+        <name>npsp__ManageEPTemplateFS</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label>Atualizar autom. data venc. tarefa filho</label>
+        <name>npsp__Automatically_Update_Child_Task_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Atribuído padrão</label>
+        <name>npsp__Default_Assignee__c</name>
+        <picklistValues>
+            <masterLabel>Owner of Object for Engagement Plan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Creating Engagement Plan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Reagendar para</label>
+        <name>npsp__Reschedule_To__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ignorar fins de semana</label>
+        <name>npsp__Skip_Weekends__c</name>
+    </fields>
+    <fields>
+        <label>Total de planos de interação</label>
+        <name>npsp__Total_Engagement_Plans__c</name>
+    </fields>
+    <fields>
+        <label>Total de tarefas</label>
+        <name>npsp__Total_Tasks__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do modelo de plano de interação</nameFieldLabel>
+    <webLinks>
+        <label>Gerenciar modelo</label>
+        <name>npsp__Manage_Template</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CustomerTaxCollectedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Tax Collected</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DisclosedByName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Disclosed By</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DisclsReportingPeriodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Disclosure Reporting Period</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmployeeCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Employee Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmployeeTaxWithheldAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Employee Tax Withheld</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmployeeTotalIncomeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Employee Total Income</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Disclosure Summary Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IncomeTaxAccruedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Income Tax Accrued</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IncomeTaxPaidAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Income Tax Paid</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryTaxDueAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Industry Tax Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IntraCompanyDebtAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Intra Company Debt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IntraGroupTrxnRevAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Intra-Group Transaction Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryActivityText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Activity</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProfitLossBeforeTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Profit Loss Before Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SubsidiaryAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Subsidiary Account</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TangibleAssetValue__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tangible Asset Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxJurisdictionName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Jurisdiction</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ThirdPartySalesRevenueAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Third Party Sales Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UncertainTaxPositionVal__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Uncertain Tax Position Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383882389_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>TaxDisclosureSummary_SubsidiaryAccou_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>TaxDisclosureSummary_SubsidiaryAccou_rel</relationshipLabel>
+        <relationshipName>rel_1747383882389_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383884200_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>TaxDisclosureSummary_DisclsReporting_rel</label>
+        <referenceTo>ssot__DisclosureReportingPeriod__dlm</referenceTo>
+        <relationshipLabel>TaxDisclosureSummary_DisclsReporting_rel</relationshipLabel>
+        <relationshipName>rel_1747383884200_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

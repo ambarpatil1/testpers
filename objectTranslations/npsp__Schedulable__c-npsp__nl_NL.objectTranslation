@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VEROUDERD-Planbaar item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VEROUDERD-Planbare items</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Actief</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam van Klasse</label>
+        <name>npsp__Class_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Frequentie</label>
+        <name>npsp__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Laatste Uitvoer</label>
+        <name>npsp__Last_Time_Run__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naam van Opdracht</nameFieldLabel>
+</CustomObjectTranslation>

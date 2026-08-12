@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Zuordnung zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Zuordnungen zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Zuordnung zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Zuordnungen zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Zuordnung zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Zuordnungen zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Zuordnung zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Zuordnungen zur allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <fieldSets>
+        <label>Zusätzliche Felder zum Verwalten von Zuweisungen</label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label>Betrag</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kampagne</label>
+        <name>npsp__Campaign__c</name>
+        <relationshipLabel>Zuweisungen Verwendungszweck</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Verwendungszweck</label>
+        <lookupFilter>
+            <errorMessage>Zuordnungen können nur aktiven allgemeinen Verrechnungseinheiten zugewiesen werden. Zuordnungen, die inaktiven allgemeinen Verrechnungseinheiten zugewiesen wurden, können nicht bearbeitet werden.</errorMessage>
+            <informationalMessage>Es können nur aktive allgemeine Verrechnungseinheiten ausgewählt werden.</informationalMessage>
+        </lookupFilter>
+        <name>npsp__General_Accounting_Unit__c</name>
+        <relationshipLabel>Zuweisungen Verwendungszweck</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opportunity</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Zuweisungen Verwendungszweck</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zahlung</label>
+        <name>npsp__Payment__c</name>
+        <relationshipLabel>Zahlungszuweisungen</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Prozent</label>
+        <name>npsp__Percent__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Wiederkehrende Spende</label>
+        <name>npsp__Recurring_Donation__c</name>
+        <relationshipLabel>Zuweisungen Verwendungszweck</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der Verwendungszweck-Zuweisung</nameFieldLabel>
+    <webLinks>
+        <label>Zuweisungen verwalten</label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
+</CustomObjectTranslation>

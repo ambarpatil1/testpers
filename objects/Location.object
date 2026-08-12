@@ -130,6 +130,18 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>CloseDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -162,10 +174,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>EarliestPickupTimeOffset</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>Email</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -188,19 +196,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>IsEligibleForPickup</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>IsInventoryLocation</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsMobile</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LatestPickupTimeOffset</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -245,14 +245,6 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>PickupProcessingTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>PickupProcessingTimeUnit</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

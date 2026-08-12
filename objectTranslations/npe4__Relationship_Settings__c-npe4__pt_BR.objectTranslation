@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuração de relacionamento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configurações de relacionamento</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Permitir rel. duplicados criados autom.</label>
+        <name>npe4__Allow_AutoCreated_Duplicates__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>OBSOLETO-Disable_RelCM_trigger</label>
+        <name>npe4__DISABLE_RelationshipCM_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>OBSOLETO-Disable_RelContacts_trigger</label>
+        <name>npe4__DISABLE_RelationshipContacts_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>OBSOLETO-Disable_Relationships_trigger</label>
+        <name>npe4__DISABLE_Relationships_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>OBSOLETO-Forçar criação autom. síncrona</label>
+        <name>npe4__Force_Synchronous_Auto_Create__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Campo de gênero</label>
+        <name>npe4__Gender_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Método recíproco</label>
+        <name>npe4__Reciprocal_Method__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de campo de nome de relacionamento</label>
+        <name>npe4__Relationship_Name_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de campo do ID de nome de rel.</label>
+        <name>npe4__Relationship_Name_Id_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Enable_Custom_Field_Sync__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

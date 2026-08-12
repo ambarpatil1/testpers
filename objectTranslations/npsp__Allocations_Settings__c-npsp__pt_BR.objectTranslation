@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuração de alocação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configurações de alocação</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Alocações padrão ativadas</label>
+        <name>npsp__Default_Allocations_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Unidade contábil geral padrão</label>
+        <name>npsp__Default__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>RecTypes de oportunidade excluídos</label>
+        <name>npsp__Excluded_Opp_RecTypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipos de oportunidade excluídos</label>
+        <name>npsp__Excluded_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Alocações de pagamento ativas</label>
+        <name>npsp__Payment_Allocations_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valor de N dias de totalização</label>
+        <name>npsp__Rollup_N_Day_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Usar Ano fiscal em totalizações</label>
+        <name>npsp__Use_Fiscal_Year_for_Rollups__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

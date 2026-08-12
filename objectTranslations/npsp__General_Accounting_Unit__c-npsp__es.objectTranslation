@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cuenta Contable General</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cuentas Contables Generales</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Activo</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Asignación promedio</label>
+        <name>npsp__Average_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Descripción</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha de primera asignación</label>
+        <name>npsp__First_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Mayor asignación</label>
+        <name>npsp__Largest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha de última asignación</label>
+        <name>npsp__Last_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Cantidad de asignaciones últimos N días</label>
+        <name>npsp__Number_of_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Cantidad de asignaciones año pasado</label>
+        <name>npsp__Number_of_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Cantidad de asignaciones este año</label>
+        <name>npsp__Number_of_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Cantidad de asignaciones hace dos años</label>
+        <name>npsp__Number_of_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Menor asignación</label>
+        <name>npsp__Smallest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total asignado últimos N días</label>
+        <name>npsp__Total_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total asignado año pasado</label>
+        <name>npsp__Total_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total asignado este</label>
+        <name>npsp__Total_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total asignado hace dos años</label>
+        <name>npsp__Total_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total de asignaciones</label>
+        <name>npsp__Total_Allocations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Cantidad total de asignaciones</label>
+        <name>npsp__Total_Number_of_Allocations__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de Cuenta Contable General</nameFieldLabel>
+    <webLinks>
+        <label>Volver a calcular totales</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
+</CustomObjectTranslation>

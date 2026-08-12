@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Crédito indireto de conta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Créditos indiretos de conta</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Conta</label>
+        <name>npsp__Account__c</name>
+        <relationshipLabel>Créditos indiretos da conta</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valor</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Oportunidade</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Créditos indiretos da conta</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Função</label>
+        <name>npsp__Role__c</name>
+        <picklistValues>
+            <masterLabel>Donation Source</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do crédito indireto da conta</nameFieldLabel>
+</CustomObjectTranslation>

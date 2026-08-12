@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Crédito indireto parcial</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Créditos indiretos parciais</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Valor</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nome do contato</label>
+        <name>npsp__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de função de contato</label>
+        <name>npsp__Contact_Role_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contato</label>
+        <name>npsp__Contact__c</name>
+        <relationshipLabel>Créditos indiretos parciais</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Oportunidade</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Créditos indiretos parciais</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nome da função</label>
+        <name>npsp__Role_Name__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do crédito indireto parcial</nameFieldLabel>
+    <webLinks>
+        <label>Gerenciar créditos indiretos</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+</CustomObjectTranslation>

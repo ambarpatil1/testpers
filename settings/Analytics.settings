@@ -17,19 +17,24 @@
     <enableAnalyticsSharingEnable>true</enableAnalyticsSharingEnable>
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
+    <enableCioHistoryReportingPref>false</enableCioHistoryReportingPref>
     <enableCreateLegacyDataflows>true</enableCreateLegacyDataflows>
+    <enableCrmaSubsForExpCloud>false</enableCrmaSubsForExpCloud>
     <enableCrtSetupLightningUiPref>true</enableCrtSetupLightningUiPref>
-    <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
+    <enableCurrencySupportInDCRPref>false</enableCurrencySupportInDCRPref>
+    <enableDashboardComponentSnapshot>true</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableDashboardSubOrgEmailPref>false</enableDashboardSubOrgEmailPref>
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
+    <enableDimensionalHierarchyInDcrPref>false</enableDimensionalHierarchyInDcrPref>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFirebirdEditor>false</enableFirebirdEditor>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
     <enableIncludeDisclaimerMessage>false</enableIncludeDisclaimerMessage>
     <enableIncrementalUpsert>false</enableIncrementalUpsert>
     <enableInsights>true</enableInsights>
-    <enableLightningReportBuilder>false</enableLightningReportBuilder>
+    <enableJoinedReportInDcrPref>false</enableJoinedReportInDcrPref>
+    <enableLightningReportBuilder>true</enableLightningReportBuilder>
     <enableLotusNotesImages>false</enableLotusNotesImages>
     <enableMassEnableReportBuilder>true</enableMassEnableReportBuilder>
     <enableNewChartsEngine>true</enableNewChartsEngine>
@@ -43,7 +48,7 @@
     <enablePupparazziForNotifications>false</enablePupparazziForNotifications>
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
-    <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
+    <enableRemoveFooterFromRepExp>true</enableRemoveFooterFromRepExp>
     <enableReportCdnPref>true</enableReportCdnPref>
     <enableReportCustomTextExportPref>false</enableReportCustomTextExportPref>
     <enableReportEscapeCharsPref>false</enableReportEscapeCharsPref>
@@ -64,13 +69,13 @@
     <enableTableauHyperOutputConnector>false</enableTableauHyperOutputConnector>
     <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
     <enableWaveAssetsNewDateVersion>false</enableWaveAssetsNewDateVersion>
-    <enableWaveIndexMVDim>true</enableWaveIndexMVDim>
+    <enableWaveIndexMVDim>false</enableWaveIndexMVDim>
     <enableWaveIndexMVDimV2>false</enableWaveIndexMVDimV2>
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
     <enableWaveReplication>false</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
-    <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>
+    <enableWaveTrendedDatasetCleanup>true</enableWaveTrendedDatasetCleanup>
     <enableWriteToDataCloud>false</enableWriteToDataCloud>
     <isDiscoveryOptimizationEnabled>false</isDiscoveryOptimizationEnabled>
     <isHighVolumePushbackEnabled>false</isHighVolumePushbackEnabled>
@@ -79,6 +84,7 @@
     <recipeDirectDataPref>true</recipeDirectDataPref>
     <recipeFiscalPref>false</recipeFiscalPref>
     <recipePreCachingOptOut>false</recipePreCachingOptOut>
+    <recipeScheduleExportPref>false</recipeScheduleExportPref>
     <recipeStagedDataPref>false</recipeStagedDataPref>
     <replaceBlankMeasuresWithNulls>false</replaceBlankMeasuresWithNulls>
     <turnOnTimeZones>false</turnOnTimeZones>

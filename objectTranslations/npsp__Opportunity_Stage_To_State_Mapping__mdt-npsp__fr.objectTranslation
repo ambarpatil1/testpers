@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Étape d&apos;opportunité pour le mappage d&apos;état</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Étapes d&apos;opportunité pour le mappage d&apos;état</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Étape d&apos;opportunité</label>
+        <name>npsp__Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>État de l&apos;opportunité</label>
+        <name>npsp__Opportunity_State__c</name>
+        <picklistValues>
+            <masterLabel>Committed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finalized</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

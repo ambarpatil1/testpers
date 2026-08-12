@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataConnector xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attributes>
+        <fullName>IcebergOverride_storageSourceType</fullName>
+        <capabilities>Hidden</capabilities>
+        <capabilities>DataIn</capabilities>
+        <dataType>COMBOBOX</dataType>
+        <defaultValue>CATALOG_PROVIDED</defaultValue>
+        <editable>true</editable>
+        <externalName>storageSourceType</externalName>
+        <masterLabel>Storage Type</masterLabel>
+        <order>20</order>
+        <readonly>false</readonly>
+        <required>true</required>
+        <secure>true</secure>
+    </attributes>
+    <description>Connect to Apache Iceberg tables</description>
+    <features>Override</features>
+    <icon>Salesforce</icon>
+    <licenseAgreement>https://www.salesforce.com/company/legal</licenseAgreement>
+    <masterLabel>Iceberg Override</masterLabel>
+    <ownerLocation>Settle, USA</ownerLocation>
+    <ownerLogo>Salesforce</ownerLogo>
+    <ownerName>Slack</ownerName>
+    <parentConnector>ICEBERG</parentConnector>
+    <releaseLevel>BETA</releaseLevel>
+    <supportMessage>Click download logs before reachout</supportMessage>
+    <supportPhone>+15788467513</supportPhone>
+</DataConnector>

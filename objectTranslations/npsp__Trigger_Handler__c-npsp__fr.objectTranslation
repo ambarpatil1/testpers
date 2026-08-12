@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gestionnaire de déclencheur</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Gestionnaires de déclencheur</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Actif</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Événements postérieurs asynchrones</label>
+        <name>npsp__Asynchronous__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe</label>
+        <name>npsp__Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ordre de chargement</label>
+        <name>npsp__Load_Order__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Objet</label>
+        <name>npsp__Object__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Action de déclencheur</label>
+        <name>npsp__Trigger_Action__c</name>
+        <picklistValues>
+            <masterLabel>AfterDelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterInsert</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterUndelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterUpdate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeDelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeInsert</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeUpdate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Géré par utilisateur</label>
+        <name>npsp__User_Managed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Noms d&apos;utilisateur à exclure</label>
+        <name>npsp__Usernames_to_Exclude__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du gestionnaire de déclencheur</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

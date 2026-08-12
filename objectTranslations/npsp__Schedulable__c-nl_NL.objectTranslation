@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VEROUDERD-Planbaar item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VEROUDERD-Planbare items</value>
+    </caseValues>
+    <fields>
+        <help>Bepaalt of de opdracht actief zal zijn of niet.</help>
+        <label></label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help>Klasse die wordt gepland om te draaien op een bepaalde frequentie.</help>
+        <label></label>
+        <name>npsp__Class_Name__c</name>
+    </fields>
+    <fields>
+        <help>Hoe vaak de opdracht moet worden uitgevoerd.</help>
+        <label></label>
+        <name>npsp__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Laatste keer dat de opdracht werd uitgevoerd.</help>
+        <label></label>
+        <name>npsp__Last_Time_Run__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naam van Opdracht</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,2385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrandId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Brand</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BrickName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Brick Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Channel</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter01Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter01</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter02Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter02</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter03Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter03</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter04Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter04</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter05Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter05</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter06Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter06</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter07Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter07</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Filter08Text__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Filter08</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Life Sci Drug Distribution Data Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure01TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure01 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure02TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure02 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure03TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure03 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure04TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure04 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure05TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure05 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure06TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure06 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure07TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure07 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period01Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period01</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period02Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period02</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period03Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period03</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period04Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period04</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period05Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period05</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period06Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period06</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period07Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period07</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period08Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period08</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period09Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period09</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period10Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period10</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period11Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period11</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period12Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period13Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period13</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period14Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period14</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period15Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period15</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period16Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period16</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period17Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period17</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period18Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period18</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period19Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period19</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period20Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period21Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period21</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period22Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period23Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period23</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period24Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period24</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period25Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08Period26Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Period26</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Measure08TotalNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Measure08 Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period01LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period01 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period02LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period02 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period03LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period03 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period04LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period04 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period05LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period05 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period06LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period06 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period07LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period07 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period08LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period08 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period09LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period09 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period10LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period10 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period11LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period11 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period12LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period12 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period13LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period13 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period14LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period14 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period15LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period15 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period16LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period16 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period17LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period17 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period18LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period18 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period19LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period19 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period20LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period20 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period21LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period21 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period22LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period22 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period23LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period23 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period24LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period24 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period25LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period25 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Period26LabelText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period26 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PeriodType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Period Type</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SummaryCapturedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Summary Captured Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TerritoryGeographicAssignmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Territory Geographic Assignment</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TerritoryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Territory</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747384195542_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceDrugDistributionData_Mark_rel</label>
+        <referenceTo>ssot__LifeScienceMarketableProduct__dlm</referenceTo>
+        <relationshipLabel>LifeScienceDrugDistributionData_Mark_rel</relationshipLabel>
+        <relationshipName>rel_1747384195542_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747384202419_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceDrugDistributionData_Acco_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>LifeScienceDrugDistributionData_Acco_rel</relationshipLabel>
+        <relationshipName>rel_1747384202419_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747384208125_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceDrugDistributionData_Terr_rel</label>
+        <referenceTo>ssot__SalesTerritory__dlm</referenceTo>
+        <relationshipLabel>LifeScienceDrugDistributionData_Terr_rel</relationshipLabel>
+        <relationshipName>rel_1747384208125_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747384213705_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceDrugDistributionData_Prod_rel</label>
+        <referenceTo>ssot__LifeScienceMarketableProduct__dlm</referenceTo>
+        <relationshipLabel>LifeScienceDrugDistributionData_Prod_rel</relationshipLabel>
+        <relationshipName>rel_1747384213705_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747384220719_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>LifeScienceDrugDistributionData_Bran_rel</label>
+        <referenceTo>ssot__LifeScienceMarketableProduct__dlm</referenceTo>
+        <relationshipLabel>LifeScienceDrugDistributionData_Bran_rel</relationshipLabel>
+        <relationshipName>rel_1747384220719_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

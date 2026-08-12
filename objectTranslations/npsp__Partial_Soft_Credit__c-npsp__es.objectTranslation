@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Crédito blando parcial</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Créditos blandos parciales</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Importe</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre del contacto</label>
+        <name>npsp__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Id. de la función del contacto</label>
+        <name>npsp__Contact_Role_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contacto</label>
+        <name>npsp__Contact__c</name>
+        <relationshipLabel>Créditos blandos parciales</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Oportunidad</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Créditos blandos parciales</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre de la función</label>
+        <name>npsp__Role_Name__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de crédito blando parcial</nameFieldLabel>
+    <webLinks>
+        <label>Gestionar créditos blandos</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+</CustomObjectTranslation>

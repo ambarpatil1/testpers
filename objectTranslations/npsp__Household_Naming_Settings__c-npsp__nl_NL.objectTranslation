@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Naaminstellingen voor huishoudens</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Naaminstellingen voor huishoudens</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Telling Overschrijding Contactpersoon</label>
+        <name>npsp__Contact_Overrun_Count__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Formaat van Formele Begroeting</label>
+        <name>npsp__Formal_Greeting_Format__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Formaat Huishoudennaam</label>
+        <name>npsp__Household_Name_Format__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Implementatieklasse</label>
+        <name>npsp__Implementing_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Formaat van Informele Begroeting</label>
+        <name>npsp__Informal_Greeting_Format__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naamconnector</label>
+        <name>npsp__Name_Connector__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naamoverschrijding</label>
+        <name>npsp__Name_Overrun__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

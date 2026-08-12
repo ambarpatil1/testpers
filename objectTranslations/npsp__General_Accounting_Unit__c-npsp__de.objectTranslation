@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Allgemeine Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Allgemeinen Verrechnungseinheiten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Allgemeine Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Allgemeinen Verrechnungseinheiten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Allgemeinen Verrechnungseinheiten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Allgemeinen Verrechnungseinheit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Allgemeinen Verrechnungseinheiten</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Aktiv</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Durchschnitt Zuweisung</label>
+        <name>npsp__Average_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Beschreibung</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Erstes Zuweisungsdatum</label>
+        <name>npsp__First_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Größte Zuweisung</label>
+        <name>npsp__Largest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Letztes Zuweisungsdatum</label>
+        <name>npsp__Last_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl Zuweisungen in d. letzten N Tagen</label>
+        <name>npsp__Number_of_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Zuweisungen letztes Jahr</label>
+        <name>npsp__Number_of_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Zuweisungen dieses Jahr</label>
+        <name>npsp__Number_of_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Zuweisungen vor zwei Jahren</label>
+        <name>npsp__Number_of_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kleinste Zuweisung</label>
+        <name>npsp__Smallest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zuweisungen gesamt in d. letzten N Tagen</label>
+        <name>npsp__Total_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zuweisungen gesamt im letzten Jahr</label>
+        <name>npsp__Total_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zuweisungen gesamt in diesem Jahr</label>
+        <name>npsp__Total_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zuweisungen gesamt vor zwei Jahren</label>
+        <name>npsp__Total_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zuweisungen insgesamt</label>
+        <name>npsp__Total_Allocations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Zuweisungen gesamt</label>
+        <name>npsp__Total_Number_of_Allocations__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name des Verwendungszwecks</nameFieldLabel>
+    <webLinks>
+        <label>Rollups neu berechnen</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
+</CustomObjectTranslation>

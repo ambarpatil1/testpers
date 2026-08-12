@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>リレーションルックアップ</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>有効</label>
+        <name>npe4__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>女性</label>
+        <name>npe4__Female__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>男性</label>
+        <name>npe4__Male__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>どちらでもない</label>
+        <name>npe4__Neutral__c</name>
+    </fields>
+</CustomObjectTranslation>

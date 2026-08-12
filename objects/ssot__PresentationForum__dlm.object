@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ForumReferenceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Forum Reference</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ForumReferenceObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Forum Reference Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeolocationDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Geolocation Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeolocationLatitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Geolocation Latitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeolocationLongitude__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Geolocation Longitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GeolocationMissingReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Geolocation Missing Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Presentation Forum Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PresentationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Presentation</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1752800688230_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PresentationForum_ForumReferenceId_m_rel</label>
+        <referenceTo>ssot__ManagedEvent__dlm</referenceTo>
+        <relationshipLabel>PresentationForum_ForumReferenceId_m_rel</relationshipLabel>
+        <relationshipName>rel_1752800688230_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1752800700822_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PresentationForum_ForumReferenceId_m_rel</label>
+        <referenceTo>ssot__Visit__dlm</referenceTo>
+        <relationshipLabel>PresentationForum_ForumReferenceId_m_rel</relationshipLabel>
+        <relationshipName>rel_1752800700822_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

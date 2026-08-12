@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Umgebung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Umgebungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Umgebung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Umgebungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Umgebung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Umgebungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Umgebung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Umgebungen</value>
+    </caseValues>
+    <fields>
+        <label>Kann Änderungen verfolgen</label>
+        <name>sf_devops__Can_Track_Changes__c</name>
+    </fields>
+    <fields>
+        <label>Abgelaufen</label>
+        <name>sf_devops__Expired__c</name>
+    </fields>
+    <fields>
+        <label>Letzter Überarbeitungszähler</label>
+        <name>sf_devops__Last_Revision_Counter__c</name>
+    </fields>
+    <fields>
+        <label>Anmeldeinformation mit Name</label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>Vorgangsergebnis</label>
+        <name>sf_devops__Operation_Result__c</name>
+        <relationshipLabel>Umgebungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Organisations-ID</label>
+        <name>sf_devops__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label>Projekt</label>
+        <name>sf_devops__Project__c</name>
+        <relationshipLabel>Umgebungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Aktualisierungsdatum</label>
+        <name>sf_devops__Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label>Quelle aktualisieren</label>
+        <name>sf_devops__Refresh_Source__c</name>
+        <relationshipLabel>Umgebungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ersetzt</label>
+        <name>sf_devops__Replaces__c</name>
+        <relationshipLabel>Ersetzt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Testumgebung</label>
+        <name>sf_devops__Test_Environment__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Umgebungsname</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Das zugehörige Feld &quot;Expired__c&quot; einer Umgebung kann nicht auf &quot;false&quot; festgelegt sein.</errorMessage>
+        <name>sf_devops__Expired_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Eine Umgebung, deren Feld &quot;Expired__c&quot; auf &quot;true&quot; festgelegt ist, kann nicht eingefügt werden.</errorMessage>
+        <name>sf_devops__Expired_Insert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Eine Ersatzumgebung muss abgelaufen sein.</errorMessage>
+        <name>sf_devops__Expired_Replaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Refresh_Source&quot; und &quot;Refresh_Date&quot; müssen beide festgelegt oder beide leer sein.</errorMessage>
+        <name>sf_devops__Refresh_Source_And_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

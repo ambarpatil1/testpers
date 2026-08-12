@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityThemeDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <bundlesInfo>
+        <description>Batman Feature1 description</description>
+        <order>1</order>
+        <title>Batman Feature1</title>
+        <type>Highlight</type>
+    </bundlesInfo>
+    <bundlesInfo>
+        <image>siteAsset_d90e2d5ce4cf4d8899e233c051091246</image>
+        <order>1</order>
+        <title>siteAsset_d90e2d5ce4cf4d8899e233c051091246</title>
+        <type>PreviewImage</type>
+    </bundlesInfo>
+    <defaultBrandingSet>Batman</defaultBrandingSet>
+    <description>Batman theme</description>
+    <enableExtendedCleanUpOnDelete>true</enableExtendedCleanUpOnDelete>
+    <masterLabel>Batman</masterLabel>
+    <publisher>SFKeystone org</publisher>
+    <themeRouteOverride>
+        <pageAttributes>{&quot;PageName&quot;:&quot;Home&quot;}</pageAttributes>
+        <pageType>comm__standardPage</pageType>
+        <themeLayoutType>Home</themeLayoutType>
+    </themeRouteOverride>
+    <themeSetting>
+        <themeLayout>Batman_themeLayout_Default</themeLayout>
+        <themeLayoutType>Login</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Batman_themeLayout_Default</themeLayout>
+        <themeLayoutType>Home</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Batman_themeLayout_Default</themeLayout>
+        <themeLayoutType>Inner</themeLayoutType>
+    </themeSetting>
+</CommunityThemeDefinition>

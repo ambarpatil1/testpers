@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>KQ_generationUpdateId__c</fullName>
+        <label>Key Qualifier Generation Update Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_id__c</fullName>
+        <label>Key Qualifier Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>cloud__c</fullName>
+        <label>Cloud</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>feature__c</fullName>
+        <label>Feature</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>generationId__c</fullName>
+        <label>Generation Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>generationUpdateId__c</fullName>
+        <label>Generation Update Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>generationUpdate__c</fullName>
+        <label>Generation Update</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>id__c</fullName>
+        <label>Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>orgId__c</fullName>
+        <label>Org Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>rel_1753303757991_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>GenAIAppGeneration_generationUpdateI_rel</label>
+        <referenceTo>GenAIFeedback__dlm</referenceTo>
+        <relationshipLabel>GenAIAppGeneration_generationUpdateI_rel</relationshipLabel>
+        <relationshipName>rel_1753303757991_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>timestamp__c</fullName>
+        <label>Timestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+</CustomObject>

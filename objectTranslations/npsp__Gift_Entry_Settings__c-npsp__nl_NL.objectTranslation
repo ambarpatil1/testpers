@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Instellingen voor giftopgave</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Instellingen voor giftopgave</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Standaardsjabloon voor Opgave van gift</label>
+        <name>npsp__Default_Gift_Entry_Template__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Gatewaytoewijzing inschakelen</label>
+        <name>npsp__Enable_Gateway_Assignment__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opgave van gift inschakelen</label>
+        <name>npsp__Enable_Gift_Entry__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Terugk. donaties in Opg. van gift insch.</label>
+        <name>npsp__Enable_Recurring_Donations_in_Gift_Entry__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

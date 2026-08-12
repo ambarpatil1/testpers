@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>継続支援状況の対応付け</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>継続支援の状態</label>
+        <name>npsp__State__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lapsed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>継続支援の状況</label>
+        <name>npsp__Status__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActualDeliveryDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Delivery Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdditionalInformationText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Additional Information</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeliveryStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DistributorName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Distributor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpectedDeliveryDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expected Delivery Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Visit Requested Sample Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsCalcForDirToPhysician__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Calculated For Direct To Physician</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTrackedForSmplTrxnLimit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Tracked For Sample Transaction Limit</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OrderTrackingIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Order Tracking Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProviderVisitId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provider Visit</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShippedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shipped Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShippingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shipping Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ViolationType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Violation Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WarningMessage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Warning Message</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561370248_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProviderVisitRequestedSample_Provide_rel</label>
+        <referenceTo>ssot__ProviderVisit__dlm</referenceTo>
+        <relationshipLabel>ProviderVisitRequestedSample_Provide_rel</relationshipLabel>
+        <relationshipName>rel_1745561370248_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1745561375516_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ProviderVisitRequestedSample_Product_rel</label>
+        <referenceTo>ssot__Product__dlm</referenceTo>
+        <relationshipLabel>ProviderVisitRequestedSample_Product_rel</relationshipLabel>
+        <relationshipName>rel_1745561375516_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

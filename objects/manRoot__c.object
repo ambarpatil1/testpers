@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>manPar10__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 10</label>
+        <referenceTo>manPar10__c</referenceTo>
+        <relationshipLabel>manPar 10</relationshipLabel>
+        <relationshipName>manPar10</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar11__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 11</label>
+        <referenceTo>manPar11__c</referenceTo>
+        <relationshipLabel>manPar 11</relationshipLabel>
+        <relationshipName>manPar11</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar12__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 12</label>
+        <referenceTo>manPar12__c</referenceTo>
+        <relationshipLabel>manPar 12</relationshipLabel>
+        <relationshipName>manPar12</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar13__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 13</label>
+        <referenceTo>manPar13__c</referenceTo>
+        <relationshipLabel>manPar 13</relationshipLabel>
+        <relationshipName>manPar13</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar14__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 14</label>
+        <referenceTo>manPar14__c</referenceTo>
+        <relationshipLabel>manPar 14</relationshipLabel>
+        <relationshipName>manPar14</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar15__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 15</label>
+        <referenceTo>manPar15__c</referenceTo>
+        <relationshipLabel>manPar 15</relationshipLabel>
+        <relationshipName>manPar15</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar16__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 16</label>
+        <referenceTo>manPar16__c</referenceTo>
+        <relationshipLabel>manPar 16</relationshipLabel>
+        <relationshipName>manPar16</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar17__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 17</label>
+        <referenceTo>manPar17__c</referenceTo>
+        <relationshipLabel>manPar 17</relationshipLabel>
+        <relationshipName>manPar17</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar18__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 18</label>
+        <referenceTo>manPar18__c</referenceTo>
+        <relationshipLabel>manPar 18</relationshipLabel>
+        <relationshipName>manPar18</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar19__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 19</label>
+        <referenceTo>manPar19__c</referenceTo>
+        <relationshipLabel>manPar 19</relationshipLabel>
+        <relationshipName>manPar19</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar1__c</fullName>
+        <label>manPar 1</label>
+        <referenceTo>manPar1__c</referenceTo>
+        <relationshipLabel>manPar 1</relationshipLabel>
+        <relationshipName>manPar1</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>manPar20__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 20</label>
+        <referenceTo>manPar20__c</referenceTo>
+        <relationshipLabel>manPar 20</relationshipLabel>
+        <relationshipName>manPar20</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar2__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 2</label>
+        <referenceTo>manPar2__c</referenceTo>
+        <relationshipLabel>manPar 2</relationshipLabel>
+        <relationshipName>manPar2</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar3__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 3</label>
+        <referenceTo>manPar3__c</referenceTo>
+        <relationshipLabel>manPar 3</relationshipLabel>
+        <relationshipName>manPar3</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar4__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 4</label>
+        <referenceTo>manPar4__c</referenceTo>
+        <relationshipLabel>manPar 4</relationshipLabel>
+        <relationshipName>manPar4</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar5__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 5</label>
+        <referenceTo>manPar5__c</referenceTo>
+        <relationshipLabel>manPar 5</relationshipLabel>
+        <relationshipName>manPar5</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar6__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 6</label>
+        <referenceTo>manPar6__c</referenceTo>
+        <relationshipLabel>manPar 6</relationshipLabel>
+        <relationshipName>manPar6</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar7__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 7</label>
+        <referenceTo>manPar7__c</referenceTo>
+        <relationshipLabel>manPar 7</relationshipLabel>
+        <relationshipName>manPar7</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar8__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 8</label>
+        <referenceTo>manPar8__c</referenceTo>
+        <relationshipLabel>manPar 8</relationshipLabel>
+        <relationshipName>manPar8</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>manPar9__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>manPar 9</label>
+        <referenceTo>manPar9__c</referenceTo>
+        <relationshipLabel>manPar 9</relationshipLabel>
+        <relationshipName>manPar9</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>manRoot</label>
+    <nameField>
+        <label>manRoot Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>manRoots</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

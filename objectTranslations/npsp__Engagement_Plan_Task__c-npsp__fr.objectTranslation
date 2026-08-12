@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tâche du plan d&apos;engagement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tâches du plan d&apos;engagement</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Attribué à</label>
+        <name>npsp__Assigned_To__c</name>
+        <relationshipLabel>Tâches du plan d’engagement</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Commentaires</label>
+        <name>npsp__Comments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Jours après</label>
+        <name>npsp__Days_After__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Modèle de plan d’engagement</label>
+        <name>npsp__Engagement_Plan_Template__c</name>
+        <relationshipLabel>Tâches du plan d’engagement</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tâche parente</label>
+        <name>npsp__Parent_Task__c</name>
+        <relationshipLabel>Tâches du plan d’engagement</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Priorité</label>
+        <name>npsp__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Heure de rappel</label>
+        <name>npsp__Reminder_Time__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rappel</label>
+        <name>npsp__Reminder__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Envoyer l’e-mail</label>
+        <name>npsp__Send_Email__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Statut</label>
+        <name>npsp__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on someone else</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type</label>
+        <name>npsp__Type__c</name>
+        <picklistValues>
+            <masterLabel>Call</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Sujet</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

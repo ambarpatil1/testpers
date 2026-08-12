@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Haushalt</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Haushalte</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Haushalt</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Haushalte</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Haushalts</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Haushalte</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Haushalt</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Haushalten</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>npo02__Manage_Household_Custom</name>
+    </fieldSets>
+    <fields>
+        <label>Adressat</label>
+        <name>npo02__Addressee__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Immer anonym</label>
+        <name>npo02__Always_Anonymous__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Durchschnittliche Spende</label>
+        <name>npo02__AverageAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Jahr der besten Spende gesamt</label>
+        <name>npo02__Best_Gift_Year_Total__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Jahr der besten Spende</label>
+        <name>npo02__Best_Gift_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Datum der ersten Spende</label>
+        <name>npo02__FirstCloseDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Formelle Anrede</label>
+        <name>npo02__Formal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postanschrift</label>
+        <name>npo02__Formula_MailingAddress__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>E-Mail-Adresse des Haushalts</label>
+        <name>npo02__HouseholdEmail__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Haushalt-Telefon</label>
+        <name>npo02__HouseholdPhone__c</name>
+    </fields>
+    <fields>
+        <label>Haushalt-Kennung</label>
+        <name>npo02__Household_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Informelle Anrede</label>
+        <name>npo02__Informal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Größte Spende</label>
+        <name>npo02__LargestAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Datum der letzten Spende</label>
+        <name>npo02__LastCloseDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Betrag der letzten Mitgliedschaft</label>
+        <name>npo02__LastMembershipAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Datum der letzten Mitgliedschaft</label>
+        <name>npo02__LastMembershipDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ebene der letzten Mitgliedschaft</label>
+        <name>npo02__LastMembershipLevel__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ursprung der letzten Mitgliedschaft</label>
+        <name>npo02__LastMembershipOrigin__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Betrag der letzten Spende</label>
+        <name>npo02__LastOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postanschrift Stadt</label>
+        <name>npo02__MailingCity__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postanschrift Land</label>
+        <name>npo02__MailingCountry__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postanschrift PLZ</label>
+        <name>npo02__MailingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postanschrift Bundesstaat/Provinz</label>
+        <name>npo02__MailingState__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postanschrift Straße</label>
+        <name>npo02__MailingStreet__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Enddatum der Mitgliedschaft</label>
+        <name>npo02__MembershipEndDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Beitrittsdatum der Mitgliedschaft</label>
+        <name>npo02__MembershipJoinDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zeitraum der Mitgliedschaft</label>
+        <name>npo02__Membership_Span__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Mitgliedschaft-Status</label>
+        <name>npo02__Membership_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Gesamtzahl der Spenden</label>
+        <name>npo02__NumberOfClosedOpps__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Mitgliedschaften</label>
+        <name>npo02__NumberOfMembershipOpps__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Spenden gesamt vor zwei Jahren</label>
+        <name>npo02__OppAmount2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Spenden gesamt in letzten N Tagen</label>
+        <name>npo02__OppAmountLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Spenden gesamt im letzten Jahr</label>
+        <name>npo02__OppAmountLastYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Spenden gesamt dieses Jahr</label>
+        <name>npo02__OppAmountThisYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Spenden vor zwei Jahren</label>
+        <name>npo02__OppsClosed2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl Spenden in letzten N Tagen</label>
+        <name>npo02__OppsClosedLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Spenden letztes Jahr</label>
+        <name>npo02__OppsClosedLastYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Anzahl der Spenden dieses Jahr</label>
+        <name>npo02__OppsClosedThisYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>_SYSTEM: BENUTZERDEFINIERTE BENENNUNG</label>
+        <name>npo02__SYSTEM_CUSTOM_NAMING__c</name>
+        <picklistValues>
+            <masterLabel>Formal_Greeting__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informal_Greeting__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kleinste Spende</label>
+        <name>npo02__SmallestAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Gesamtbetrag der Mitgliedschaft</label>
+        <name>npo02__TotalMembershipOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Spenden gesamt</label>
+        <name>npo02__TotalOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Number_of_Household_Members__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Haushalt-Name</nameFieldLabel>
+    <webLinks>
+        <label>Adresse des Haushalts zu Kontakten hinzufügen</label>
+        <name>npo02__Copy_Household_Address_to_Contacts</name>
+    </webLinks>
+</CustomObjectTranslation>

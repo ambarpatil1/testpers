@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <IndustriesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <appointmentDistributionOrgPref>false</appointmentDistributionOrgPref>
+    <enableAIAccelerator>false</enableAIAccelerator>
     <enableAccountScoreEnabled>false</enableAccountScoreEnabled>
-    <enableAnyResourceTypeOrgPref>false</enableAnyResourceTypeOrgPref>
-    <enableAppFrmAnywhereOrgPref>false</enableAppFrmAnywhereOrgPref>
-    <enableAppInviteOrgPref>false</enableAppInviteOrgPref>
-    <enableCapacitySchedulingPref>false</enableCapacitySchedulingPref>
-    <enableDepriveSoqlAccessGuestUserOrgPref>true</enableDepriveSoqlAccessGuestUserOrgPref>
-    <enableDepriveSoqlAccessOrgPref>true</enableDepriveSoqlAccessOrgPref>
+    <enableAutoIdentifyDocAITemplate>false</enableAutoIdentifyDocAITemplate>
+    <enableDataCloudEventsOnTimeline>false</enableDataCloudEventsOnTimeline>
     <enableDontSharePartyprofWPortalOrgPref>false</enableDontSharePartyprofWPortalOrgPref>
-    <enableDropInAppointmentsOrgPref>false</enableDropInAppointmentsOrgPref>
-    <enableEventManagementOrgPref>false</enableEventManagementOrgPref>
-    <enableEventWriteOrgPref>false</enableEventWriteOrgPref>
-    <enableMultiResourceOrgPref>false</enableMultiResourceOrgPref>
-    <enableMultipleTopicsForShiftsOrgPref>false</enableMultipleTopicsForShiftsOrgPref>
-    <enableOverbookingOrgPref>false</enableOverbookingOrgPref>
+    <enableNewTimelineSetupFlow>false</enableNewTimelineSetupFlow>
     <enablePartyProfileParentSharingOrgPref>false</enablePartyProfileParentSharingOrgPref>
     <enablePartyprofParentMultiSharingOrgPref>false</enablePartyprofParentMultiSharingOrgPref>
-    <enablePreBookedFallbackMechOrgPref>false</enablePreBookedFallbackMechOrgPref>
-    <enableSchedulerPaymentsPref>false</enableSchedulerPaymentsPref>
-    <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
-    <enableTopicOrTemplate>false</enableTopicOrTemplate>
-    <enableTopicTimeSlot>true</enableTopicTimeSlot>
+    <enableRecordAlertCustomSharingPref>false</enableRecordAlertCustomSharingPref>
+    <enableScoringFrameworkCRMAPref>false</enableScoringFrameworkCRMAPref>
+    <enableScoringFrameworkOrgPref>false</enableScoringFrameworkOrgPref>
+    <enableSmartTags>false</enableSmartTags>
+    <enableTimelineCachePref>true</enableTimelineCachePref>
+    <enableTimelinePref>false</enableTimelinePref>
     <participantRecordDeactivateUser>PreventDeactivateUserWithParticipantRecords</participantRecordDeactivateUser>
     <partyProfMultiShrPrtnrsOrgPref>false</partyProfMultiShrPrtnrsOrgPref>
     <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>

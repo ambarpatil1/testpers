@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mappage d&apos;objets d&apos;importation de données</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mappages d&apos;objets d&apos;importation de données</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Classe logique de mappage personnalisée</label>
+        <name>npsp__Custom_Mapping_Logic_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ensemble mappages objets import. données</label>
+        <name>npsp__Data_Import_Object_Mapping_Set__c</name>
+        <relationshipLabel>Mappages d&apos;objets Importation de données</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom de champ de l&apos;enregistrement importé</label>
+        <name>npsp__Imported_Record_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom champ statut enregistrement importé</label>
+        <name>npsp__Imported_Record_Status_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>Est supprimé</label>
+        <name>npsp__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom objet Importation de données hérité</label>
+        <name>npsp__Legacy_Data_Import_Object_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom d&apos;API de l&apos;objet</label>
+        <name>npsp__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Prédécesseur</label>
+        <name>npsp__Predecessor__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Champ de relation</label>
+        <name>npsp__Relationship_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Relation avec le prédécesseur</label>
+        <name>npsp__Relationship_To_Predecessor__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Predecessor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

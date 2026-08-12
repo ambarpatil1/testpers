@@ -1,12 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>View Adoption and Usage Metrics</description>
+    <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
-    <label>LightningInstrumentation</label>
+    <label>Usage</label>
     <navType>Standard</navType>
+    <setupExperience>all</setupExperience>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>Explosive_Precursor_File__c</tabs>
+    <tabs>parent1__c</tabs>
+    <tabs>parent2__c</tabs>
+    <tabs>parent3__c</tabs>
+    <tabs>parent4__c</tabs>
+    <tabs>child1__c</tabs>
+    <tabs>child2__c</tabs>
+    <tabs>child3__c</tabs>
+    <tabs>child4__c</tabs>
+    <tabs>child5__c</tabs>
+    <tabs>parent5__c</tabs>
+    <tabs>parent6__c</tabs>
+    <tabs>junctionObj__c</tabs>
+    <tabs>vaultp1__c</tabs>
+    <tabs>vaultc1__c</tabs>
+    <tabs>vaultc2__c</tabs>
+    <tabs>vaultc3__c</tabs>
+    <tabs>ExternalObject__x</tabs>
+    <tabs>Notification__c</tabs>
+    <tabs>User_Notification__c</tabs>
+    <tabs>CustomObejct1__c</tabs>
+    <tabs>CustomObject2__c</tabs>
+    <tabs>CustomObject3__c</tabs>
+    <tabs>CustObj__c</tabs>
+    <tabs>CustObj2__c</tabs>
+    <tabs>CustObj3__c</tabs>
+    <tabs>testorg__c</tabs>
+    <tabs>dlConfig__c</tabs>
+    <tabs>CustomAA__c</tabs>
+    <tabs>CustomBB__c</tabs>
+    <tabs>AshokCustomobj__c</tabs>
+    <tabs>AshokLiveTest__c</tabs>
+    <tabs>Just_for_testing__c</tabs>
+    <tabs>synth__c</tabs>
+    <tabs>Testing_for_backup_CI_job__c</tabs>
+    <tabs>Thiru_object__c</tabs>
+    <tabs>childd1__c</tabs>
+    <tabs>manPar1__c</tabs>
+    <tabs>manPar10__c</tabs>
+    <tabs>manPar11__c</tabs>
+    <tabs>manPar12__c</tabs>
+    <tabs>vaultA__c</tabs>
+    <tabs>vaultB__c</tabs>
+    <tabs>vaultC__c</tabs>
+    <tabs>vaultD__c</tabs>
+    <tabs>vaultE__c</tabs>
+    <tabs>vaultF__c</tabs>
+    <tabs>vaultG__c</tabs>
+    <tabs>vaultH__c</tabs>
+    <tabs>vaultJ__c</tabs>
+    <tabs>vaultK__c</tabs>
+    <tabs>vaultL__c</tabs>
+    <tabs>vaultM__c</tabs>
+    <tabs>vaultN__c</tabs>
+    <tabs>vaultO__c</tabs>
+    <tabs>vaultP__c</tabs>
+    <tabs>SBQQ_Discount_Schedule__c</tabs>
+    <tabs>manageid1__c</tabs>
+    <tabs>manageidP__c</tabs>
+    <tabs>Sowjanya__c</tabs>
+    <tabs>Email_validation__c</tabs>
+    <tabs>masking__c</tabs>
+    <tabs>Sowjanya1__c</tabs>
+    <tabs>Sowjanya2__c</tabs>
+    <tabs>Sowjanya3__c</tabs>
+    <tabs>Sowjanya4__c</tabs>
+    <tabs>masktest__c</tabs>
+    <tabs>parent__c</tabs>
+    <tabs>child__c</tabs>
+    <tabs>arjProject__c</tabs>
+    <tabs>Cmp_res__c</tabs>
+    <tabs>testCustomObjZub__c</tabs>
+    <tabs>ArCO1__c</tabs>
+    <tabs>ArCo2__c</tabs>
+    <tabs>Intern__c</tabs>
+    <tabs>Object21__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

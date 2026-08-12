@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>KQ_gatewayRequestId__c</fullName>
+        <label>Key Qualifier Gateway Request Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>appType__c</fullName>
+        <label>App Type</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>botVersionId__c</fullName>
+        <label>Bot Version Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>cloud__c</fullName>
+        <label>Cloud</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>completionTokens__c</fullName>
+        <label>Completion Tokens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>enableInputSafetyScoring__c</fullName>
+        <label>Enable Input Safety Scoring</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>enableOutputSafetyScoring__c</fullName>
+        <label>Enable Output Safety Scoring</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>enablePiiMasking__c</fullName>
+        <label>Enable Pii Masking</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>feature__c</fullName>
+        <label>Feature</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>frequencyPenalty__c</fullName>
+        <label>Frequency Penalty</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>gatewayRequestId__c</fullName>
+        <label>Gateway Request Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>generationGroupId__c</fullName>
+        <label>Generation Group Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>maskedPrompt__c</fullName>
+        <label>Masked Prompt</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>model__c</fullName>
+        <label>Model</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>numGenerations__c</fullName>
+        <label>Num Generations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>orgId__c</fullName>
+        <label>Org Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>parameters__c</fullName>
+        <label>Parameters</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>plannerId__c</fullName>
+        <label>Planner Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>presencePenalty__c</fullName>
+        <label>Presence Penalty</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>promptTemplateDevName__c</fullName>
+        <label>Prompt Template Dev Name</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>promptTemplateVersionNo__c</fullName>
+        <label>Prompt Template Version No</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>promptTokens__c</fullName>
+        <label>Prompt Tokens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>prompt__c</fullName>
+        <label>Prompt</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>provider__c</fullName>
+        <label>Provider</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>sessionId__c</fullName>
+        <label>Session Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>stopSequences__c</fullName>
+        <label>Stop Sequences</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>temperature__c</fullName>
+        <label>Temperature</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>timestamp__c</fullName>
+        <label>Timestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>totalTokens__c</fullName>
+        <label>Total Tokens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>userId__c</fullName>
+        <label>User Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

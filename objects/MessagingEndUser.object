@@ -170,28 +170,6 @@
         <fullName>ProfilePictureUrl</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>BulkMessageMessagingEndUsers</fullName>
-        <columns>Name</columns>
-        <columns>Account</columns>
-        <columns>MessagingPlatformKey</columns>
-        <columns>CONTACT.LAST_ACTIVITY</columns>
-        <columns>MessagingChannel</columns>
-        <columns>MessageType</columns>
-        <columns>IsFullyOptedIn</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>MessageType</field>
-            <operation>equals</operation>
-            <value>0</value>
-        </filters>
-        <filters>
-            <field>IsFullyOptedIn</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>Bulk_SMS_Messaging_End_Users</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>MessagingPlatformKey</customTabListAdditionalFields>
         <customTabListAdditionalFields>MessagingChannel</customTabListAdditionalFields>
@@ -210,6 +188,10 @@
         <lookupPhoneDialogsAdditionalFields>MessagingConsentStatus</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account.npe01__WorkPhone__pc</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account.npo02__HouseholdPhone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account.npsp__Matching_Gift_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PC_00NPl00000Ls8kg</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>MessagingPlatformKey</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessagingChannel</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessageType</searchResultsAdditionalFields>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MichalTest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MichalTests</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>MichalPicklistTest__c</name>
+        <picklistValues>
+            <masterLabel>TestPicklist1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>MichalTestCheckbox__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>TestClone__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -134,6 +134,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>MinimumAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>

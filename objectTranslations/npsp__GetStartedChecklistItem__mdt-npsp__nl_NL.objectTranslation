@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Checklistitem Aan de slag voor NPSP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Checklistitems Aan de slag voor NPSP</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Naam beschrijvingslabel</label>
+        <name>npsp__Description_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam extra-infolabel</label>
+        <name>npsp__Extra_Info_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Sectie GS-checklist</label>
+        <name>npsp__GS_Checklist_Section__c</name>
+        <relationshipLabel>Items GS-checklist</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bevat koppeling</label>
+        <name>npsp__Has_Link__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Afbeelding</label>
+        <name>npsp__Image__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam koppelingslabel</label>
+        <name>npsp__Link_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>URL van koppeling</label>
+        <name>npsp__Link_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Positie</label>
+        <name>npsp__Position__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam primaire-knoplabel</label>
+        <name>npsp__Primary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type primaire knop</label>
+        <name>npsp__Primary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Waarde primaire knop</label>
+        <name>npsp__Primary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam secundaire-knoplabel</label>
+        <name>npsp__Secondary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type secundaire knop</label>
+        <name>npsp__Secondary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Waarde secundaire knop</label>
+        <name>npsp__Secondary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Naam titellabel</label>
+        <name>npsp__Title_Label__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

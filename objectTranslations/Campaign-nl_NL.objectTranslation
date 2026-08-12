@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Darujme_cz_Custom_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Darujme_cz_Project_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Default_Transaction_Type__c</name>
+        <picklistValues>
+            <masterLabel>dotace/grant</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nepeněžní dar</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ostatní</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>peněžní dar</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>protiplnění</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>členský příspěvek</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Email_Template__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Nove_Project_Darujme_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__PosledniCisloClenaKampane__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Specific_Symbol__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Transactions_Total__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Variable_No__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DB_Campaign_Tactic__c</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Seminars</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Website</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunches</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Banners/Ads</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Advertisement</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Call Down</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinars</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label></label>
+        <name>CRMforNonProfit__Send_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>CRMforNonProfit__ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label>Verzendlijst voor huishouden</label>
+        <name>npo02__Household_Mailing_List</name>
+    </webLinks>
+</CustomObjectTranslation>

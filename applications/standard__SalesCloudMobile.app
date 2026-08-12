@@ -22,5 +22,54 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-ContentNote</tabs>
+    <tabs>CustomAA__c</tabs>
+    <tabs>CustomBB__c</tabs>
+    <tabs>AshokCustomobj__c</tabs>
+    <tabs>AshokLiveTest__c</tabs>
+    <tabs>Just_for_testing__c</tabs>
+    <tabs>synth__c</tabs>
+    <tabs>Testing_for_backup_CI_job__c</tabs>
+    <tabs>Thiru_object__c</tabs>
+    <tabs>childd1__c</tabs>
+    <tabs>manPar1__c</tabs>
+    <tabs>manPar10__c</tabs>
+    <tabs>manPar11__c</tabs>
+    <tabs>manPar12__c</tabs>
+    <tabs>vaultA__c</tabs>
+    <tabs>vaultB__c</tabs>
+    <tabs>vaultC__c</tabs>
+    <tabs>vaultD__c</tabs>
+    <tabs>vaultE__c</tabs>
+    <tabs>vaultF__c</tabs>
+    <tabs>vaultG__c</tabs>
+    <tabs>vaultH__c</tabs>
+    <tabs>vaultJ__c</tabs>
+    <tabs>vaultK__c</tabs>
+    <tabs>vaultL__c</tabs>
+    <tabs>vaultM__c</tabs>
+    <tabs>vaultN__c</tabs>
+    <tabs>vaultO__c</tabs>
+    <tabs>vaultP__c</tabs>
+    <tabs>SBQQ_Discount_Schedule__c</tabs>
+    <tabs>manageid1__c</tabs>
+    <tabs>manageidP__c</tabs>
+    <tabs>Sowjanya__c</tabs>
+    <tabs>Email_validation__c</tabs>
+    <tabs>masking__c</tabs>
+    <tabs>Sowjanya1__c</tabs>
+    <tabs>Sowjanya2__c</tabs>
+    <tabs>Sowjanya3__c</tabs>
+    <tabs>Sowjanya4__c</tabs>
+    <tabs>masktest__c</tabs>
+    <tabs>parent__c</tabs>
+    <tabs>child__c</tabs>
+    <tabs>arjProject__c</tabs>
+    <tabs>Cmp_res__c</tabs>
+    <tabs>testCustomObjZub__c</tabs>
+    <tabs>ArCO1__c</tabs>
+    <tabs>ArCo2__c</tabs>
+    <tabs>Intern__c</tabs>
+    <tabs>Object21__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

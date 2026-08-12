@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre d&apos;affectation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres d&apos;affectations</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Affectations par défaut activées</label>
+        <name>npsp__Default_Allocations_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Unité comptable générale par défaut</label>
+        <name>npsp__Default__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Types d’enr. d’opp. exclus</label>
+        <name>npsp__Excluded_Opp_RecTypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Types d’opportunités exclus</label>
+        <name>npsp__Excluded_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectations de paiement activées</label>
+        <name>npsp__Payment_Allocations_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valeur de cumul N jours</label>
+        <name>npsp__Rollup_N_Day_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Utiliser l’année fiscale pour les cumuls</label>
+        <name>npsp__Use_Fiscal_Year_for_Rollups__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

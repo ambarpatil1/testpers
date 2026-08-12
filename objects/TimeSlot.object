@@ -138,10 +138,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>MaxAppointments</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>OperatingHoursId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
@@ -157,11 +153,6 @@
     <fields>
         <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>WorkTypeGroupId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

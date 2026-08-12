@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>כמות</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>שם איש קשר</label>
+        <name>npsp__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>מזהה תפקיד איש קשר</label>
+        <name>npsp__Contact_Role_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>איש קשר</label>
+        <name>npsp__Contact__c</name>
+        <relationshipLabel>קרדיט חלקי</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>הזדמנות</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>קרדיט חלקי</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>שם תפקיד</label>
+        <name>npsp__Role_Name__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>נהל קרדיט</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+</CustomObjectTranslation>

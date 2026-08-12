@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DedupEngmtAnlssTxtInsightId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Dedup Engmt Anlss Txt Insight</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeletedAt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>DeletedAt</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DistanceFromCenterNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Distance From Center</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementAnalysisTextInsightId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Analysis Text Insight</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Dedup Engmt Anlss Txt Insight Assoc Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1738863308600_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DedupEngmtAnlssTextInsightAssoc_Enga_rel</label>
+        <referenceTo>ssot__EngagementAnalysisTextInsight__dlm</referenceTo>
+        <relationshipLabel>DedupEngmtAnlssTextInsightAssoc_Enga_rel</relationshipLabel>
+        <relationshipName>rel_1738863308600_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1738863318689_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DedupEngmtAnlssTextInsightAssoc_Dedu_rel</label>
+        <referenceTo>ssot__DedupEngmtAnlssTextInsight__dlm</referenceTo>
+        <relationshipLabel>DedupEngmtAnlssTextInsightAssoc_Dedu_rel</relationshipLabel>
+        <relationshipName>rel_1738863318689_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

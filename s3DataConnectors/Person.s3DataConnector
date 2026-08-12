@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataConnectorS3 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fileNameWildcard>*.csv</fileNameWildcard>
+    <importFromDirectory>c360-subset-lheader/</importFromDirectory>
+    <masterLabel>Person</masterLabel>
+    <s3AccessKey>*</s3AccessKey>
+    <s3BucketName>bucketeer-aa32faea-8431-4635-8a1d-b323a2d66c7c</s3BucketName>
+    <s3SecretKey>*</s3SecretKey>
+</DataConnectorS3>

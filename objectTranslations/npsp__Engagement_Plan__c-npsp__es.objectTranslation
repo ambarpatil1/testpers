@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan de acción</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Planes de acción</value>
+    </caseValues>
+    <fields>
+        <label>Cuenta</label>
+        <name>npsp__Account__c</name>
+        <relationshipLabel>Planes de participación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Campaña</label>
+        <name>npsp__Campaign__c</name>
+        <relationshipLabel>Planes de participación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Caso</label>
+        <name>npsp__Case__c</name>
+        <relationshipLabel>Planes de participación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tareas completas</label>
+        <name>npsp__Completed_Tasks__c</name>
+    </fields>
+    <fields>
+        <label>Contacto</label>
+        <name>npsp__Contact__c</name>
+        <relationshipLabel>Planes de participación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Plantilla de plan de participación</label>
+        <name>npsp__Engagement_Plan_Template__c</name>
+        <relationshipLabel>Planes de participación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Oportunidad</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Planes de participación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Donación recurrente</label>
+        <name>npsp__Recurring_Donation__c</name>
+        <relationshipLabel>Planes de participación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>npsp__Status__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de tareas en el plan</label>
+        <name>npsp__Total_EP_Tasks__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de tareas</label>
+        <name>npsp__Total_Tasks__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número del plan de acción</nameFieldLabel>
+</CustomObjectTranslation>

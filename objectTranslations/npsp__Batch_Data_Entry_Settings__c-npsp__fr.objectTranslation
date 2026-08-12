@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre de Saisie de données par lots</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres de Saisie de données par lots</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Autoriser les noms d’opportunités vides</label>
+        <name>npsp__Allow_Blank_Opportunity_Names__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Dénomination des opportunités</label>
+        <name>npsp__Opportunity_Naming__c</name>
+    </fields>
+    <fields>
+        <label>Alerte de retrait vue</label>
+        <name>npsp__Viewed_Retirement_Alert__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

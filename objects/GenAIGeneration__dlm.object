@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>KQ_generationId__c</fullName>
+        <label>Key Qualifier Generation Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_generationResponseId__c</fullName>
+        <label>Key Qualifier Generation Response Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>cloud__c</fullName>
+        <label>Cloud</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>feature__c</fullName>
+        <label>Feature</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>generationId__c</fullName>
+        <label>Generation Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>generationResponseId__c</fullName>
+        <label>Generation Response Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>maskedResponseText__c</fullName>
+        <label>Masked Response Text</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>orgId__c</fullName>
+        <label>Org Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>rel_1753303689192_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>GenAIGeneration_generationResponseId_rel</label>
+        <referenceTo>GenAIGatewayResponse__dlm</referenceTo>
+        <relationshipLabel>GenAIGeneration_generationResponseId_rel</relationshipLabel>
+        <relationshipName>rel_1753303689192_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>responseParameters__c</fullName>
+        <label>Response Parameters</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>responseText__c</fullName>
+        <label>Response Text</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>timestamp__c</fullName>
+        <label>Timestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+</CustomObject>

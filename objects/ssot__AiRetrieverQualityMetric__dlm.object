@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AgentGeneratedResponseText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Agent Generated Response</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiGatewayRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Gateway Request Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiResponseGenerationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Response Generation Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiRetrieverRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Retriever Request Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AnswerRelevancyScoreNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Answer Relevancy Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContextPrecisionScoreNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Context Precision Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created By</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FaithfulnessRelevancyScoreNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Faithfulness Relevancy Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>15</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Retriever Quality Metric Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified By</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastProcessedReqTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Processed Request Timestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MetricCreatedTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Metric Created Timestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RetrievedContextIdListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Retrieved Context Id List</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RetrieverApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Retriever Api Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RetrieverTraceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Retriever Trace Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RetrieverTraceSpanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Retriever Trace Span Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceDocumentIdListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source Document Id List</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SystemModstamp__c</fullName>
+        <deprecated>false</deprecated>
+        <label>System Modified Stamp</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UserUtteranceText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>UserUtterance</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

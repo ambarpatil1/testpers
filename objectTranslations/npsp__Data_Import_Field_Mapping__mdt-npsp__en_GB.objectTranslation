@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Data Import Field Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Data Import Field Mappings</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Data Import Field Mapping Set</label>
+        <name>npsp__Data_Import_Field_Mapping_Set__c</name>
+        <relationshipLabel>Data Import Field Mappings</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Is Deleted</label>
+        <name>npsp__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Required?</label>
+        <name>npsp__Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Source Field API Name</label>
+        <name>npsp__Source_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Target Field API Name</label>
+        <name>npsp__Target_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Target Object Mapping</label>
+        <name>npsp__Target_Object_Mapping__c</name>
+        <relationshipLabel>Data Import Field Mappings</relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

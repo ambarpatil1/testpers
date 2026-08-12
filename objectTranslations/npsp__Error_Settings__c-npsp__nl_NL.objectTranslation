@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Foutinstellingen</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Foutinstellingen</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Laatste Uitvoering Async Foutencontrole</label>
+        <name>npsp__Async_Error_Check_Last_Run__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Statuscontroles recordgegevens uitsch.</label>
+        <name>npsp__DisableRecordDataHealthChecks__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Foutafhandeling uitschakelen</label>
+        <name>npsp__Disable_Error_Handling__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Standaard NPSP-Taken niet Auto. Plannen</label>
+        <name>npsp__Don_t_Auto_Schedule_Default_NPSP_Jobs__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Debug Inschakelen</label>
+        <name>npsp__Enable_Debug__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Foutmeldingen</label>
+        <name>npsp__Error_Notifications_On__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ontvangers Foutmeldingen</label>
+        <name>npsp__Error_Notifications_To__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Scratch-overschr.: proef ingeschakeld</label>
+        <name>npsp__OverrideFeature_PilotEnabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Duplicaatregelinstellingen respecteren</label>
+        <name>npsp__Respect_Duplicate_Rule_Settings__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fouten bewaren</label>
+        <name>npsp__Store_Errors_On__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BotTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Hello.. Welcome to Raja&apos;s World.</message>
+                <messageIdentifier>9163878a-0d60-9680-5298-218303ebda38</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>3fb1bf26-3432-4d37-b485-f2a77b3ffb2d</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>f4fb768b-b454-4ea1-8f33-97da4d60140c</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Check_my_Ticket</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Check my Ticket</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>8ed6f900-2085-4761-a4d9-4418c78fff34</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Report_a_new_ticket</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Report a new ticket</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>a45af140-dcfe-4a68-9e21-e559dbb3683f</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Find_existing_tickets</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Find existing tickets</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Hi, I&apos;m Robot Raja, a digital assistant.</message>
+                <messageIdentifier>ee6cf0dc-490f-4f84-9bcd-4478cddfb514</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>ccb62301-1072-4340-bf8a-3339a2cf3aaa</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <targetBotDialog>Main_Menu</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>470ae497-cc93-4541-a246-3d4da6f6f139</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Welcome</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Welcome</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <label>Check my Ticket</label>
+                    <targetBotDialog>Check_my_Ticket</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <label>Report a new ticket</label>
+                    <targetBotDialog>Report_a_new_ticket</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <label>Find existing tickets</label>
+                    <targetBotDialog>Find_existing_tickets</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>248007ac-5df4-488b-bfdb-7cf07f52635e</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Main_Menu</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Main Menu</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <conversationSystemMessage>
+                <type>Transfer</type>
+            </conversationSystemMessage>
+            <stepIdentifier>29b3ed1c-e67d-43c3-8a93-88b92accc8ed</stepIdentifier>
+            <type>SystemMessage</type>
+        </botSteps>
+        <developerName>Transfer_To_Agent</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Transfer To Agent</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Thanks for taking the time to chat. To close the conversation, select End Chat.</message>
+                <messageIdentifier>4c81b405-6cc6-4a5d-af7d-e7ccd5fc3128</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>e4e94360-e561-479e-acaf-a80fa9bc95d6</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>19620df8-0890-48dc-b1bd-e3fc48c5bd54</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>End_Chat</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>End Chat</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Sorry, I didn&apos;t understand that.</message>
+                <messageIdentifier>c99cebd4-84a9-4721-8ee9-3046955a306e</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>49930ff4-2fb9-4dbf-8b01-8c0240757bfa</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>e5ed3a20-83ea-4be3-a030-53bb0a7c2559</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Confused</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Confused</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Unfortunately, there are no agents available at the moment</message>
+                <messageIdentifier>f058df3c-3858-4675-9238-ec34afb79b65</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>6bdc682c-348b-4eee-9f63-882052e2556e</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>408a6a2e-2482-456a-a437-c28c9d29fe58</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>No_Agent_Available</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>No Agent</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Unfortunately, a system error occurred. I&apos;ll connect you to an agent who can help.</message>
+                <messageIdentifier>1086242c-3b62-47fb-8028-8e7079497e2e</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>3b83363d-e15b-4f97-9708-39008ffb1bee</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <conversationSystemMessage>
+                <type>Transfer</type>
+            </conversationSystemMessage>
+            <stepIdentifier>6815195f-98d8-46b4-9ab2-957d570d1f16</stepIdentifier>
+            <type>SystemMessage</type>
+        </botSteps>
+        <developerName>Error_Handling</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Error Handler</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <contextVariables>
+        <dataType>Text</dataType>
+        <description>This variable may also be referred to as LiveChatTranscript ChatKey</description>
+        <developerName>ChatKey</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Chat Key</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingEndUser ContactId</description>
+        <developerName>ContactId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingEndUser Id</description>
+        <developerName>EndUserId</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingSession Id</description>
+        <developerName>RoutableId</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Routable Id</label>
+    </contextVariables>
+    <conversationLanguages>en_US</conversationLanguages>
+    <conversationSystemDialogs>
+        <dialog>Error_Handling</dialog>
+        <type>ErrorHandling</type>
+    </conversationSystemDialogs>
+    <conversationSystemDialogs>
+        <dialog>No_Agent_Available</dialog>
+        <type>TransferFailed</type>
+    </conversationSystemDialogs>
+    <description>Ticket Info capturing</description>
+    <entryDialog>Welcome</entryDialog>
+    <mainMenuDialog>Main_Menu</mainMenuDialog>
+    <masterLabel>Robot Raja</masterLabel>
+    <mlDomain>
+        <label>Robot Raja</label>
+        <name>Robot_Raja</name>
+    </mlDomain>
+    <permissionSet>force__SalesCloudEinsteinIncluded</permissionSet>
+    <richContentEnabled>false</richContentEnabled>
+    <type>Bot</type>
+</BotTemplate>

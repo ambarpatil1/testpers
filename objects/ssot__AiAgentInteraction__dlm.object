@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AiAgentInteractionType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ai Agent Interaction Type</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiAgentSessionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Session</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AttributeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Attribute</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EndTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <label>End Timestamp</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Interaction Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndividualId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Individual</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrevInteractionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Previous Interaction</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SessionOwnerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Session Owner</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SessionOwnerObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Session Owner Object</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Start Timestamp</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TelemetryTraceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Telemetry Trace</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TelemetryTraceSpanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Telemetry Trace Span</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TopicApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Topic API Name</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1744306664261_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentInteraction_PrevInteractionId_rel</label>
+        <referenceTo>ssot__AiAgentInteraction__dlm</referenceTo>
+        <relationshipLabel>AiAgentInteraction_PrevInteractionId_rel</relationshipLabel>
+        <relationshipName>rel_1744306664261_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1744306668554_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentInteraction_IndividualId_map__rel</label>
+        <referenceTo>ssot__Individual__dlm</referenceTo>
+        <relationshipLabel>AiAgentInteraction_IndividualId_map__rel</relationshipLabel>
+        <relationshipName>rel_1744306668554_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1744306685827_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentInteraction_AiAgentSessionId__rel</label>
+        <referenceTo>ssot__AiAgentSession__dlm</referenceTo>
+        <relationshipLabel>AiAgentInteraction_AiAgentSessionId__rel</relationshipLabel>
+        <relationshipName>rel_1744306685827_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1744306687315_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentInteraction_TelemetryTraceSpa_rel</label>
+        <referenceTo>ssot__TelemetryTraceSpan__dlm</referenceTo>
+        <relationshipLabel>AiAgentInteraction_TelemetryTraceSpa_rel</relationshipLabel>
+        <relationshipName>rel_1744306687315_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

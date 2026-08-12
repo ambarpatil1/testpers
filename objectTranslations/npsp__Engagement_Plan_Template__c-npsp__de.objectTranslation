@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Engagementplan-Vorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Engagementplan-Vorlagen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Engagementplan-Vorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Engagementplan-Vorlagen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Engagementplan-Vorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Engagementplan-Vorlagen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Engagementplan-Vorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Engagementplan-Vorlagen</value>
+    </caseValues>
+    <fieldSets>
+        <label>EP-Vorlagenverwaltung-FS</label>
+        <name>npsp__ManageEPTemplateFS</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label>Fälligk. d. unterg. Aufg. autom. aktual.</label>
+        <name>npsp__Automatically_Update_Child_Task_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Standard-Empfänger</label>
+        <name>npsp__Default_Assignee__c</name>
+        <picklistValues>
+            <masterLabel>Owner of Object for Engagement Plan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Creating Engagement Plan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Beschreibung</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Neu planen für</label>
+        <name>npsp__Reschedule_To__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Wochenenden überspringen</label>
+        <name>npsp__Skip_Weekends__c</name>
+    </fields>
+    <fields>
+        <label>Engagementpläne insgesamt</label>
+        <name>npsp__Total_Engagement_Plans__c</name>
+    </fields>
+    <fields>
+        <label>Aufgaben insgesamt</label>
+        <name>npsp__Total_Tasks__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Engagementplan-Vorlagenname</nameFieldLabel>
+    <webLinks>
+        <label>Vorlage verwalten</label>
+        <name>npsp__Manage_Template</name>
+    </webLinks>
+</CustomObjectTranslation>

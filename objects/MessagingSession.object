@@ -203,6 +203,15 @@
         <fullName>SuspendedByType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>Service_Messaging_MessagingSession</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Service Messaging with In-App and Web</label>
+        <queue>Service_Messaging</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>MessagingChannel</customTabListAdditionalFields>
         <customTabListAdditionalFields>MessagingEndUser</customTabListAdditionalFields>

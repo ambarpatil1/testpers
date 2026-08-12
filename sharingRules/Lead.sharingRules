@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>LeadSR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>LeadSR</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Test_Lead</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Test_Lead</label>
+        <sharedTo>
+            <role>Vice_President</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Vice_President</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

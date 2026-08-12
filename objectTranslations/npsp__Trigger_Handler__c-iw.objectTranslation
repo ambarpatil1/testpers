@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>מציין שמודול זה פעיל</help>
+        <label></label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help>מציין שיש להפעיל מודול זה באופן אסינכרוני בעסקה זו</help>
+        <label></label>
+        <name>npsp__Asynchronous__c</name>
+    </fields>
+    <fields>
+        <help>שם המחלקה שיש להפעיל</help>
+        <label></label>
+        <name>npsp__Class__c</name>
+    </fields>
+    <fields>
+        <help>הסדר שבו יש להפעיל מודול זה, מסייע לשמירה על יחסי תלות במודולים ובנתונים.</help>
+        <label></label>
+        <name>npsp__Load_Order__c</name>
+    </fields>
+    <fields>
+        <help>שם האובייקט שעבורו יש להפעיל מטפל זה</help>
+        <label></label>
+        <name>npsp__Object__c</name>
+    </fields>
+    <fields>
+        <help>הפעולה שבה מודול זה צריך לפעול</help>
+        <label></label>
+        <name>npsp__Trigger_Action__c</name>
+        <picklistValues>
+            <masterLabel>AfterDelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterInsert</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterUndelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterUpdate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeDelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeInsert</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeUpdate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>סמן אפשרות זו אם בכוונתך לנהל את הרשומה בעצמך. זכור שעדכונים לחבילה לא יעדכנו את הרשומה.</help>
+        <label></label>
+        <name>npsp__User_Managed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Usernames_to_Exclude__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

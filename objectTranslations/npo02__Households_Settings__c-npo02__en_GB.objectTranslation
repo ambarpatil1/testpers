@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Households Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Households Settings</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Automatic Household Naming</label>
+        <name>npo02__Advanced_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Always Rollup to Primary Contact Role</label>
+        <name>npo02__Always_Rollup_to_Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Async Household Naming</label>
+        <name>npo02__Async_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rollup Batch Size</label>
+        <name>npo02__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_HHAfter_trigger</label>
+        <name>npo02__DISABLE_HouseholdAfter_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_HHBefore_trigger</label>
+        <name>npo02__DISABLE_HouseholdBefore_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_Household_Opp_trigger</label>
+        <name>npo02__DISABLE_Household_Opportunity_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_Households_trigger</label>
+        <name>npo02__DISABLE_Households_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_OppRollup_trigger</label>
+        <name>npo02__DISABLE_OpportunityRollup_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Enable_Opp_Rollup_Triggers</label>
+        <name>npo02__Enable_Opp_Rollup_Triggers__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Enable Soft Credit Rollups</label>
+        <name>npo02__Enable_Soft_Credit_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Enable Update Check</label>
+        <name>npo02__Enable_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opp RecTypes Excluded for Account Rollup</label>
+        <name>npo02__Excluded_Account_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opp Types Excluded for Account Rollup</label>
+        <name>npo02__Excluded_Account_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opp RecTypes Excluded for Contact Rollup</label>
+        <name>npo02__Excluded_Contact_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opp Types Excluded for Contact Rollup</label>
+        <name>npo02__Excluded_Contact_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Force Fiscal Year</label>
+        <name>npo02__Force_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Has Package Update</label>
+        <name>npo02__Has_Package_Update__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Household Contact Roles On</label>
+        <name>npo02__Household_Contact_Roles_On__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Household Creation Excluded Record Types</label>
+        <name>npo02__Household_Creation_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Household Mailing List Report</label>
+        <name>npo02__Household_Mailing_List_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Household Member Contact Role</label>
+        <name>npo02__Household_Member_Contact_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Household OCR Excluded Record Types</label>
+        <name>npo02__Household_OCR_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Household Object Rules</label>
+        <name>npo02__Household_Rules__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Last Update Check</label>
+        <name>npo02__Last_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Max Package Version</label>
+        <name>npo02__Max_Package_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Membership Grace Period</label>
+        <name>npo02__Membership_Grace_Period__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Membership Record Type Names</label>
+        <name>npo02__Membership_Record_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opp Rollup Scheduled Job Id</label>
+        <name>npo02__Opp_Rollup_Scheduled_Job_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Package Update URL</label>
+        <name>npo02__Package_Update_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rollup N Day Value</label>
+        <name>npo02__Rollup_N_Day_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Schedule Job Limit</label>
+        <name>npo02__Schedule_Job_Limit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Soft Credit Roles</label>
+        <name>npo02__Soft_Credit_Roles__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Update Check Interval</label>
+        <name>npo02__Update_Check_Interval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Use Fiscal Year for Rollups</label>
+        <name>npo02__Use_Fiscal_Year_for_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Matched_Donor_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Seasonal_Addresses_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Use_Dated_Conversion_Rates__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

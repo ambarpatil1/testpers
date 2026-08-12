@@ -3,7 +3,8 @@
     <canDebugFlowAsAnotherUser>false</canDebugFlowAsAnotherUser>
     <doesEnforceApexCpuTimeLimit>true</doesEnforceApexCpuTimeLimit>
     <doesFormulaEnforceDataAccess>false</doesFormulaEnforceDataAccess>
-    <doesFormulaGenerateHtmlOutput>false</doesFormulaGenerateHtmlOutput>
+    <doesFormulaGenerateHtmlOutput>true</doesFormulaGenerateHtmlOutput>
+    <enableAgentforceFlowAutomation>false</enableAgentforceFlowAutomation>
     <enableEmailSimpleRespectProfiles>true</enableEmailSimpleRespectProfiles>
     <enableEmailsimpleSecureProfiles>false</enableEmailsimpleSecureProfiles>
     <enableFlowBREncodedFixEnabled>true</enableFlowBREncodedFixEnabled>

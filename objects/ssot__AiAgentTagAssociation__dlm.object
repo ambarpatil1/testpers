@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AiAgentInteractionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Interaction</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiAgentMomentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Moment Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiAgentSessionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Session Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiAgentTagDefinitionAssociationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Tag Definition Association Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AiAgentTagId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Tag Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssociationReasonText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Association Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AI Agent Tag Association Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPassed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Passed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1749145957856_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentTagAssociation_AiAgentMomentI_rel</label>
+        <referenceTo>ssot__AiAgentMoment__dlm</referenceTo>
+        <relationshipLabel>AiAgentTagAssociation_AiAgentMomentI_rel</relationshipLabel>
+        <relationshipName>rel_1749145957856_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1749145958720_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentTagAssociation_AiAgentTagId_m_rel</label>
+        <referenceTo>ssot__AiAgentTag__dlm</referenceTo>
+        <relationshipLabel>AiAgentTagAssociation_AiAgentTagId_m_rel</relationshipLabel>
+        <relationshipName>rel_1749145958720_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1749145967292_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentTagAssociation_AiAgentSession_rel</label>
+        <referenceTo>ssot__AiAgentSession__dlm</referenceTo>
+        <relationshipLabel>AiAgentTagAssociation_AiAgentSession_rel</relationshipLabel>
+        <relationshipName>rel_1749145967292_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1749145968943_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentTagAssociation_AiAgentTagDefi_rel</label>
+        <referenceTo>ssot__AiAgentTagDefinitionAssociation__dlm</referenceTo>
+        <relationshipLabel>AiAgentTagAssociation_AiAgentTagDefi_rel</relationshipLabel>
+        <relationshipName>rel_1749145968943_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1764554420331_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AiAgentTagAssociation_AiAgentInterac_rel</label>
+        <referenceTo>ssot__AiAgentInteraction__dlm</referenceTo>
+        <relationshipLabel>AiAgentTagAssociation_AiAgentInterac_rel</relationshipLabel>
+        <relationshipName>rel_1764554420331_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

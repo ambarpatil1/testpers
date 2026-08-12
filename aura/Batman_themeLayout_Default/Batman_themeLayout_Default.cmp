@@ -1,0 +1,5 @@
+<aura:component access="global" implements="forceCommunity:themeLayout">
+    <div class="batmanThemeLayout">
+        {!v.body}
+    </div>
+</aura:component>

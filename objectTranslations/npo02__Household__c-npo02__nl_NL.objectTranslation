@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Huishouden</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Huishoudens</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>npo02__Manage_Household_Custom</name>
+    </fieldSets>
+    <fields>
+        <label>Geadresseerde</label>
+        <name>npo02__Addressee__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Altijd anoniem</label>
+        <name>npo02__Always_Anonymous__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Gemiddelde gift</label>
+        <name>npo02__AverageAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totaal van beste jaar van giften</label>
+        <name>npo02__Best_Gift_Year_Total__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Beste jaar van giften</label>
+        <name>npo02__Best_Gift_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Datum van eerste gift</label>
+        <name>npo02__FirstCloseDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Formele begroeting</label>
+        <name>npo02__Formal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postadres</label>
+        <name>npo02__Formula_MailingAddress__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>E-mailadres van huishouden</label>
+        <name>npo02__HouseholdEmail__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Telefoon van huishouden</label>
+        <name>npo02__HouseholdPhone__c</name>
+    </fields>
+    <fields>
+        <label>ID van huishouden</label>
+        <name>npo02__Household_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Informele begroeting</label>
+        <name>npo02__Informal_Greeting__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Grootste gift</label>
+        <name>npo02__LargestAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Datum van laatste gift</label>
+        <name>npo02__LastCloseDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Laatste bedrag van lidmaatschap</label>
+        <name>npo02__LastMembershipAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Laatste datum van lidmaatschap</label>
+        <name>npo02__LastMembershipDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Laatste niveau van lidmaatschap</label>
+        <name>npo02__LastMembershipLevel__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Laatste herkomst van lidmaatschap</label>
+        <name>npo02__LastMembershipOrigin__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bedrag van laatste gift</label>
+        <name>npo02__LastOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postplaats</label>
+        <name>npo02__MailingCity__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postland</label>
+        <name>npo02__MailingCountry__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Postpostcode</label>
+        <name>npo02__MailingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Poststaat/-provincie</label>
+        <name>npo02__MailingState__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Poststraat</label>
+        <name>npo02__MailingStreet__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Einddatum van lidmaatschap</label>
+        <name>npo02__MembershipEndDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Datum van lid worden van lidmaatschap</label>
+        <name>npo02__MembershipJoinDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Lidmaatschapsbereik</label>
+        <name>npo02__Membership_Span__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Status van lidmaatschap</label>
+        <name>npo02__Membership_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totale aantal giften</label>
+        <name>npo02__NumberOfClosedOpps__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aantal lidmaatschappen</label>
+        <name>npo02__NumberOfMembershipOpps__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totaal aan giften twee jaar geleden</label>
+        <name>npo02__OppAmount2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totaal aan giften laatste n dagen</label>
+        <name>npo02__OppAmountLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totaal aan giften vorig jaar</label>
+        <name>npo02__OppAmountLastYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totaal aan giften dit jaar</label>
+        <name>npo02__OppAmountThisYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totaal aan giften twee jaar geleden</label>
+        <name>npo02__OppsClosed2YearsAgo__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aantal aan giften laatste n dagen</label>
+        <name>npo02__OppsClosedLastNDays__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aantal aan giften vorig jaar</label>
+        <name>npo02__OppsClosedLastYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aantal aan giften huidig jaar</label>
+        <name>npo02__OppsClosedThisYear__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>_SYSTEM: AANGEPASTE NAAMGEVING</label>
+        <name>npo02__SYSTEM_CUSTOM_NAMING__c</name>
+        <picklistValues>
+            <masterLabel>Formal_Greeting__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informal_Greeting__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kleinste gift</label>
+        <name>npo02__SmallestAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totale bedrag van lidmaatschap</label>
+        <name>npo02__TotalMembershipOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Totaal aan giften</label>
+        <name>npo02__TotalOppAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Number_of_Household_Members__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naam van huishouden</nameFieldLabel>
+    <webLinks>
+        <label>Adres van huishouden kopiëren naar Contactpersonen</label>
+        <name>npo02__Copy_Household_Address_to_Contacts</name>
+    </webLinks>
+</CustomObjectTranslation>

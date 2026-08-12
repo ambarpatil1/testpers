@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Ativo</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Pós-eventos assíncronos</label>
+        <name>npsp__Asynchronous__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Classe</label>
+        <name>npsp__Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Ordem de carregamento</label>
+        <name>npsp__Load_Order__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Objeto</label>
+        <name>npsp__Object__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Acionar ação</label>
+        <name>npsp__Trigger_Action__c</name>
+        <picklistValues>
+            <masterLabel>AfterDelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterInsert</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterUndelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AfterUpdate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeDelete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeInsert</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BeforeUpdate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Gerenciado pelo usuário</label>
+        <name>npsp__User_Managed__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nomes de usuário para exclusão</label>
+        <name>npsp__Usernames_to_Exclude__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

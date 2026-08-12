@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre de Saisie de don</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres de Saisie de don</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Modèle Saisie de dons par défaut</label>
+        <name>npsp__Default_Gift_Entry_Template__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activer l’attribution de passerelle</label>
+        <name>npsp__Enable_Gateway_Assignment__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activer la saisie de dons</label>
+        <name>npsp__Enable_Gift_Entry__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Activer les DR dans la saisie des dons</label>
+        <name>npsp__Enable_Recurring_Donations_in_Gift_Entry__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

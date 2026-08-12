@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountPlanObjMeasCalcDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Test-1029</description>
+    <developerName>Test0129</developerName>
+    <masterLabel>Test-0129</masterLabel>
+    <rollupType>Sum</rollupType>
+    <status>Active</status>
+    <targetField>Amount</targetField>
+    <targetObject>Opportunity</targetObject>
+</AccountPlanObjMeasCalcDef>

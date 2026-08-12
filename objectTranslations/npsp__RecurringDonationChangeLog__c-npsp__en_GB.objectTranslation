@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recurring Donation Change Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recurring Donation Change Logs</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Change Type</label>
+        <name>npsp__ChangeType__c</name>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Effective Date</label>
+        <name>npsp__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Amount</label>
+        <name>npsp__NewAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Annual Value</label>
+        <name>npsp__NewAnnualValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Campaign</label>
+        <name>npsp__NewCampaign__c</name>
+        <relationshipLabel>Recurring Donation Change Log (New Campaign)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Expected Total Value</label>
+        <name>npsp__NewExpectedTotalValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Installment Frequency</label>
+        <name>npsp__NewInstallmentFrequency__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Installment Period</label>
+        <name>npsp__NewInstallmentPeriod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Payment Method</label>
+        <name>npsp__NewPaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Number of Planned Installments</label>
+        <name>npsp__NewPlannedInstallments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Recurring Type</label>
+        <name>npsp__NewRecurringType__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Status Reason</label>
+        <name>npsp__NewStatusReason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>New Status</label>
+        <name>npsp__NewStatus__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Amount</label>
+        <name>npsp__PreviousAmount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Annual Value</label>
+        <name>npsp__PreviousAnnualValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Campaign</label>
+        <name>npsp__PreviousCampaign__c</name>
+        <relationshipLabel>Recurring Donation Change Log (Previous Campaign)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Expected Total Value</label>
+        <name>npsp__PreviousExpectedTotalValue__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Installment Frequency</label>
+        <name>npsp__PreviousInstallmentFrequency__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Installment Period</label>
+        <name>npsp__PreviousInstallmentPeriod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Payment Method</label>
+        <name>npsp__PreviousPaymentMethod__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Number of Planned Installments</label>
+        <name>npsp__PreviousPlannedInstallments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Recurring Type</label>
+        <name>npsp__PreviousRecurringType__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Status Reason</label>
+        <name>npsp__PreviousStatusReason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Previous Status</label>
+        <name>npsp__PreviousStatus__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Recurring Donation</label>
+        <name>npsp__RecurringDonation__c</name>
+        <relationshipLabel>Recurring Donation Change Log</relationshipLabel>
+    </fields>
+    <nameFieldLabel>Recurring Donation Change Log Num</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

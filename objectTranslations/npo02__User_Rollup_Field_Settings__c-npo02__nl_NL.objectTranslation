@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Instelling voor gebruikerstotaliseringsveld</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Instellingen voor gebruikerstotaliseringsveld</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Veldactie</label>
+        <name>npo02__Field_Action__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Objectnaam</label>
+        <name>npo02__Object_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bronveld</label>
+        <name>npo02__Source_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Doelveld</label>
+        <name>npo02__Target_Field__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

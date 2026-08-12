@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>cdp_crm_dk2__ServiceDK</dataPackageKitDef>
+    <developerName>TEST</developerName>
+    <masterLabel>TEST</masterLabel>
+    <sourceObject>cdp_crm_dk2__CreateAssetServiceAction</sourceObject>
+    <sourceObjectType>DataKitObjectTemplate</sourceObjectType>
+    <targetObject>cdp_crm_dk1__ExtractEmailMessageTopics</targetObject>
+</DataKitObjectDependency>

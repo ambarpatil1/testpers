@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relatie-instelling</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relatie-instellingen</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Autom. gem. duplicaatrelaties toestaan</label>
+        <name>npe4__Allow_AutoCreated_Duplicates__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_RelCM_trigger</label>
+        <name>npe4__DISABLE_RelationshipCM_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_RelContacts_trigger</label>
+        <name>npe4__DISABLE_RelationshipContacts_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Disable_Relationships_trigger</label>
+        <name>npe4__DISABLE_Relationships_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>VEROUDERD-Synchr. autom. maken afdwingen</label>
+        <name>npe4__Force_Synchronous_Auto_Create__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Veld Geslacht/gender</label>
+        <name>npe4__Gender_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Wederzijdse methode</label>
+        <name>npe4__Reciprocal_Method__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID van veld Naam van relatie</label>
+        <name>npe4__Relationship_Name_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID van veld ID van naam van relatie</label>
+        <name>npe4__Relationship_Name_Id_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Enable_Custom_Field_Sync__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -8,7 +8,7 @@
     <enableContentDistPwOptionsBit1>true</enableContentDistPwOptionsBit1>
     <enableContentDistPwOptionsBit2>true</enableContentDistPwOptionsBit2>
     <enableContentDistribution>true</enableContentDistribution>
-    <enableContentSupportMultiLanguage>false</enableContentSupportMultiLanguage>
+    <enableContentSupportMultiLanguage>true</enableContentSupportMultiLanguage>
     <enableContentWorkspaceAccess>true</enableContentWorkspaceAccess>
     <enableDeleteFileInContentPacks>false</enableDeleteFileInContentPacks>
     <enableFileIngestToDataCloud>true</enableFileIngestToDataCloud>
@@ -17,7 +17,7 @@
     <enableJPGPreviews>false</enableJPGPreviews>
     <enableLWCFileUpload>true</enableLWCFileUpload>
     <enableLWCFileUploadInFlows>false</enableLWCFileUploadInFlows>
-    <enableLibraryManagedFiles>false</enableLibraryManagedFiles>
+    <enableLibraryManagedFiles>true</enableLibraryManagedFiles>
     <enableSiteGuestUserToUploadFiles>false</enableSiteGuestUserToUploadFiles>
     <enableUploadFilesOnAttachments>false</enableUploadFilesOnAttachments>
     <setValidContentTypeForAtchDocDownload>false</setValidContentTypeForAtchDocDownload>

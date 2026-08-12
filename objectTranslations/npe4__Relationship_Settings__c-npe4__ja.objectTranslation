@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>リレーション設定</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>自動作成された重複リレーションを許可</label>
+        <name>npe4__Allow_AutoCreated_Duplicates__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>廃止-Disable_RelCM_trigger</label>
+        <name>npe4__DISABLE_RelationshipCM_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>廃止-Disable_RelContacts_trigger</label>
+        <name>npe4__DISABLE_RelationshipContacts_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>廃止-Disable_Relationships_trigger</label>
+        <name>npe4__DISABLE_Relationships_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>廃止-Force Synchronous Auto Create</label>
+        <name>npe4__Force_Synchronous_Auto_Create__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>性別項目</label>
+        <name>npe4__Gender_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>相互方法</label>
+        <name>npe4__Reciprocal_Method__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>リレーション名項目 ID</label>
+        <name>npe4__Relationship_Name_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>リレーション名 ID 項目 ID</label>
+        <name>npe4__Relationship_Name_Id_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Enable_Custom_Field_Sync__c</name>
+    </fields>
+</CustomObjectTranslation>

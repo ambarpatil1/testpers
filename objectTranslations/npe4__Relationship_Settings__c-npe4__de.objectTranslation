@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Beziehungseinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Beziehungseinstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Beziehungseinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Beziehungseinstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Beziehungseinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Beziehungseinstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Beziehungseinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Beziehungseinstellungen</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Autom. erst. dopp. Beziehungen zulassen</label>
+        <name>npe4__Allow_AutoCreated_Duplicates__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_RelCM_trigger</label>
+        <name>npe4__DISABLE_RelationshipCM_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_RelContacts_trigger</label>
+        <name>npe4__DISABLE_RelationshipContacts_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_Relationships_trigger</label>
+        <name>npe4__DISABLE_Relationships_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ERSETZT-Synchrone autom. Erst. erzw.</label>
+        <name>npe4__Force_Synchronous_Auto_Create__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Feld &quot;Geschlecht&quot;</label>
+        <name>npe4__Gender_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Wechselseitige Methode</label>
+        <name>npe4__Reciprocal_Method__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kennung Beziehungsnamensfeld</label>
+        <name>npe4__Relationship_Name_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kennung d. Felds mit Kenn. d. Bez.namens</label>
+        <name>npe4__Relationship_Name_Id_Field_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Enable_Custom_Field_Sync__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

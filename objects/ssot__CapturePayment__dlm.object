@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AuthorizationProcessingMode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Authorization Processing Mode</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Balance Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CancellationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CancellationEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Effective Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CancellationGatewayDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Gateway Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CancellationGatewayRefNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Gateway Reference Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CancellationGatewayResultCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Gateway Result Code</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CancellationInternalResultCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cancellation Internal Result Code</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CapturePaymentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Capture Payment Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CapturePaymentType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClientContextText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Client Context</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CommentText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Comment</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created By</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerEmailAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Email Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerPhoneNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Phone Number</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GatewayReferenceDetailsText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gateway Reference Details</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IPAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internet Protcol Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Capture Payment Id</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ImpactAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Impact Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified By</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastReferencedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Referenced Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastViewedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Viewed Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestGatewayDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Gateway Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestGatewayInternalReferenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Gateway Internal Reference Number</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestGatewayInternalResult__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Gateway Internal Result</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestGatewayReferenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Gateway Reference Number</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestGatewayResultCodeDescText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Gateway Result Code Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestGatewayResultCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Gateway Result Code</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestPaymentGatewayMessageText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Payment Gateway Message</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LegalEntityAccountingPeriodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Legal Entity Accounting Period</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LegalEntityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Legal Entity</label>
+        <length>36</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MacAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Mac Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Applied Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetRefundAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Refund Applied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Effective Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentMethodObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Method Object Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentMethodObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Method Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Status</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Applied Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalRefundAppliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Refund Applied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalRefundUnappliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Refund Unapplied</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalUnappliedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Unapplied Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+</CustomObject>

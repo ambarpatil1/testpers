@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionPlanTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isAdHocItemCreationEnabled>false</isAdHocItemCreationEnabled>
+    <name>dfdf</name>
+    <status>Draft</status>
+    <targetEntityType>Account</targetEntityType>
+    <uniqueName>dfdf_76e44b2e_064c_11f1_bd87_17de50419c63</uniqueName>
+</ActionPlanTemplate>

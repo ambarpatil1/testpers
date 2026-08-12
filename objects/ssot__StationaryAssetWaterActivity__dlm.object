@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActivitySourceType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Source Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActivityType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Activity Type</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CostCenterName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Cost Center</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnvironmentalRiskId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Environmental Risk</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stationary Asset Water Activity Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QuantityUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Unit</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceProviderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Provider</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StnryAssetEnvrSrcId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stationary Asset Environmental Source</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StnryAssetWaterFtprntId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Stationary Asset Water Footprint</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalCostAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TreatmentTypeName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Treatment Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WaterFtprntReportDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Water Footprint Report Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383818705_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>StationaryAssetWaterActivity_Quantit_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>StationaryAssetWaterActivity_Quantit_rel</relationshipLabel>
+        <relationshipName>rel_1747383818705_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383819887_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>StationaryAssetWaterActivity_StnryAs_rel</label>
+        <referenceTo>ssot__StnryAssetWaterFootprint__dlm</referenceTo>
+        <relationshipLabel>StationaryAssetWaterActivity_StnryAs_rel</relationshipLabel>
+        <relationshipName>rel_1747383819887_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383821758_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>StationaryAssetWaterActivity_StnryAs_rel</label>
+        <referenceTo>ssot__StationaryAssetEnvSource__dlm</referenceTo>
+        <relationshipLabel>StationaryAssetWaterActivity_StnryAs_rel</relationshipLabel>
+        <relationshipName>rel_1747383821758_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383822635_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>StationaryAssetWaterActivity_Environ_rel</label>
+        <referenceTo>ssot__EnvironmentalRisk__dlm</referenceTo>
+        <relationshipLabel>StationaryAssetWaterActivity_Environ_rel</relationshipLabel>
+        <relationshipName>rel_1747383822635_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

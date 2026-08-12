@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Haushalt-Einstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Haushalt-Einstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Haushalt-Einstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Haushalt-Einstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Haushalt-Einstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Haushalt-Einstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Haushalt-Einstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Haushalt-Einstellungen</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Automatische Benennung der Haushalte</label>
+        <name>npo02__Advanced_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Immer Rollup zu primärer Kontaktrolle</label>
+        <name>npo02__Always_Rollup_to_Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Asynchrone Benennung der Haushalte</label>
+        <name>npo02__Async_Household_Naming__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rollup-Batchgröße</label>
+        <name>npo02__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_HHAfter_trigger</label>
+        <name>npo02__DISABLE_HouseholdAfter_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_HHBefore_trigger</label>
+        <name>npo02__DISABLE_HouseholdBefore_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_Household_Opp_trigger</label>
+        <name>npo02__DISABLE_Household_Opportunity_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_Households_trigger</label>
+        <name>npo02__DISABLE_Households_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Disable_OppRollup_trigger</label>
+        <name>npo02__DISABLE_OpportunityRollup_trigger__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>DEPRECATED-Enable_Opp_Rollup_Triggers</label>
+        <name>npo02__Enable_Opp_Rollup_Triggers__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Soft Credit-Rollups aktivieren</label>
+        <name>npo02__Enable_Soft_Credit_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ERSETZT-Update-Check aktivieren</label>
+        <name>npo02__Enable_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Für Acc.-Rollup ausgeschl. Datens.typen</label>
+        <name>npo02__Excluded_Account_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Für Acc.-Rollup ausgeschl. Opp.-Typen</label>
+        <name>npo02__Excluded_Account_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Für Kont.-Rollup ausgeschl. Datens.typen</label>
+        <name>npo02__Excluded_Contact_Opp_Rectypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Für Kont.-Rollup ausgeschl. Opp-Typen</label>
+        <name>npo02__Excluded_Contact_Opp_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geschäftsjahr erzwingen</label>
+        <name>npo02__Force_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ERSETZT-Paket-Update vorhanden</label>
+        <name>npo02__Has_Package_Update__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Haushalt-Kontaktrollen Ein</label>
+        <name>npo02__Household_Contact_Roles_On__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bei Haush.erst. ausgeschl. Datens.typen</label>
+        <name>npo02__Household_Creation_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Bericht zur Haushalt-Mailingliste</label>
+        <name>npo02__Household_Mailing_List_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kontaktrolle für Haushalt-Mitglied</label>
+        <name>npo02__Household_Member_Contact_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Aus Opp.-Kont.roll. Ausg. Datens.typen</label>
+        <name>npo02__Household_OCR_Excluded_Recordtypes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Haushalt-Objektregeln</label>
+        <name>npo02__Household_Rules__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ERSETZT-Letzter Update-Check</label>
+        <name>npo02__Last_Update_Check__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ERSETZT-Max Paketversion</label>
+        <name>npo02__Max_Package_Version__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kulanzzeitraum für Mitgliedschaft</label>
+        <name>npo02__Membership_Grace_Period__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Namen für Mitgliedschaft-Datensatztyp </label>
+        <name>npo02__Membership_Record_Types__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Kennung für gepl. Opp.-Rollup-Auftrag</label>
+        <name>npo02__Opp_Rollup_Scheduled_Job_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ERSETZT-Paket-Update-URL</label>
+        <name>npo02__Package_Update_URL__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>N-Tage-Wert für Rollup</label>
+        <name>npo02__Rollup_N_Day_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Auftragsplanungsgrenze</label>
+        <name>npo02__Schedule_Job_Limit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Rollen für Soft Credits</label>
+        <name>npo02__Soft_Credit_Roles__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ERSETZT-Update-Check-Intervall</label>
+        <name>npo02__Update_Check_Interval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Geschäftsjahr für Rollups verwenden</label>
+        <name>npo02__Use_Fiscal_Year_for_Rollups__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Matched_Donor_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Seasonal_Addresses_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npsp__Use_Dated_Conversion_Rates__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

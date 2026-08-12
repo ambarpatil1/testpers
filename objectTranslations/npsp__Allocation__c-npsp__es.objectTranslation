@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Asignación de CCG</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Asignaciones de CCG</value>
+    </caseValues>
+    <fieldSets>
+        <label>Gestionar campos adicionales de asignaciones</label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label>Importe</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Campaña</label>
+        <name>npsp__Campaign__c</name>
+        <relationshipLabel>Asignaciones de CCG</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Cuenta Contable General</label>
+        <lookupFilter>
+            <errorMessage>Asignaciones solo pueden ser asignadas a cuentas contables generales activadas. Asignaciones asignadas a cuentas contables inactivas no pueden ser modificadas.</errorMessage>
+            <informationalMessage>Solo cuentas contables activadas pueden ser seleccionadas.</informationalMessage>
+        </lookupFilter>
+        <name>npsp__General_Accounting_Unit__c</name>
+        <relationshipLabel>Asignaciones de CCG</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Oportunidad</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Asignaciones de CCG</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Pago</label>
+        <name>npsp__Payment__c</name>
+        <relationshipLabel>Asignaciones de pago</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Porcentaje</label>
+        <name>npsp__Percent__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Donación recurrente</label>
+        <name>npsp__Recurring_Donation__c</name>
+        <relationshipLabel>Asignaciones de CCG</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de asignación de CCG</nameFieldLabel>
+    <webLinks>
+        <label>Gestionar asignaciones</label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
+</CustomObjectTranslation>

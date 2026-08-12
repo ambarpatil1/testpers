@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchProcessJobDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>10</batchSize>
+    <dataSource>
+        <condition>1</condition>
+        <criteria>all</criteria>
+        <filters>
+            <dynamicValue>false</dynamicValue>
+            <dynamicValueType>string</dynamicValueType>
+            <fieldName>Name</fieldName>
+            <fieldValue>abcd</fieldValue>
+            <operator>equals</operator>
+            <sequenceNo>1</sequenceNo>
+        </filters>
+        <sourceObject>Account</sourceObject>
+    </dataSource>
+    <description>test</description>
+    <flowApiName>Flow1</flowApiName>
+    <flowInputVariable>recordId</flowInputVariable>
+    <masterLabel>BatchJob1</masterLabel>
+    <processGroup>Loyalty</processGroup>
+    <retryCount>2</retryCount>
+    <retryInterval>1000</retryInterval>
+    <status>Inactive</status>
+    <type>Flow</type>
+</BatchProcessJobDefinition>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Affectation UCG</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Affectations UCG</value>
+    </caseValues>
+    <fieldSets>
+        <label>Gérer les affectations - Champs supplémentaires</label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
+    <fields>
+        <help></help>
+        <label>Montant</label>
+        <name>npsp__Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Campagne</label>
+        <name>npsp__Campaign__c</name>
+        <relationshipLabel>Affectations UCG</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Unité comptable générale</label>
+        <lookupFilter>
+            <errorMessage>Les allocations ne peuvent être assignées qu’à des unités comptables générales actives. Les allocations assignées à des unités comptables générales inactives ne peuvent pas être modifiées.</errorMessage>
+            <informationalMessage>Seules les unités comptables générales actives peuvent être sélectionnées.</informationalMessage>
+        </lookupFilter>
+        <name>npsp__General_Accounting_Unit__c</name>
+        <relationshipLabel>Affectations UCG</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Opportunité</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Affectations UCG</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Paiement</label>
+        <name>npsp__Payment__c</name>
+        <relationshipLabel>Affectations de paiement</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Pourcentage</label>
+        <name>npsp__Percent__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Don régulier</label>
+        <name>npsp__Recurring_Donation__c</name>
+        <relationshipLabel>Affectations UCG</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom des Affectations UCG</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Gérer des affectations</label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
+</CustomObjectTranslation>

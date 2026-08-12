@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssetUnderManagementAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Asset Under Management Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Category</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerMarketSegmentText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Market Segment</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerRating__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Rating</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerRiskTolerance__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Risk Tolerance</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerSegment__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Segment</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerServiceLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Service Level</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CustomerType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Customer Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinancialCustomerStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Financial Customer Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FinancialInterestsText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Financial Interests</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Financial Customer Id</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvestmentExperienceLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Investment Experience Level</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InvestmentObjectivesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Investment Objectives</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__JointOwnerLastTrxnDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Joint Owner Last Trxn Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__JointOwnerTotalHeldFinAcctsAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Joint Owner Total Held Fin Accts Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastInteractionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Interaction Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastReviewDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Review Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastTransactionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Transaction Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LengthOfRelationshipYears__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Length Of Relationship Years</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LifetimeValueAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Lifetime Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetWorthAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Worth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextInteractionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Interaction Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NextReviewDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Next Review Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonalInterestsText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Personal Interests Text</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PolicyCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Policy Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryOwnerLastTrxnDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Owner Last Trxn Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryOwnerTotalAUMAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Owner Total AUM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryOwnerTotalFinAcctsQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Owner Total Fin Accounts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryOwnerTotalHeldFinAcctsAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Owner Total Held Fin Accts Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferredByContactId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Referred By Contact</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReferredByUserId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Referred By User</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelationshipStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Relationship Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalFinAcctsAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Financial Account Amt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WalletSharePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Wallet Share Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761236658_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>FinancialCustomer_AccountId_map_Acco_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>FinancialCustomer_AccountId_map_Acco_rel</relationshipLabel>
+        <relationshipName>rel_1697761236658_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

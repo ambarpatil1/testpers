@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Error Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Error Settings</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Async Error Check Last Run</label>
+        <name>npsp__Async_Error_Check_Last_Run__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Disable Record Data Health Checks</label>
+        <name>npsp__DisableRecordDataHealthChecks__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Disable Error Handling</label>
+        <name>npsp__Disable_Error_Handling__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Don&apos;t Auto Schedule Default NPSP Jobs</label>
+        <name>npsp__Don_t_Auto_Schedule_Default_NPSP_Jobs__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Enable Debug</label>
+        <name>npsp__Enable_Debug__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Error Notifications</label>
+        <name>npsp__Error_Notifications_On__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Error Notification Recipients</label>
+        <name>npsp__Error_Notifications_To__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Scratch Org Override: Pilot Enabled</label>
+        <name>npsp__OverrideFeature_PilotEnabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Respect Duplicate Rule Settings</label>
+        <name>npsp__Respect_Duplicate_Rule_Settings__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Store Errors</label>
+        <name>npsp__Store_Errors_On__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

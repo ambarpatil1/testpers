@@ -1,0 +1,1 @@
+vaultStaticData_OK

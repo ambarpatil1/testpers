@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>FS de entrada BDE v2</label>
+        <name>npsp__BDE_Entry_FS_v2</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Nueva Lista BDE v2</label>
+        <name>npsp__BDE_List_FS_v2</name>
+    </fieldSets>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Budget_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Contact__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Darujme_cz_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Competitor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Discovery_Completed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Einstein_Score__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Einsten_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget / Lost Funding</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision / Non-Responsive</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ROI_Analysis_Completed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Type1__c</name>
+        <picklistValues>
+            <masterLabel>Renewals</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Amount_Outstanding__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Amount_Written_Off__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Contact_Id_for_Role__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Do_Not_Automatically_Create_Payment__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Is_Opp_From_Individual__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Member_Level__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Membership_End_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Membership_Origin__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reacquire</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Membership_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Number_of_Payments__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe01__Payments_Made__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe03__Recurring_Donation__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npo02__CombinedRollupFieldset__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npo02__systemHouseholdContactRoleProcessor__c</name>
+        <picklistValues>
+            <masterLabel>All Opportunities</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Opportunities</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha de acuse de recibo</label>
+        <name>npsp__Acknowledgment_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Estado de acuse de recibo</label>
+        <name>npsp__Acknowledgment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledged</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Acknowledge</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Acknowledgment Not Sent</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Acknowledgment Now</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Acknowledged</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha de petición</label>
+        <name>npsp__Ask_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número de lote</label>
+        <name>npsp__Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label>Lote</label>
+        <name>npsp__Batch__c</name>
+        <relationshipLabel>Oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Motivo de cerrada perdida</label>
+        <name>npsp__Closed_Lost_Reason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Id. de Recurrente de Elevate</label>
+        <name>npsp__CommitmentId__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Deshabilitar automat. función contacto</label>
+        <name>npsp__DisableContactRoleAutomation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Justiprecio de mercado</label>
+        <name>npsp__Fair_Market_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Estrategia de regalos</label>
+        <name>npsp__Gift_Strategy__c</name>
+        <picklistValues>
+            <masterLabel>New Donor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha de contrato de beca</label>
+        <name>npsp__Grant_Contract_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número del contrato de beca</label>
+        <name>npsp__Grant_Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de finalización de período de beca</label>
+        <name>npsp__Grant_Period_End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de inicio de período de beca</label>
+        <name>npsp__Grant_Period_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Áreas de programa</label>
+        <name>npsp__Grant_Program_Area_s__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Sitio web de requisitos de beca</label>
+        <name>npsp__Grant_Requirements_Website__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contacto homenajeado</label>
+        <name>npsp__Honoree_Contact__c</name>
+        <relationshipLabel>Oportunidades (Contacto homenajeado)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Información de galardonado</label>
+        <name>npsp__Honoree_Information__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre del homenajeado</label>
+        <name>npsp__Honoree_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Descripción en especie</label>
+        <name>npsp__In_Kind_Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Valor declarado de donante en especie</label>
+        <name>npsp__In_Kind_Donor_Declared_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipo en especie</label>
+        <name>npsp__In_Kind_Type__c</name>
+        <picklistValues>
+            <masterLabel>Goods</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Es renovación de beca</label>
+        <name>npsp__Is_Grant_Renewal__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Cuenta de regalo igualado</label>
+        <name>npsp__Matching_Gift_Account__c</name>
+        <relationshipLabel>Regalos igualados</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Empleador de regalo igualado</label>
+        <name>npsp__Matching_Gift_Employer__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Estado de regalo igualado</label>
+        <name>npsp__Matching_Gift_Status__c</name>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Regalo que iguala</label>
+        <name>npsp__Matching_Gift__c</name>
+        <relationshipLabel>Regalos igualados</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Próxima fecha de entrega</label>
+        <name>npsp__Next_Grant_Deadline_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Mensaje de notificación</label>
+        <name>npsp__Notification_Message__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Preferencia de notificación</label>
+        <name>npsp__Notification_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Do Not Notify</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal Mail</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contacto destinatario de la notificación</label>
+        <name>npsp__Notification_Recipient_Contact__c</name>
+        <relationshipLabel>Oportunidades (destinatario de notificación)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Correo electrónico destinatario notific.</label>
+        <name>npsp__Notification_Recipient_Email__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Información destinatario de notificación</label>
+        <name>npsp__Notification_Recipient_Information__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre del destinatario de notificación</label>
+        <name>npsp__Notification_Recipient_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Oportunidad de beca/regalo previa</label>
+        <name>npsp__Previous_Grant_Opportunity__c</name>
+        <relationshipLabel>Becas/Regalos relacionados</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Estado miembro campañ contacto principal</label>
+        <name>npsp__Primary_Contact_Campaign_Member_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Contacto principal</label>
+        <name>npsp__Primary_Contact__c</name>
+        <relationshipLabel>Oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Fecha de aptitud</label>
+        <name>npsp__Qualified_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre de cuota de donación recurrente</label>
+        <name>npsp__Recurring_Donation_Installment_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Número de cuota de donación recurrente</label>
+        <name>npsp__Recurring_Donation_Installment_Number__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Importe solicitado</label>
+        <name>npsp__Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de notificación de tributo</label>
+        <name>npsp__Tribute_Notification_Date__c</name>
+    </fields>
+    <fields>
+        <label>Estado de notificación de tributo</label>
+        <name>npsp__Tribute_Notification_Status__c</name>
+        <picklistValues>
+            <masterLabel>Notified</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Notified</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Tipo de tributo</label>
+        <name>npsp__Tribute_Type__c</name>
+        <picklistValues>
+            <masterLabel>Honor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memorial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label></label>
+        <name>NPSP_Default</name>
+    </recordTypes>
+    <webLinks>
+        <label></label>
+        <name>npe01__New_Contact_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>npe01__New_Organization_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label>Acuse de recibo por correo electrónico</label>
+        <name>npsp__Email_Acknowledgment</name>
+    </webLinks>
+    <webLinks>
+        <label>Enviar Acuses de recibo</label>
+        <name>npsp__Email_Acknowledgments</name>
+    </webLinks>
+    <webLinks>
+        <label>Encontrar regalos igualados</label>
+        <name>npsp__Find_Matched_Gifts</name>
+    </webLinks>
+    <webLinks>
+        <label>Gestionar créditos blandos</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+    <webLinks>
+        <label>Actualizar nombre</label>
+        <name>npsp__Refresh_Name</name>
+    </webLinks>
+</CustomObjectTranslation>

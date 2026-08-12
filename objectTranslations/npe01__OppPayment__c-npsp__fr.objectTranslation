@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paiement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paiements</value>
+    </caseValues>
+    <fieldSets>
+        <label>Assistant de paiement FS</label>
+        <name>npsp__Payment_WizardFS</name>
+    </fieldSets>
+    <fields>
+        <label></label>
+        <name>npe01__Check_Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Custom_Payment_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Opportunity__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Paid__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Payment_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayPal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Scheduled_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe01__Written_Off__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Code CCA</label>
+        <name>npsp__ACH_Code__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Quatre derniers chiffres du code CCA</label>
+        <name>npsp__ACH_Last_4__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Date autorisée</label>
+        <name>npsp__Authorized_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Horodatage UTC autorisé</label>
+        <name>npsp__Authorized_UTC_Timestamp__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Numéro du lot</label>
+        <name>npsp__Batch_Number__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Mois d’expiration de la carte</label>
+        <name>npsp__Card_Expiration_Month__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Année d’expiration de la carte</label>
+        <name>npsp__Card_Expiration_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>4 derniers chiffres de la carte</label>
+        <name>npsp__Card_Last_4__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Réseau de la carte</label>
+        <name>npsp__Card_Network__c</name>
+    </fields>
+    <fields>
+        <label>Type de débit</label>
+        <name>npsp__DebitType__c</name>
+        <picklistValues>
+            <masterLabel>Chargeback</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Refund</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refund</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Montant de couverture par le donateur</label>
+        <name>npsp__Donor_Cover_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de paiement d’origine d’Elevate</label>
+        <name>npsp__Elevate_Original_Payment_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Motif refus de l&apos;API de paiement Elevate</label>
+        <name>npsp__Elevate_Payment_API_Declined_Reason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Statut de l&apos;API de paiement Elevate</label>
+        <name>npsp__Elevate_Payment_API_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Date de création du paiement Elevate</label>
+        <name>npsp__Elevate_Payment_Created_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Horodatage UTC création paiement Elevate</label>
+        <name>npsp__Elevate_Payment_Created_UTC_Timestamp__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de paiement Elevate</label>
+        <name>npsp__Elevate_Payment_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Frais de transaction Elevate</label>
+        <name>npsp__Elevate_Transaction_Fee__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de passerelle</label>
+        <name>npsp__Gateway_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID de la passerelle de paiement</label>
+        <name>npsp__Gateway_Payment_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Frais de transaction de passerelle</label>
+        <name>npsp__Gateway_Transaction_Fee__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>ID d’origine</label>
+        <name>npsp__Origin_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom d’origine</label>
+        <name>npsp__Origin_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type d’origine</label>
+        <name>npsp__Origin_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Paiement d’origine</label>
+        <name>npsp__OriginalPayment__c</name>
+        <relationshipLabel>Remboursements</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Date de confirmation du paiement</label>
+        <name>npsp__Payment_Acknowledged_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Statut de confirmation du paiement</label>
+        <name>npsp__Payment_Acknowledgment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledged</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Acknowledge</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Acknowledged</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Frais de transaction totaux</label>
+        <name>npsp__Total_Transaction_Fees__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Type</label>
+        <name>npsp__Type__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Numéro de paiement</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label></label>
+        <name>npe01__Schedule_Payments</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>npe01__Writeoff_Payments</name>
+    </webLinks>
+</CustomObjectTranslation>

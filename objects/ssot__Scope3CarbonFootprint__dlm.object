@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AnnualEmssnInventoryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Annual Emissions Inventory</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AuditApprovalStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Audit Approval Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FootprintStage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Footprint Stage</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Carbon Footprint Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReportingYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reporting Year</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Scope3EmssnSrcId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scope 3 Emissions Source</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SuplScope3DnstrmEmssnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supl Scope 3 Downstream Emssn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SuplScope3UpstrmEmssnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supl Scope 3 Upstream Emssn</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383629768_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Scope3CarbonFootprint_Scope3EmssnSrc_rel</label>
+        <referenceTo>ssot__Scope3EmissionsSource__dlm</referenceTo>
+        <relationshipLabel>Scope3CarbonFootprint_Scope3EmssnSrc_rel</relationshipLabel>
+        <relationshipName>rel_1747383629768_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1747383639555_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Scope3CarbonFootprint_AnnualEmssnInv_rel</label>
+        <referenceTo>ssot__AnnualEmissionsInventory__dlm</referenceTo>
+        <relationshipLabel>Scope3CarbonFootprint_AnnualEmssnInv_rel</relationshipLabel>
+        <relationshipName>rel_1747383639555_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

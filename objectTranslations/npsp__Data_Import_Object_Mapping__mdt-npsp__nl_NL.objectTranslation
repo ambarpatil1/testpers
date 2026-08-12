@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Objecttoewijzing voor gegevensimport</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objecttoewijzingen voor gegevensimport</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Logische klasse voor aangepast toewijzen</label>
+        <name>npsp__Custom_Mapping_Logic_Class__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Objecttoewijzingsset voor gegevensimport</label>
+        <name>npsp__Data_Import_Object_Mapping_Set__c</name>
+        <relationshipLabel>Objecttoewijzingen voor gegevensimport</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Veldnaam van geïmporteerde record</label>
+        <name>npsp__Imported_Record_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Veldnaam status geïmporteerde record</label>
+        <name>npsp__Imported_Record_Status_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>Is verwijderd</label>
+        <name>npsp__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Objectnaam van verouderde gegevensimport</label>
+        <name>npsp__Legacy_Data_Import_Object_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Object-API-naam</label>
+        <name>npsp__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Voorganger</label>
+        <name>npsp__Predecessor__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Relatieveld</label>
+        <name>npsp__Relationship_Field__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Relatie met voorganger</label>
+        <name>npsp__Relationship_To_Predecessor__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Predecessor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

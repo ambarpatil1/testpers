@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PersonAccountOwnerPowerUser xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>My_Power_User</developerName>
+    <masterLabel>My Power User</masterLabel>
+    <portalType>CustomerPortal</portalType>
+    <user>005Pl00000cW1r8</user>
+</PersonAccountOwnerPowerUser>

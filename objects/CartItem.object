@@ -166,6 +166,10 @@
         <fullName>Quantity</fullName>
     </fields>
     <fields>
+        <fullName>QuoteLineItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>SalesPrice</fullName>
     </fields>
     <fields>

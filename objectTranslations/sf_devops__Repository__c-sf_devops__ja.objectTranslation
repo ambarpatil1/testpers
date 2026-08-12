@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>リポジトリ</value>
+    </caseValues>
+    <fields>
+        <label>Bitbucket プロジェクト名</label>
+        <name>sf_devops__Bitbucket_Project_Name__c</name>
+    </fields>
+    <fields>
+        <label>Bitbucket リポジトリ UUID</label>
+        <name>sf_devops__Bitbucket_Repo_UUID__c</name>
+    </fields>
+    <fields>
+        <label>Bitbucket ワークスペース UUID</label>
+        <name>sf_devops__Bitbucket_Workspace_UUID__c</name>
+    </fields>
+    <fields>
+        <label>デフォルトブランチ</label>
+        <name>sf_devops__Default_Branch__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__GitHub_Owner__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__GitHub_Repo__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>パス</label>
+        <name>sf_devops__Path__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sf_devops__Project_Generation_Status__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>sf_devops__Url__c</name>
+    </fields>
+    <fields>
+        <label>VCS</label>
+        <name>sf_devops__Vcs__c</name>
+        <relationshipLabel>リポジトリ</relationshipLabel>
+    </fields>
+    <nameFieldLabel>リポジトリ名</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__GitHub_Properties</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__No_Property_Changes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sf_devops__Require_GitHub_Properties</name>
+    </validationRules>
+</CustomObjectTranslation>

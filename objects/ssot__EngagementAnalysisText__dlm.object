@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ConversationEntryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Conversation Entry</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Created Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceApplicationName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Data Source Application</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EndOffsetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]End Offset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementAnalysisPayloadText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Analysis Payload</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementAnalysisTextEndDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Analysis Text End Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementAnalysisTextSessionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Analysis Text Session</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementAnalysisTextStartDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Analysis Text Start Date Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelSourceType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Source Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Analysis Text Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsightsExtractionStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insights Extraction Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Last Modified Date</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MomentOffsetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Moment Offset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SequenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Sequence Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartOffsetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Start Offset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1718546697811_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EngagementAnalysisText_EngagementAna_rel</label>
+        <referenceTo>ssot__EngagementAnalysisTextSession__dlm</referenceTo>
+        <relationshipLabel>EngagementAnalysisText_EngagementAna_rel</relationshipLabel>
+        <relationshipName>rel_1718546697811_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1760066978562_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EngagementAnalysisText_ConversationE_rel</label>
+        <referenceTo>ssot__ConversationEntry__dlm</referenceTo>
+        <relationshipLabel>EngagementAnalysisText_ConversationE_rel</relationshipLabel>
+        <relationshipName>rel_1760066978562_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

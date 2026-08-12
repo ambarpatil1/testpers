@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Unité comptable générale</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Unités comptables générales</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Actif</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectation moyenne</label>
+        <name>npsp__Average_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Descriptif</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Première date d’affectation</label>
+        <name>npsp__First_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectation la plus élevée</label>
+        <name>npsp__Largest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Date de la dernière affectation</label>
+        <name>npsp__Last_Allocation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre d’affectations N derniers jours</label>
+        <name>npsp__Number_of_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre d’affectations de l’année dernière</label>
+        <name>npsp__Number_of_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre d’affectations cette année</label>
+        <name>npsp__Number_of_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre d’affectations il y a deux ans</label>
+        <name>npsp__Number_of_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectation la plus faible</label>
+        <name>npsp__Smallest_Allocation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectations totales des N derniers jours</label>
+        <name>npsp__Total_Allocations_Last_N_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectations totales de l’année dernière</label>
+        <name>npsp__Total_Allocations_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectations totales de cette année</label>
+        <name>npsp__Total_Allocations_This_Year__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Affectations totales il y a deux ans</label>
+        <name>npsp__Total_Allocations_Two_Years_Ago__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Total des affectations</label>
+        <name>npsp__Total_Allocations__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nombre total d’affectations</label>
+        <name>npsp__Total_Number_of_Allocations__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de l’unité comptable générale</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Recalculer des cumuls</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
+</CustomObjectTranslation>

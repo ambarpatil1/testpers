@@ -138,4 +138,10 @@
         </filters>
         <label>Active Groups</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Test</fullName>
+        <active>true</active>
+        <label>Test</label>
+    </recordTypes>
 </CustomObject>

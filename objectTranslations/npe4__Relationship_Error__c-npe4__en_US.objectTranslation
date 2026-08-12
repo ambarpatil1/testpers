@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DEPRECATED-Relationship Error</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relationship Errors</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe4__Error_Date_Time__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe4__Error_Record_Link__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe4__Error_Stack_Trace__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe4__Error_Type__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>npe4__Full_Error_Message__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

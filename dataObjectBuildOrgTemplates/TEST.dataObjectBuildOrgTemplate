@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataObjectBuildOrgTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName>TEST</developerName>
+    <masterLabel>TEST</masterLabel>
+    <objectDevName xsi:nil="true"/>
+    <objectPayload xsi:nil="true"/>
+    <objectType>MktCalculatedInsightObject</objectType>
+    <templateObject xsi:nil="true"/>
+    <templateVersion>1</templateVersion>
+</DataObjectBuildOrgTemplate>

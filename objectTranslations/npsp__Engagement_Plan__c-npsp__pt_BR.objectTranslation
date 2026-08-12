@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plano de engajamento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Planos de engajamento</value>
+    </caseValues>
+    <fields>
+        <label>Conta</label>
+        <name>npsp__Account__c</name>
+        <relationshipLabel>Planos de interação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Campanha</label>
+        <name>npsp__Campaign__c</name>
+        <relationshipLabel>Planos de interação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Caso</label>
+        <name>npsp__Case__c</name>
+        <relationshipLabel>Planos de interação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tarefas concluídas</label>
+        <name>npsp__Completed_Tasks__c</name>
+    </fields>
+    <fields>
+        <label>Contato</label>
+        <name>npsp__Contact__c</name>
+        <relationshipLabel>Planos de interação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Modelo de plano de interação</label>
+        <name>npsp__Engagement_Plan_Template__c</name>
+        <relationshipLabel>Planos de interação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Oportunidade</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Planos de interação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Doação recorrente</label>
+        <name>npsp__Recurring_Donation__c</name>
+        <relationshipLabel>Planos de interação</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>npsp__Status__c</name>
+    </fields>
+    <fields>
+        <label>Total de tarefas do PI</label>
+        <name>npsp__Total_EP_Tasks__c</name>
+    </fields>
+    <fields>
+        <label>Total de tarefas</label>
+        <name>npsp__Total_Tasks__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número do plano de interação</nameFieldLabel>
+</CustomObjectTranslation>

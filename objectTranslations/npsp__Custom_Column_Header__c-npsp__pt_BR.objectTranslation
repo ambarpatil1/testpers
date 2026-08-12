@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cabeçalho de coluna personalizado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cabeçalhos de colunas personalizados</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Nome da API do campo</label>
+        <name>npsp__Field_Api_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Índice</label>
+        <name>npsp__Index__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nome da lista</label>
+        <name>npsp__List_Name__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>npsp__BDE_Entry_FS_v2</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>npsp__BDE_List_FS_v2</name>
+    </fieldSets>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Budget_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Contact__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CRMforNonProfit__Darujme_cz_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Competitor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Discovery_Completed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Einstein_Score__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Einsten_Field__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget / Lost Funding</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision / Non-Responsive</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ROI_Analysis_Completed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Type1__c</name>
+        <picklistValues>
+            <masterLabel>Renewals</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Formule : Le montant de cette opportunité moins le montant de déduction de paiement et le montant de paiement reçu.</help>
+        <label></label>
+        <name>npe01__Amount_Outstanding__c</name>
+    </fields>
+    <fields>
+        <help>Valeur totale des paiements marqués comme déduits ou non recouvrables pour cette opportunité.</help>
+        <label></label>
+        <name>npe01__Amount_Written_Off__c</name>
+    </fields>
+    <fields>
+        <help>Champ masqué permettant de transmettre un ID de contact pour la création de rôle de contact.</help>
+        <label></label>
+        <name>npe01__Contact_Id_for_Role__c</name>
+    </fields>
+    <fields>
+        <help>Si coché et si les paiements sont actifs, un nouveau paiement ne sera pas créé automatiquement pour cette opportunité.</help>
+        <label></label>
+        <name>npe01__Do_Not_Automatically_Create_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Formule : Si le compte associé est défini comme individuel (SYSTEMIsIndividual__c)</help>
+        <label></label>
+        <name>npe01__Is_Opp_From_Individual__c</name>
+    </fields>
+    <fields>
+        <help>Détermine la valeur du contact ou du compte du champ Dernier niveau d’adhésion.</help>
+        <label></label>
+        <name>npe01__Member_Level__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation>Bronze</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>Or</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>Argent</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Date à laquelle la période d’adhésion se termine.</help>
+        <label></label>
+        <name>npe01__Membership_End_Date__c</name>
+    </fields>
+    <fields>
+        <help>S’agit-il d’un renouvellement, d’une nouvelle adhésion, ou du retour d’un membre après un départ.</help>
+        <label></label>
+        <name>npe01__Membership_Origin__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nouveau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reacquire</masterLabel>
+            <translation>Réacquisition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renouvellement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Date à laquelle la période d’adhésion débute</help>
+        <label></label>
+        <name>npe01__Membership_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Nombre total de paiements pour cette opportunité (don)</help>
+        <label></label>
+        <name>npe01__Number_of_Payments__c</name>
+    </fields>
+    <fields>
+        <help>La valeur totale des paiements marqués comme reçus pour cette opportunité.</help>
+        <label></label>
+        <name>npe01__Payments_Made__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npe03__Recurring_Donation__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Formule : Champs concaténés utilisés lors de cumuls pour localiser l’opportunité la plus récente.</help>
+        <label></label>
+        <name>npo02__CombinedRollupFieldset__c</name>
+    </fields>
+    <fields>
+        <help>Contrôle si les rôles de contact de foyer sont créés pour les opportunités. DÉPRÉCIÉ. Remplacé par les paramètres personnalisés.</help>
+        <label></label>
+        <name>npo02__systemHouseholdContactRoleProcessor__c</name>
+        <picklistValues>
+            <masterLabel>All Opportunities</masterLabel>
+            <translation>Toutes les opportunités</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Opportunities</masterLabel>
+            <translation>Aucune opportunité</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Date de confirmation de cette opportunité.</help>
+        <label></label>
+        <name>npsp__Acknowledgment_Date__c</name>
+    </fields>
+    <fields>
+        <help>Statut de la confirmation de cette opportunité.</help>
+        <label></label>
+        <name>npsp__Acknowledgment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledged</masterLabel>
+            <translation>Confirmé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Acknowledge</masterLabel>
+            <translation>Ne pas confirmer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Acknowledgment Not Sent</masterLabel>
+            <translation>E-mail de confirmation non envoyé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Acknowledgment Now</masterLabel>
+            <translation>E-mail de confirmation maintenant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Acknowledged</masterLabel>
+            <translation>À confirmer</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La date à laquelle ce don a été spécifiquement demandé à ce donateur. Cette date peut être différente de la date à laquelle vous avez reçu ce don.</help>
+        <label></label>
+        <name>npsp__Ask_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le lot qui a créé cette opportunité. Ce champ est automatiquement rempli en fonction de vos Paramètres de Numéro du lot dans les Paramètres NPSP.</help>
+        <label></label>
+        <name>npsp__Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Batch__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Notes sur les raisons pour lesquelles la demande de don n’a pas eu de réponse positive.</help>
+        <label></label>
+        <name>npsp__Closed_Lost_Reason__c</name>
+    </fields>
+    <fields>
+        <help>Identifiant externe pour l’intégration du service de paiement Salesforce.org.</help>
+        <label></label>
+        <name>npsp__CommitmentId__c</name>
+    </fields>
+    <fields>
+        <help>Une fois sélectionné, ce champ désactive plusieurs aspects de l’automatisation des rôle de contact d’opportunité NPSP, ce qui peut entraîner des données incorrectes ou en double. Pour plus d&apos;informations, reportez-vous à la documentation du produit.</help>
+        <label></label>
+        <name>npsp__DisableContactRoleAutomation__c</name>
+    </fields>
+    <fields>
+        <help>La valeur marchande d’un don en nature.</help>
+        <label></label>
+        <name>npsp__Fair_Market_Value__c</name>
+    </fields>
+    <fields>
+        <help>Catégorise le type de demande pour cette opportunité, par exemple Nouveau don.</help>
+        <label></label>
+        <name>npsp__Gift_Strategy__c</name>
+        <picklistValues>
+            <masterLabel>New Donor</masterLabel>
+            <translation>Nouveau donateur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renouvellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation>Mettre à niveau</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La date de commencement de la subvention, selon le document ou contrat envoyé par l’organisation source de la subvention.</help>
+        <label></label>
+        <name>npsp__Grant_Contract_Date__c</name>
+    </fields>
+    <fields>
+        <help>Enregistre les numéros uniques qui peuvent être attribués par les organisations octroyant des subventions.</help>
+        <label></label>
+        <name>npsp__Grant_Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Grant_Period_End_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Grant_Period_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Décrit les zones de financement pour la subvention. Vous pouvez saisir ce que vous souhaitez ici. Vous pouvez par exemple écrire le nom du programme auquel la subvention s’applique.</help>
+        <label></label>
+        <name>npsp__Grant_Program_Area_s__c</name>
+    </fields>
+    <fields>
+        <help>Une URL pointant vers les exigences de subvention sur le site Web du pourvoyeur de la subvention.</help>
+        <label></label>
+        <name>npsp__Grant_Requirements_Website__c</name>
+    </fields>
+    <fields>
+        <help>L’enregistrement de contact honoraire existant pour ce don.</help>
+        <label></label>
+        <name>npsp__Honoree_Contact__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Informations de contact, telles que l’adresse e-mail, l’adresse ou le numéro de téléphone que le donateur a fournis pour l’hommage au représentant honoraire.</help>
+        <label></label>
+        <name>npsp__Honoree_Information__c</name>
+    </fields>
+    <fields>
+        <help>Le nom du représentant honoraire tel que fourni par le donateur. Si ce champ est laissé vide, et que le champ de contact honoraire contient une valeur, Salesforce remplit automatiquement ce champ avec cette valeur.</help>
+        <label></label>
+        <name>npsp__Honoree_Name__c</name>
+    </fields>
+    <fields>
+        <help>Contient une description en texte enrichi du don en nature, pouvant inclure des images.</help>
+        <label></label>
+        <name>npsp__In_Kind_Description__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le donateur a fourni la valeur marchande pour ce don en nature.</help>
+        <label></label>
+        <name>npsp__In_Kind_Donor_Declared_Value__c</name>
+    </fields>
+    <fields>
+        <help>Le type de don en nature, par exemple biens ou services.</help>
+        <label></label>
+        <name>npsp__In_Kind_Type__c</name>
+        <picklistValues>
+            <masterLabel>Goods</masterLabel>
+            <translation>Biens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation>Services</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique si la subvention est un renouvellement d’une subvention antérieure.</help>
+        <label></label>
+        <name>npsp__Is_Grant_Renewal__c</name>
+    </fields>
+    <fields>
+        <help>Recherchez l’enregistrement du compte de l’entreprise qui correspondra à ce don.</help>
+        <label></label>
+        <name>npsp__Matching_Gift_Account__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le nom de l’entreprise qui correspondra à ce don.</help>
+        <label></label>
+        <name>npsp__Matching_Gift_Employer__c</name>
+    </fields>
+    <fields>
+        <help>Le statut des dons jumelés pour ce don, par exemple Soumis ou Reçu.</help>
+        <label></label>
+        <name>npsp__Matching_Gift_Status__c</name>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation>Potentiel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation>Reçu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>Soumis</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Recherche de l’enregistrement de l&apos;opportunité pour les dons jumelés pour ce don.</help>
+        <label></label>
+        <name>npsp__Matching_Gift__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Date d&apos;échéance pour le prochain livrable de cette opportunité (lecture seule).</help>
+        <label></label>
+        <name>npsp__Next_Grant_Deadline_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help>Un message personnalisé pour le destinataire de la notification.</help>
+        <label></label>
+        <name>npsp__Notification_Message__c</name>
+    </fields>
+    <fields>
+        <help>Comment contacter le destinataire de la notification, par exemple par e-mail ou par téléphone.</help>
+        <label></label>
+        <name>npsp__Notification_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Do Not Notify</masterLabel>
+            <translation>Ne pas notifier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>E-mail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>Téléphone</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal Mail</masterLabel>
+            <translation>Courrier postal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>L’enregistrement de contact existant de la personne à notifier pour ce don.</help>
+        <label></label>
+        <name>npsp__Notification_Recipient_Contact__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Adresse e-mail de la personne qui reçoit la notification relative à l’hommage ou à la commémoration.</help>
+        <label></label>
+        <name>npsp__Notification_Recipient_Email__c</name>
+    </fields>
+    <fields>
+        <help>Saisissez les informations de contact telles que l&apos;adresse, le téléphone ou l&apos;adresse e-mail que le donateur a fournies au destinataire de la notification.</help>
+        <label></label>
+        <name>npsp__Notification_Recipient_Information__c</name>
+    </fields>
+    <fields>
+        <help>Le nom de la personne devant être notifiée à propos de ce don, fourni par le donateur. Si ce champ est laissé vide et que le champ du destinataire de la notification contient une valeur, Salesforce remplit automatiquement ce champ avec cette valeur.</help>
+        <label></label>
+        <name>npsp__Notification_Recipient_Name__c</name>
+    </fields>
+    <fields>
+        <help>Si cette subvention est un renouvellement d’une subvention passée, utilisez ce champ pour relier cet enregistrement au précédent.</help>
+        <label></label>
+        <name>npsp__Previous_Grant_Opportunity__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Statut pour la création d’un membre de campagne pour le contact principal de cette opp. et la source principale de campagne. Laissez vide pour utiliser par défaut un statut Répondu pour les opp. Clôturées/Gagnées et un statut Non répondu pour les autres.</help>
+        <label></label>
+        <name>npsp__Primary_Contact_Campaign_Member_Status__c</name>
+    </fields>
+    <fields>
+        <help>Le contact principal pour cette opportunité. S&apos;il s&apos;agit d&apos;un don individuel, NPSP attribue le don au contact principal. S&apos;il s&apos;agit d&apos;un don organisationnel, NPSP attribue un crédit indirect au contact principal.</help>
+        <label></label>
+        <name>npsp__Primary_Contact__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>La date à laquelle ce donateur a été identifié comme valide pour ce don.</help>
+        <label></label>
+        <name>npsp__Qualified_Date__c</name>
+    </fields>
+    <fields>
+        <help>Nom de versement pour la dénomination de l’opp. Indique le numéro de versement entre parenthèses pour les dons réguliers sans date de fin, ou le numéro de versement par rapport au total pour les dons réguliers avec un nombre de versements déterminé.</help>
+        <label></label>
+        <name>npsp__Recurring_Donation_Installment_Name__c</name>
+    </fields>
+    <fields>
+        <help>Le numéro de versement du calendrier du don régulier de cette opportunité.</help>
+        <label></label>
+        <name>npsp__Recurring_Donation_Installment_Number__c</name>
+    </fields>
+    <fields>
+        <help>Le montant que vous demandez. Il peut être différent du montant final offert.</help>
+        <label></label>
+        <name>npsp__Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Tribute_Notification_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>npsp__Tribute_Notification_Status__c</name>
+        <picklistValues>
+            <masterLabel>Notified</masterLabel>
+            <translation>Notifié</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Notified</masterLabel>
+            <translation>À notifier</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique si le don est en l’honneur ou à la mémoire d’un individu.</help>
+        <label></label>
+        <name>npsp__Tribute_Type__c</name>
+        <picklistValues>
+            <masterLabel>Honor</masterLabel>
+            <translation>Hommage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memorial</masterLabel>
+            <translation>Commémoration</translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label></label>
+        <name>NPSP_Default</name>
+    </recordTypes>
+    <webLinks>
+        <label>Don de nouveau contact</label>
+        <name>npe01__New_Contact_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label>Don de nouveau compte</label>
+        <name>npe01__New_Organization_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label>E-mail de confirmation</label>
+        <name>npsp__Email_Acknowledgment</name>
+    </webLinks>
+    <webLinks>
+        <label>E-mails de confirmation</label>
+        <name>npsp__Email_Acknowledgments</name>
+    </webLinks>
+    <webLinks>
+        <label>Trouver des dons jumelés</label>
+        <name>npsp__Find_Matched_Gifts</name>
+    </webLinks>
+    <webLinks>
+        <label>Gérer des crédits indirects</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+    <webLinks>
+        <label>Rafraîchir un nom</label>
+        <name>npsp__Refresh_Name</name>
+    </webLinks>
+</CustomObjectTranslation>

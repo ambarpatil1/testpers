@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Entrega</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Entregas</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label>Data de vencimento</label>
+        <name>npsp__Grant_Deadline_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Data de fechamento</label>
+        <name>npsp__Grant_Deliverable_Close_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Requisitos</label>
+        <name>npsp__Grant_Deliverable_Requirements__c</name>
+    </fields>
+    <fields>
+        <label>Oportunidade</label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel>Objetivos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>npsp__Type__c</name>
+        <picklistValues>
+            <masterLabel>Application</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Report</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Report</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome do objetivo</nameFieldLabel>
+</CustomObjectTranslation>
